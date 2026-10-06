@@ -3,7 +3,7 @@ Os editores de texto, planilhas e apresentações são cobrados em dois pacotes:
 ## O essencial
 
 ### Equivalência entre os programas
-| Tipo | Microsoft Office | LibreOffice | Formato Office | Formato ODF (LibreOffice) |
+| Tipo | Microsoft Office | LibreOffice | Formato Office | Formato ODF |
 |---|---|---|---|---|
 | Texto | Word | Writer | .docx | .odt |
 | Planilha | Excel | Calc | .xlsx | .ods |

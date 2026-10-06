@@ -56,7 +56,7 @@ Não têm conectivo e trazem o verbo no infinitivo, gerúndio ou particípio.
 
 - **Colocar ou retirar vírgulas da adjetiva**: transforma restritiva em explicativa e altera o sentido, mesmo que a frase continue correta.
 - **"Pois" depende da posição**: antes do verbo, explicativo; depois do verbo e entre vírgulas, conclusivo ("Estudou; passará, **pois**, na prova").
-- **Adversativa x concessiva**: "mas" e "embora" opõem ideias, mas "embora" pede subjuntivo e outra estrutura.
+- **Adversativa x concessiva**: "mas" e "embora" expressam oposição, porém "embora" pede subjuntivo e outra estrutura.
 - **"Que" relativo x integrante**: relativo retoma um nome (troca por "o qual"); integrante inicia substantiva (troca por "isso").
 - **"Como" tem vários valores**: causal ("**Como** chovia, adiou"), conformativo ("Fez **como** o chefe mandou") e comparativo ("corre **como** um atleta").
 

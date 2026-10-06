@@ -20,7 +20,7 @@ Regência é a relação entre uma palavra que exige complemento (o termo **rege
 | Implicar | acarretar: VTD | a falta implica **advertência** |
 | Chegar / ir | preposição "a" para destino | chegou **ao** posto; foi **à** sede |
 | Esquecer / lembrar | sem pronome: VTD; com pronome: VTI (de) | esqueceu o prazo; esqueceu-se **do** prazo |
-| Pagar / perdoar | coisa: OD; pessoa: OI | pagou **a** multa **ao** órgão |
+| Pagar / perdoar | coisa: OD; pessoa: OI | pagou a multa **ao** órgão |
 | Responder | VTI (a) | respondeu **ao** ofício |
 | Proceder | realizar: VTI (a) | procedeu **à** leitura do auto |
 | Informar / avisar | algo a alguém **ou** alguém de algo | informou **o** fato **ao** chefe; informou **o** chefe **do** fato |

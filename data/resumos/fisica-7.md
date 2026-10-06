@@ -9,8 +9,7 @@ Estática estuda corpos em **equilíbrio**, em geral parados. Para um ponto mate
 | Corpo extenso | resultante nula **e** soma dos momentos nula: `ΣF = 0` e `ΣM = 0` |
 
 - **Momento (torque)** de uma força em relação a um ponto: `M = F · d`, em N·m, em que `d` é o **braço**: a distância **perpendicular** entre o ponto e a linha de ação da força.
-- Convencione um sentido (horário positivo, por exemplo) e faça a soma dos momentos igual a zero.
-- Dica: calcule os momentos em relação ao ponto onde há uma força desconhecida; ela some da conta, porque seu braço é zero.
+- Dica: some os momentos em relação ao ponto onde atua uma força desconhecida; ela sai da conta, porque seu braço é zero.
 - **Binário**: duas forças iguais, opostas e não alinhadas. A resultante é nula, mas o corpo gira. Por isso, no corpo extenso, `ΣF = 0` não basta.
 
 ### Tipos de equilíbrio
@@ -44,7 +43,7 @@ Estática estuda corpos em **equilíbrio**, em geral parados. Para um ponto mate
 - **"Resultante nula basta para o equilíbrio de corpo extenso"**: errado; também é preciso momento resultante nulo.
 - **Braço do momento**: é a distância perpendicular à linha de ação, não qualquer distância até o ponto de aplicação.
 - **Cabos mais abertos aliviam a tração?** Não; aumentam. Cabos verticais dividem o peso igualmente (cada um com metade).
-- **Equilíbrio só em repouso?** Equilíbrio é resultante nula; um corpo em movimento retilíneo uniforme também está em equilíbrio (dinâmico). A estática trata do repouso.
+- **Equilíbrio só em repouso?** Não: em movimento retilíneo uniforme também há equilíbrio (dinâmico).
 - **Centro de gravidade alto** deixa o corpo **menos** estável.
 
 ## Como pode cair

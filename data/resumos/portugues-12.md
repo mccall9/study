@@ -50,7 +50,7 @@ Com infinitivo ou gerúndio, o pronome pode ficar depois do auxiliar (com hífen
 - **Mesóclise com atrativo**: "Não far-se-á" está errado; o certo é "Não se fará".
 - **Vírgula depois do advérbio**: desfaz a atração. "Hoje, entregou-se o relatório" está certo.
 - **Ênclise no particípio**: proibida em qualquer caso.
-- **Troca de posição que altera o sentido**: em geral, mudar a colocação não altera o sentido, só a correção. O item costuma perguntar sobre a correção.
+- **Futuro com ênclise**: "Entregará-lhe" e "Entregaria-lhe" são sempre erro; use mesóclise ("Entregar-lhe-á") ou, com atrativo, próclise ("Não lhe entregará").
 
 ## Como pode cair
 

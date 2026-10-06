@@ -4,7 +4,7 @@ Tempos e modos verbais dizem **quando** a ação acontece e **como** o falante a
 
 ### Os três modos
 - **Indicativo**: fato apresentado como certo. "O agente **parou** o veículo."
-- **Subjuntivo**: dúvida, hipótese, desejo. Aparece depois de "que", "se", "caso", "embora", "quando". "Espero que ele **venha**."
+- **Subjuntivo**: dúvida, hipótese, desejo. Costuma vir depois de "que", "se", "caso", "embora". "Espero que ele **venha**."
 - **Imperativo**: ordem, pedido, conselho. "**Apresente** os documentos."
 
 ### Tempos do indicativo
