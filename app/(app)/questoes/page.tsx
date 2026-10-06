@@ -49,7 +49,7 @@ export default async function QuestoesPage() {
     <>
       <PageHeader
         title="Questões"
-        description={`${banco.length} itens oficiais do Cebraspe: ${PROVAS.map((p) => p.nome.split(" · ")[0]).join(" e ")}.`}
+        description={`${banco.length} itens oficiais do Cebraspe: ${new Intl.ListFormat("pt-BR").format([...PROVAS].sort((a, b) => b.ano - a.ano).map((p) => p.nome.split(" · ")[0]))}.`}
       />
 
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
