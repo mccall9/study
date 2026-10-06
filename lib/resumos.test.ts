@@ -25,7 +25,7 @@ describe("resumos", () => {
     const texto = readFileSync(`${PASTA}/${arquivo}`, "utf8");
     expect(texto.length, "resumo curto demais").toBeGreaterThan(600);
     expect(texto.startsWith("# "), "o título já aparece na página; comece por ## ou por texto").toBe(false);
-    for (const [, lei, ancora] of texto.matchAll(/\]\(\/lei\/([a-z0-9]+)(?:#([a-z0-9-]+))?\)/g)) {
+    for (const [, lei, ancora] of texto.matchAll(/\]\(\/lei\/([a-z0-9]+)(?:#([a-z0-9_-]+))?\)/g)) {
       expect(LEIS_META.some((l) => l.id === lei), `lei ${lei}`).toBe(true);
       if (ancora) expect(ancoras(lei).has(ancora), `${lei}#${ancora}`).toBe(true);
     }

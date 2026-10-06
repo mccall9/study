@@ -597,11 +597,15 @@
   ]
  },
  "inss-2022-089": {
-  "t": "Errado. Maria tem direito à aposentadoria (62 anos de idade e 15 de contribuição, EC 103/2019, art. 19), mas o valor não é de 100%. A média considera todos os salários de contribuição desde julho de 1994, não só os últimos 36 (art. 26). O benefício é de 60% dessa média mais 2 pontos percentuais por ano acima de 15 anos para a mulher (art. 26, §§ 2º e 5º): com 17 anos, 64%.",
+  "t": "Errado. Maria já era filiada antes da EC 103/2019, então segue a regra de transição da aposentadoria por idade: 15 anos de contribuição e idade de 60 anos para a mulher, acrescida de 6 meses por ano a partir de 2020 até chegar a 62 (EC 103/2019, art. 18, I, II e § 1º). Em 2022 a idade exigida era 61 anos e meio, e ela tem direito. O erro está no valor: a média considera todos os salários de contribuição desde julho de 1994, não só os últimos 36 (art. 26), e o benefício é de 60% dessa média mais 2 pontos percentuais por ano de contribuição acima de 15 para a mulher (art. 26, §§ 2º, I, e 5º). Com 17 anos, 64%.",
   "b": [
    {
     "lei": "emc103",
-    "a": "art19"
+    "a": "art18"
+   },
+   {
+    "lei": "emc103",
+    "a": "art18-p1"
    },
    {
     "lei": "emc103",

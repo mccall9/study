@@ -53,6 +53,16 @@ describe("rotularAncora", () => {
     expect(rotularAncora("art14-p1-i", ids)).toBe("Art. 14, § 1º, I");
     expect(rotularAncora("art103-a", ids)).toBe("Art. 103-A");
     expect(rotularAncora("anexo-xiv-a", new Set())).toBe("Anexo, XIV, a");
+    // Dispositivos acrescentados depois, com letra: inciso II-A e § 1º-A.
+    expect(rotularAncora("art92-ii_a", ids)).toBe("Art. 92, II-A");
+    expect(rotularAncora("art103-b-p4_a", ids)).toBe("Art. 103-B, § 4º-A");
+  });
+
+  it("importa incisos e parágrafos com letra sem confundir com alínea", () => {
+    const art92 = artigosDaLei(lei("cf")).find((a) => a.id === "art92")!;
+    expect(art92.d.find((d) => d.id === "art92-ii_a")?.x).toMatch(/^II-A - o Tribunal Superior do Trabalho/);
+    const art155 = artigosDaLei(lei("cp")).find((a) => a.id === "art155")!;
+    expect(art155.d.find((d) => d.id === "art155-p4_a")?.x).toMatch(/^§ 4º-A/);
   });
 
   it("acha o artigo de uma âncora", () => {

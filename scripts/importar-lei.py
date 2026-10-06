@@ -86,7 +86,8 @@ NOTA_SOZINHA = re.compile(r"^\)?\s*(?:Vigência(?: encerrada)?|Vide\b.*|Regulame
 # Sufixo de letra colado ao hífen ("Art. 8º-A"); "Art. 3º - A lei..." é só travessão.
 ART = re.compile(r"^Art(?:igo|\.)?\s*(\d+)\s*[º°o]?\s*(?:-([A-Z])(?![a-záéíóúâêôãõç]))?\s*[\.\-–]?\s", re.I)
 CABECALHO = re.compile(r"^(PARTE|LIVRO|TÍTULO|TITULO|CAPÍTULO|CAPITULO|SEÇÃO|SECAO|SUBSEÇÃO|SUBSECAO)\b", re.I)
-INCISO = re.compile(r"^([IVXLC]+)\s*[-–—]\s")
+# "II-A -": inciso acrescentado depois, com letra (vira "ii_a" na âncora, para não confundir com alínea).
+INCISO = re.compile(r"^([IVXLC]+)(?:-([A-Z]))?\s*[-–—]\s")
 ALINEA = re.compile(r"^([a-z]{1,2})\)\s")  # "aa)" vem depois do "z)" em listas longas
 PARAGRAFO = re.compile(r"^§\s*(\d+)\s*[º°o]?(?:-([A-Z])(?![a-záéíóúâêôãõç]))?\s*[\.\-–]?\s")
 UNICO = re.compile(r"^Parágrafo único", re.I)
@@ -259,7 +260,7 @@ def importar(lei_id: str) -> dict:
         # Hierarquia: artigo > parágrafo > inciso > alínea > item numerado. Nas convenções
         # ("ARTIGO 7" seguido de "1.", "2."), o número faz o papel de parágrafo.
         if (mm := PARAGRAFO.match(texto)):
-            paragrafo_atual = f"{base}-p{mm.group(1)}" + (f"-{mm.group(2).lower()}" if mm.group(2) else "")
+            paragrafo_atual = f"{base}-p{mm.group(1)}" + (f"_{mm.group(2).lower()}" if mm.group(2) else "")
             inciso_atual = alinea_atual = None
             did = paragrafo_atual
         elif UNICO.match(texto):
@@ -267,7 +268,7 @@ def importar(lei_id: str) -> dict:
             inciso_atual = alinea_atual = None
             did = paragrafo_atual
         elif (mm := INCISO.match(texto)):
-            inciso_atual = f"{paragrafo_atual or base}-{romano(mm.group(1))}"
+            inciso_atual = f"{paragrafo_atual or base}-{romano(mm.group(1))}" + (f"_{mm.group(2).lower()}" if mm.group(2) else "")
             alinea_atual = None
             did = inciso_atual
         elif (mm := ALINEA.match(texto)):

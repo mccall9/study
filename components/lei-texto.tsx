@@ -6,8 +6,8 @@ import { cn } from "@/lib/utils";
 function recuo(d: Dispositivo, artigo: Artigo): string {
   if (d.id === artigo.id) return "";
   const ultima = d.id.split("-").at(-1) ?? "";
-  if (/^(p\d+|pu|n\d+)$/.test(ultima) || ultima === "txt") return "";
-  if (/^[a-z]$/.test(ultima) && /-[ivxlc]+-[a-z]$/.test(d.id)) return "pl-8";
+  if (/^(p\d+(_[a-z])?|pu|n\d+)$/.test(ultima) || ultima === "txt") return "";
+  if (/^[a-z]$/.test(ultima) && /-[ivxlc]+(_[a-z])?-[a-z]$/.test(d.id)) return "pl-8";
   return "pl-4";
 }
 

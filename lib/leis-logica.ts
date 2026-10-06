@@ -98,15 +98,18 @@ export function rotularAncora(ancora: string, idsDeArtigo: Set<string>): string 
     if (parte === "pu") {
       rotulo += ", parágrafo único";
       ultimo = "paragrafo";
-    } else if (/^p\d+$/.test(parte)) {
-      rotulo += `, § ${ordinal(parte.slice(1))}`;
+    } else if (/^p\d+(_[a-z])?$/.test(parte)) {
+      // "p1_a" = § 1º-A (parágrafo acrescentado depois)
+      const [num, letra] = parte.slice(1).split("_");
+      rotulo += `, § ${ordinal(num)}${letra ? `-${letra.toUpperCase()}` : ""}`;
       ultimo = "paragrafo";
     } else if (/^n\d+$/.test(parte)) {
       rotulo += `, item ${parte.slice(1)}`;
     } else if (parte === "txt" || /^\d+$/.test(parte)) {
       continue;
-    } else if (/^[ivxlc]+$/.test(parte) && (ultimo === "artigo" || ultimo === "paragrafo")) {
-      rotulo += `, ${parte.toUpperCase()}`;
+    } else if (/^[ivxlc]+(_[a-z])?$/.test(parte) && (ultimo === "artigo" || ultimo === "paragrafo")) {
+      // "ii_a" = inciso II-A
+      rotulo += `, ${parte.toUpperCase().replace("_", "-")}`;
       ultimo = "inciso";
     } else if (/^[a-z]$/.test(parte)) {
       rotulo += `, ${parte}`;
