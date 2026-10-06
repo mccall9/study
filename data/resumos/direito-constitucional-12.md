@@ -12,7 +12,7 @@ O Título V da CF trata da defesa do Estado: estados de defesa e de sítio, For�
 | Medidas | restrições a reunião e aos sigilos de correspondência e de comunicação telegráfica e telefônica; ocupação de bens públicos na calamidade ([§ 1º](/lei/cf#art136-p1)) | no caso I, só as do [art. 139](/lei/cf#art139): permanência em local determinado, detenção em edifício não destinado a presos comuns, restrições à imprensa, suspensão da reunião, busca domiciliar, intervenção em empresas de serviço público, requisição de bens |
 
 - Nos dois casos, o Presidente ouve antes o Conselho da República e o Conselho de Defesa Nacional (opinião não vinculante).
-- No estado de defesa, a prisão por crime contra o Estado é comunicada imediatamente ao juiz; não passa de **10 dias** sem autorização judicial; é vedada a incomunicabilidade ([§ 3º](/lei/cf#art136-p3)).
+- No estado de defesa, a prisão por crime contra o Estado é comunicada imediatamente ao juiz; nenhuma prisão passa de **10 dias** sem autorização judicial; é vedada a incomunicabilidade ([§ 3º](/lei/cf#art136-p3)).
 - Imunidades parlamentares subsistem no sítio; só podem ser suspensas por 2/3 da Casa, quanto a atos fora do Congresso incompatíveis com a medida ([art. 53, § 8º](/lei/cf#art53-p8)).
 
 **Forças Armadas** ([art. 142](/lei/cf#art142)): Marinha, Exército e Aeronáutica, instituições nacionais permanentes e regulares, baseadas em hierarquia e disciplina, sob autoridade suprema do Presidente. Destinam-se à defesa da Pátria, à garantia dos poderes constitucionais e, por iniciativa de qualquer destes, da lei e da ordem. Não cabe habeas corpus contra punição disciplinar militar ([§ 2º](/lei/cf#art142-p2)); militares não podem se sindicalizar nem fazer greve ([§ 3º, IV](/lei/cf#art142-p3-iv)).

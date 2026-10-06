@@ -1,4 +1,5 @@
 import "server-only";
+import inss2016 from "@/data/questoes/comentarios/inss-2016.json";
 import inss2022 from "@/data/questoes/comentarios/inss-2022.json";
 import prf2021 from "@/data/questoes/comentarios/prf-2021.json";
 import { carregarLei } from "./leis";
@@ -13,6 +14,7 @@ type ComentarioJson = { t: string; b?: { lei: string; a: string }[] };
 const COMENTARIOS: Record<string, ComentarioJson> = {
   ...(prf2021 as Record<string, ComentarioJson>),
   ...(inss2022 as Record<string, ComentarioJson>),
+  ...(inss2016 as Record<string, ComentarioJson>),
 };
 
 export type BaseLegal = { lei: string; ancora: string; rotulo: string; href: string };

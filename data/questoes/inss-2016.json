@@ -1,0 +1,1227 @@
+{
+ "id": "inss-2016",
+ "nome": "INSS 2016 · Técnico do Seguro Social",
+ "concurso": "INSS",
+ "banca": "Cebraspe",
+ "ano": 2016,
+ "fontes": [
+  "https://cdn.cebraspe.org.br/concursos/inss_2015/arquivos/234INSS_002_01_Caderno_ALGA.PDF",
+  "https://cdn.cebraspe.org.br/concursos/inss_2015/arquivos/Gab_Definitivo_234INSS_002_01.PDF"
+ ],
+ "textos": {
+  "inss-2016-t1": "Texto I\nNaquele novo apartamento da rua Visconde de Pirajá pela primeira vez teria um escritório para trabalhar. Não era um cômodo muito grande, mas dava para armar ali a minha tenda de reflexões e leitura: uma escrivaninha, um sofá e os livros. Na parede da esquerda ficaria a grande e sonhada estante onde caberiam todos os meus livros. Tratei de encomendá-la a seu Joaquim, um marceneiro que tinha oficina na rua Garcia D’Ávila com Barão da Torre.\nO apartamento não ficava tão perto da oficina. Era quase em frente ao prédio onde morava Mário Pedrosa, entre a Farme de Amoedo e a antiga Montenegro, hoje Vinicius de Moraes. Estava ali havia uma semana e nem decorara ainda o número do prédio. Tanto que, quando seu Joaquim, ao preencher a nota de encomenda, perguntou-me onde seria entregue a estante, tive um momento de hesitação. Mas foi só um momento. Pensei rápido: “Se o prédio do Mário é 228, o meu, que fica quase em frente, deve ser 227”. Mas lembrei-me de que, ao ir ali pela primeira vez, observara que, apesar de ficar em frente ao do Mário, havia uma diferença na numeração.\n― Visconde de Pirajá, 127 ― respondi, e seu Joaquim desenhou o endereço na nota.\n― Tudo bem, seu Ferreira. Dentro de um mês estará lá sua estante.\n― Um mês, seu Joaquim! Tudo isso? Veja se reduz esse prazo.\n― A estante é grande, dá muito trabalho... Digamos, três semanas.\nFerreira Gullar. A estante. In: A estranha vida banal. Rio de Janeiro: José Olympio, 1989 (com adaptações).",
+  "inss-2016-t2": "Bibliotecas sempre deram muito o que falar. Grandes monarquias jamais deixaram de possuir as suas, e cuidavam delas estrategicamente. Afinal, dotes de princesas foram negociados tendo livros como objetos de barganha; tratados diplomáticos versaram sobre essas coleções. Os monarcas portugueses, após o terremoto que dizimou Lisboa, se orgulhavam de, a despeito dos destroços, terem erguido uma grande biblioteca: a Real Livraria. D. José chamava-a de joia maior do tesouro real. D. João VI, mesmo na correria da partida para o Brasil, não se esqueceu dos livros. Em três diferentes levas, a Real Biblioteca aportou nos trópicos, e foi até mesmo tema de disputa.\nInternet: <http://observatoriodaimprensa.com.br> (com adaptações).",
+  "inss-2016-t3": "Bruno, servidor contratado temporariamente para prestar serviços a determinado órgão público federal, praticou conduta vedada aos servidores públicos pelo Código de Ética Profissional do Servidor Público Civil do Poder Executivo Federal.",
+  "inss-2016-t4": "Art. 21. A alíquota de contribuição dos segurados contribuinte individual e facultativo será de vinte por cento sobre o respectivo salário-de-contribuição.",
+  "inss-2016-t5": "Maria, proprietária de uma sorveteria situada em uma cidade litorânea, adquiriu, de forma financiada, dois novos freezers para seu estabelecimento comercial. Em razão do período de baixa temporada, ocorreu considerável queda nas vendas da sorveteria, e o seu faturamento tornou-se insuficiente para arcar com todas as despesas. Diante dessa situação e visando honrar com o pagamento das prestações dos freezers, Maria deixou de repassar à previdência social as contribuições previdenciárias recolhidas dos cinco funcionários do estabelecimento, no prazo e na forma legal, tendo incorrido em crime contra seguridade social.",
+  "inss-2016-t6": "Mateus requereu ao órgão regional do INSS a conversão de auxílio-doença em aposentadoria por invalidez. O INSS indeferiu o pedido de Mateus por considerar que a doença que o acometera era curável, e que, por isso, ele era suscetível de reabilitação.",
+  "inss-2016-t7": "Em fevereiro de 2016, Valdemar, que era empregado pelo regime celetista e recebia um salário mínimo de sua empregadora, foi demitido e, 30 dias depois, condenado à pena de prisão em regime fechado. Ele é casado com Idalina, com quem tem dois filhos menores."
+ },
+ "itens": [
+  {
+   "id": "inss-2016-001",
+   "numero": 1,
+   "materia": "portugues",
+   "topico": "portugues-1",
+   "texto": "inss-2016-t1",
+   "comando": "No que se refere aos sentidos do texto I, julgue os próximos itens.",
+   "enunciado": "O trecho “dá muito trabalho” (ℓ.27) constitui uma referência de seu Joaquim à confecção da estante, tarefa que, segundo ele, seria trabalhosa.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-002",
+   "numero": 2,
+   "materia": "portugues",
+   "topico": "portugues-1",
+   "texto": "inss-2016-t1",
+   "comando": "No que se refere aos sentidos do texto I, julgue os próximos itens.",
+   "enunciado": "De acordo com as informações do texto, é correto inferir que seu Joaquim era analfabeto, uma vez que ele “desenhou o endereço na nota” (ℓ.22).",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-003",
+   "numero": 3,
+   "materia": "portugues",
+   "topico": "portugues-14",
+   "texto": "inss-2016-t1",
+   "comando": "No que se refere aos sentidos do texto I, julgue os próximos itens.",
+   "enunciado": "A expressão “armar ali a minha tenda” (ℓ.3) foi empregada no texto em sentido figurado.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-004",
+   "numero": 4,
+   "materia": "portugues",
+   "topico": "portugues-1",
+   "texto": "inss-2016-t1",
+   "comando": "No que se refere aos sentidos do texto I, julgue os próximos itens.",
+   "enunciado": "De acordo com as informações do texto, Vinicius de Moraes passou a morar no apartamento onde antes residia Mário Pedrosa.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-005",
+   "numero": 5,
+   "materia": "portugues",
+   "topico": "portugues-1",
+   "texto": "inss-2016-t1",
+   "comando": "No que se refere aos sentidos do texto I, julgue os próximos itens.",
+   "enunciado": "O “momento de hesitação” (ℓ.15) vivido pelo narrador deveu-se ao medo de informar o endereço a um desconhecido.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-006",
+   "numero": 6,
+   "materia": "portugues",
+   "topico": "portugues-14",
+   "texto": "inss-2016-t1",
+   "comando": "No que se refere aos sentidos do texto I, julgue os próximos itens.",
+   "enunciado": "O verbo dever foi empregado na linha 17 no sentido de ser provável.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-007",
+   "numero": 7,
+   "materia": "portugues",
+   "topico": "portugues-10",
+   "texto": "inss-2016-t1",
+   "comando": "Julgue os seguintes itens, a respeito de aspectos linguísticos do texto I.",
+   "enunciado": "A correção gramatical e o sentido do texto seriam preservados, caso se substituísse o trecho “lembrei-me de que” (ℓ.18) por lembrei que.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-008",
+   "numero": 8,
+   "materia": "portugues",
+   "topico": "portugues-9",
+   "texto": "inss-2016-t1",
+   "comando": "Julgue os seguintes itens, a respeito de aspectos linguísticos do texto I.",
+   "enunciado": "A forma verbal “teria” (ℓ.2) está flexionada na terceira pessoa do singular, para concordar com “apartamento” (ℓ.1), núcleo do sujeito da oração em que ocorre.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-009",
+   "numero": 9,
+   "materia": "portugues",
+   "topico": "portugues-13",
+   "texto": "inss-2016-t1",
+   "comando": "Julgue os seguintes itens, a respeito de aspectos linguísticos do texto I.",
+   "enunciado": "Seria mantida a correção do texto caso o trecho “onde caberiam” (ℓ.6) fosse substituído por que caberia.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-010",
+   "numero": 10,
+   "materia": "portugues",
+   "topico": "portugues-8",
+   "texto": "inss-2016-t1",
+   "comando": "Julgue os seguintes itens, a respeito de aspectos linguísticos do texto I.",
+   "enunciado": "No período “Tanto que, quando (...) momento de hesitação” (ℓ. 13 a ℓ. 15), o emprego de todas as vírgulas deve-se à mesma regra de pontuação.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-011",
+   "numero": 11,
+   "materia": "portugues",
+   "topico": "portugues-1",
+   "texto": "inss-2016-t2",
+   "comando": "Acerca de aspectos linguísticos e dos sentidos do texto acima, julgue os itens que se seguem.",
+   "enunciado": "Princesas e diplomatas eram valorados conforme a qualidade das bibliotecas que seus países possuíam e a parcela dos livros que estavam dispostos a ceder em negociações diversas.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-012",
+   "numero": 12,
+   "materia": "portugues",
+   "topico": "portugues-1",
+   "texto": "inss-2016-t2",
+   "comando": "Acerca de aspectos linguísticos e dos sentidos do texto acima, julgue os itens que se seguem.",
+   "enunciado": "A Real Livraria foi erguida com os destroços resultantes do terremoto que atingiu Lisboa, como símbolo da força de Portugal na superação da tragédia que acabava de assolar o país.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-013",
+   "numero": 13,
+   "materia": "portugues",
+   "topico": "portugues-4",
+   "texto": "inss-2016-t2",
+   "comando": "Acerca de aspectos linguísticos e dos sentidos do texto acima, julgue os itens que se seguem.",
+   "enunciado": "A expressão “essas coleções” (ℓ.5) retoma, por coesão, o termo “Bibliotecas” (ℓ.1).",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-014",
+   "numero": 14,
+   "materia": "portugues",
+   "topico": "portugues-8",
+   "texto": "inss-2016-t2",
+   "comando": "Acerca de aspectos linguísticos e dos sentidos do texto acima, julgue os itens que se seguem.",
+   "enunciado": "O sinal de dois-pontos empregado imediatamente após “biblioteca” (ℓ.8) introduz um termo de natureza explicativa.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-015",
+   "numero": 15,
+   "materia": "portugues",
+   "topico": "portugues-15",
+   "texto": null,
+   "comando": "Com base no disposto no Manual de Redação da Presidência da República, julgue o próximo item.",
+   "enunciado": "O trecho seguinte é adequado para compor a parte inicial de um memorando.\nBrasília, 2 de fevereiro de 2016.\nÀ Senhora\nAna Silva\nINSS\nCEP 70070-946 – Brasília/DF\nAssunto: Curso de aperfeiçoamento em atendimento ao público",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-016",
+   "numero": 16,
+   "materia": "etica",
+   "topico": "etica-5",
+   "texto": "inss-2016-t3",
+   "comando": "A partir dessa situação hipotética, julgue os itens a seguir à luz do disposto nos Decretos n.º 1.171/1994 e n.º 6.029/2007.",
+   "enunciado": "Se, para a infração praticada por Bruno, estiverem previstas as penalidades de advertência ou suspensão, a comissão de ética será competente para, após o regular procedimento, aplicar diretamente a penalidade.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-017",
+   "numero": 17,
+   "materia": "etica",
+   "topico": "etica-5",
+   "texto": "inss-2016-t3",
+   "comando": "A partir dessa situação hipotética, julgue os itens a seguir à luz do disposto nos Decretos n.º 1.171/1994 e n.º 6.029/2007.",
+   "enunciado": "Mesmo prestando serviço de natureza temporária, Bruno está sujeito às disposições contidas no Decreto n.º 1.171/1994.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-018",
+   "numero": 18,
+   "materia": "etica",
+   "topico": "etica-5",
+   "texto": "inss-2016-t3",
+   "comando": "A partir dessa situação hipotética, julgue os itens a seguir à luz do disposto nos Decretos n.º 1.171/1994 e n.º 6.029/2007.",
+   "enunciado": "Durante o procedimento de apuração da conduta de Bruno, a comissão de ética deverá garantir-lhe proteção à sua honra e à sua imagem.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-019",
+   "numero": 19,
+   "materia": "etica",
+   "topico": "etica-5",
+   "texto": null,
+   "comando": "Acerca do disposto nos Decretos n.º 1.171/1994 e n.º 6.029/2007, julgue os itens subsequentes.",
+   "enunciado": "Embora deva respeitar a hierarquia, o servidor público está obrigado a representar contra ações manifestamente ilegais de seus superiores hierárquicos.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-020",
+   "numero": 20,
+   "materia": "etica",
+   "topico": "etica-5",
+   "texto": null,
+   "comando": "Acerca do disposto nos Decretos n.º 1.171/1994 e n.º 6.029/2007, julgue os itens subsequentes.",
+   "enunciado": "O rol de legitimados a provocar a atuação da Comissão de Ética Pública, prevista no Decreto n.º 6.029/2007, é restrito a agentes públicos, sendo, entretanto, permitido a qualquer cidadão provocar a atuação das comissões de ética de que trata o Decreto n.º 1.171/1994.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-021",
+   "numero": 21,
+   "materia": "etica",
+   "topico": "etica-5",
+   "texto": null,
+   "comando": "Acerca do disposto nos Decretos n.º 1.171/1994 e n.º 6.029/2007, julgue os itens subsequentes.",
+   "enunciado": "Em razão da relevância do serviço público prestado, é vitalício o mandato de membro integrante da Comissão de Ética Pública, o que evita interferências externas na atuação da comissão.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-022",
+   "numero": 22,
+   "materia": "lei-8112",
+   "topico": "lei-8112-1",
+   "texto": null,
+   "comando": "Considerando que determinado servidor público federal tenha sido removido para outra sede, situada em outro município, para acompanhar sua esposa, que também é servidora pública federal e foi removida no interesse da administração, julgue os itens seguintes à luz do disposto na Lei n.º 8.112/1990.",
+   "enunciado": "Ainda que o servidor e sua esposa sejam integrantes de órgãos pertencentes a poderes distintos da União, a remoção do servidor poderia ser concedida.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-023",
+   "numero": 23,
+   "materia": "lei-8112",
+   "topico": "lei-8112-1",
+   "texto": null,
+   "comando": "Considerando que determinado servidor público federal tenha sido removido para outra sede, situada em outro município, para acompanhar sua esposa, que também é servidora pública federal e foi removida no interesse da administração, julgue os itens seguintes à luz do disposto na Lei n.º 8.112/1990.",
+   "enunciado": "É correto inferir que houve interesse da administração na remoção do servidor, pois esse é um dos requisitos para sua concessão.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-024",
+   "numero": 24,
+   "materia": "lei-8112",
+   "topico": "lei-8112-1",
+   "texto": null,
+   "comando": "Considerando que determinado servidor público federal tenha sido removido para outra sede, situada em outro município, para acompanhar sua esposa, que também é servidora pública federal e foi removida no interesse da administração, julgue os itens seguintes à luz do disposto na Lei n.º 8.112/1990.",
+   "enunciado": "A referida remoção pressupõe o deslocamento do cargo ocupado pelo servidor para outro órgão ou entidade do mesmo poder.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-025",
+   "numero": 25,
+   "materia": "lei-8112",
+   "topico": "lei-8112-1",
+   "texto": null,
+   "comando": "Considerando que determinado servidor público federal tenha sido removido para outra sede, situada em outro município, para acompanhar sua esposa, que também é servidora pública federal e foi removida no interesse da administração, julgue os itens seguintes à luz do disposto na Lei n.º 8.112/1990.",
+   "enunciado": "O período de afastamento do servidor para o deslocamento e para a retomada do exercício do cargo no novo município, observados os limites legais, é considerado como de efetivo exercício.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-026",
+   "numero": 26,
+   "materia": "lei-8112",
+   "topico": "lei-8112-4",
+   "texto": null,
+   "comando": "Julgue os itens subsecutivos conforme o disposto na Lei n.º 8.112/1990.",
+   "enunciado": "Como medida que contribui para a melhoria da qualidade de vida do servidor público, é-lhe facultado optar pela acumulação de períodos de licença-capacitação, caso não seja possível usufruí-los após cada período aquisitivo.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-027",
+   "numero": 27,
+   "materia": "lei-8112",
+   "topico": "lei-8112-4",
+   "texto": null,
+   "comando": "Julgue os itens subsecutivos conforme o disposto na Lei n.º 8.112/1990.",
+   "enunciado": "Em conformidade com a Lei n.º 8.112/1990, o servidor público poderá ser afastado do Brasil para missão oficial por tempo indeterminado.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-028",
+   "numero": 28,
+   "materia": "direito-administrativo",
+   "topico": "direito-administrativo-2",
+   "texto": null,
+   "comando": "Julgue os itens que se seguem, acerca da administração pública.",
+   "enunciado": "A garantia constitucional de acesso dos usuários a registros administrativos e a informações sobre atos de governo está relacionada ao princípio da eficiência.",
+   "gabarito": "X"
+  },
+  {
+   "id": "inss-2016-029",
+   "numero": 29,
+   "materia": "direito-administrativo",
+   "topico": "direito-administrativo-2",
+   "texto": null,
+   "comando": "Julgue os itens que se seguem, acerca da administração pública.",
+   "enunciado": "Na análise da moralidade administrativa, pressuposto de validade de todo ato da administração pública, é imprescindível avaliar a intenção do agente.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-030",
+   "numero": 30,
+   "materia": "direito-constitucional",
+   "topico": "direito-constitucional-8",
+   "texto": null,
+   "comando": "Julgue os itens que se seguem, acerca da administração pública.",
+   "enunciado": "No cômputo do limite remuneratório (chamado de teto constitucional), devem ser consideradas todas as parcelas percebidas pelo agente público, incluídas as de caráter indenizatório.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-031",
+   "numero": 31,
+   "materia": "direito-administrativo",
+   "topico": "direito-administrativo-2",
+   "texto": null,
+   "comando": "Julgue os itens que se seguem, acerca da administração pública.",
+   "enunciado": "Em decorrência do princípio da impessoalidade, as realizações administrativo-governamentais são imputadas ao ente público e não ao agente político.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-032",
+   "numero": 32,
+   "materia": "direito-constitucional",
+   "topico": "direito-constitucional-5",
+   "texto": null,
+   "comando": "A respeito dos direitos fundamentais, julgue os itens a seguir.",
+   "enunciado": "Basta que a pessoa nasça no território brasileiro para que seja considerada brasileiro nato, independentemente da nacionalidade dos seus pais, a não ser que algum deles, ou ambos, esteja(m) no Brasil a serviço de seu país.",
+   "gabarito": "X"
+  },
+  {
+   "id": "inss-2016-033",
+   "numero": 33,
+   "materia": "direito-constitucional",
+   "topico": "direito-constitucional-2",
+   "texto": null,
+   "comando": "A respeito dos direitos fundamentais, julgue os itens a seguir.",
+   "enunciado": "O direito à vida desdobra-se na obrigação do Estado de garantir à pessoa o direito de continuar viva e de proporcionar-lhe condições de vida digna.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-034",
+   "numero": 34,
+   "materia": "direito-constitucional",
+   "topico": "direito-constitucional-2",
+   "texto": null,
+   "comando": "A respeito dos direitos fundamentais, julgue os itens a seguir.",
+   "enunciado": "Em decorrência do princípio da igualdade, é vedado ao legislador elaborar norma que dê tratamento distinto a pessoas diversas.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-035",
+   "numero": 35,
+   "materia": "direito-administrativo",
+   "topico": "direito-administrativo-6",
+   "texto": null,
+   "comando": "Julgue os próximos itens, a respeito dos atos administrativos.",
+   "enunciado": "A autoexecutoriedade é atributo restrito aos atos administrativos praticados no exercício do poder de polícia.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-036",
+   "numero": 36,
+   "materia": "direito-administrativo",
+   "topico": "direito-administrativo-6",
+   "texto": null,
+   "comando": "Julgue os próximos itens, a respeito dos atos administrativos.",
+   "enunciado": "Em decorrência do princípio da autotutela, não há limites para o poder da administração de revogar seus próprios atos segundo critérios de conveniência e oportunidade.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-037",
+   "numero": 37,
+   "materia": "direito-administrativo",
+   "topico": "direito-administrativo-6",
+   "texto": null,
+   "comando": "Julgue os próximos itens, a respeito dos atos administrativos.",
+   "enunciado": "O ato praticado por agente não competente para fazê-lo poderá ser convalidado discricionariamente pela autoridade competente para sua prática, caso em que ficará sanado o vício de incompetência.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-038",
+   "numero": 38,
+   "materia": "direito-administrativo",
+   "topico": "direito-administrativo-12",
+   "texto": null,
+   "comando": "Julgue os seguintes itens, acerca da concessão de serviço público.",
+   "enunciado": "A encampação, que consiste em rescisão unilateral da concessão pela administração antes do prazo acordado, dá ao concessionário o direito a ressarcimento de eventual prejuízo por ele comprovado.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-039",
+   "numero": 39,
+   "materia": "direito-administrativo",
+   "topico": "direito-administrativo-12",
+   "texto": null,
+   "comando": "Julgue os seguintes itens, acerca da concessão de serviço público.",
+   "enunciado": "A lei prevê que a concessão de serviço público se dê por licitação na modalidade de concorrência, prevendo, ainda, hipóteses legais de inexigibilidade de licitação para a concessão.",
+   "gabarito": "X"
+  },
+  {
+   "id": "inss-2016-040",
+   "numero": 40,
+   "materia": "informatica",
+   "topico": "informatica-8",
+   "texto": null,
+   "comando": "Com relação a informática, julgue os itens que se seguem.",
+   "enunciado": "A infecção de um computador por vírus enviado via correio eletrônico pode se dar quando se abre arquivo infectado que porventura esteja anexado à mensagem eletrônica recebida.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-041",
+   "numero": 41,
+   "materia": "informatica",
+   "topico": "informatica-4",
+   "texto": null,
+   "comando": "Com relação a informática, julgue os itens que se seguem.",
+   "enunciado": "Na Internet, os endereços IP (Internet Protocol) constituem recursos que podem ser utilizados para identificação de microcomputadores que acessam a rede.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-042",
+   "numero": 42,
+   "materia": "informatica",
+   "topico": "informatica-6",
+   "texto": null,
+   "comando": "Com relação a informática, julgue os itens que se seguem.",
+   "enunciado": "Em um texto ou imagem contido em eslaide que esteja em edição no programa Libre Office Impress, é possível, por meio da opção Hyperlink, criar um link que permita o acesso a uma página web.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-043",
+   "numero": 43,
+   "materia": "informatica",
+   "topico": "informatica-6",
+   "texto": null,
+   "comando": "Com relação a informática, julgue os itens que se seguem.",
+   "enunciado": "Para se editar o cabeçalho de um documento no Writer, deve-se clicar o topo da página para abrir o espaço para edição. Por limitações técnicas desse editor de textos, não é possível colar textos ou imagens nesse espaço.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-044",
+   "numero": 44,
+   "materia": "informatica",
+   "topico": "informatica-9",
+   "texto": null,
+   "comando": "Com relação a informática, julgue os itens que se seguem.",
+   "enunciado": "A ferramenta OneDrive do Windows 10 é destinada à navegação em páginas web por meio de um browser interativo.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-045",
+   "numero": 45,
+   "materia": "raciocinio-logico",
+   "topico": "raciocinio-logico-7",
+   "texto": "inss-2016-t4",
+   "comando": "Considerando o art. 21 da Lei n.º 8.212/1991, acima reproduzido, julgue o item seguinte.",
+   "enunciado": "Se o valor da contribuição de um segurado contribuinte individual for superior a R$ 700,00, então o salário-de-contribuição desse indivíduo é superior a R$ 3.500,00.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-046",
+   "numero": 46,
+   "materia": "raciocinio-logico",
+   "topico": "raciocinio-logico-1",
+   "texto": null,
+   "comando": "Julgue os itens a seguir, relativos a raciocínio lógico e operações com conjuntos.",
+   "enunciado": "A sentença “Bruna, acesse a Internet e verifique a data da aposentadoria do Sr. Carlos!” é uma proposição composta que pode ser escrita na forma p ∧ q.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-047",
+   "numero": 47,
+   "materia": "raciocinio-logico",
+   "topico": "raciocinio-logico-1",
+   "texto": null,
+   "comando": "Julgue os itens a seguir, relativos a raciocínio lógico e operações com conjuntos.",
+   "enunciado": "Para quaisquer proposições p e q, com valores lógicos quaisquer, a condicional p → (q → p) será, sempre, uma tautologia.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-048",
+   "numero": 48,
+   "materia": "raciocinio-logico",
+   "topico": "raciocinio-logico-1",
+   "texto": null,
+   "comando": "Julgue os itens a seguir, relativos a raciocínio lógico e operações com conjuntos.",
+   "enunciado": "Caso a proposição simples “Aposentados são idosos” tenha valor lógico falso, então o valor lógico da proposição “Aposentados são idosos, logo eles devem repousar” será falso.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-049",
+   "numero": 49,
+   "materia": "raciocinio-logico",
+   "topico": "raciocinio-logico-1",
+   "texto": null,
+   "comando": "Julgue os itens a seguir, relativos a raciocínio lógico e operações com conjuntos.",
+   "enunciado": "Dadas as proposições simples p: “Sou aposentado” e q: “Nunca faltei ao trabalho”, a proposição composta “Se sou aposentado e nunca faltei ao trabalho, então não sou aposentado” deverá ser escrita na forma (p ∧ q) → ~p, usando-se os conectivos lógicos.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-050",
+   "numero": 50,
+   "materia": "raciocinio-logico",
+   "topico": "raciocinio-logico-4",
+   "texto": null,
+   "comando": "Julgue os itens a seguir, relativos a raciocínio lógico e operações com conjuntos.",
+   "enunciado": "Se A, B e C forem conjuntos quaisquer tais que A, B ⊂ C, então (C \\ A) ∩ (A ∪ B) = C ∩ B.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-051",
+   "numero": 51,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-1",
+   "texto": null,
+   "comando": "No que se refere à seguridade social no Brasil, julgue os itens seguintes.",
+   "enunciado": "A seguridade social é organizada mediante gestão quadripartite, com participação dos trabalhadores, dos empregadores, dos aposentados e do governo nos órgãos colegiados.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-052",
+   "numero": 52,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-1",
+   "texto": null,
+   "comando": "No que se refere à seguridade social no Brasil, julgue os itens seguintes.",
+   "enunciado": "A Lei Eloy Chaves, que criou em cada uma das empresas de estradas de ferro existentes no país uma caixa de aposentadoria e pensões para os respectivos empregados, foi o primeiro ato normativo a tratar de seguridade social no Brasil.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-053",
+   "numero": 53,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-1",
+   "texto": null,
+   "comando": "No que se refere à seguridade social no Brasil, julgue os itens seguintes.",
+   "enunciado": "Na década de 30 do século passado, as caixas de aposentadoria e pensões foram reunidas nos institutos de aposentadoria e pensão, organizados pelo Estado como autarquias federais. Em 1966, esses institutos foram transformados no INPS.",
+   "gabarito": "X"
+  },
+  {
+   "id": "inss-2016-054",
+   "numero": 54,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-1",
+   "texto": null,
+   "comando": "No que se refere à seguridade social no Brasil, julgue os itens seguintes.",
+   "enunciado": "A CF define seguridade social como um conjunto integrado de ações de iniciativa dos poderes públicos e da sociedade destinadas a assegurar direitos relativos à saúde, à previdência e à assistência social.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-055",
+   "numero": 55,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-1",
+   "texto": null,
+   "comando": "No que se refere à seguridade social no Brasil, julgue os itens seguintes.",
+   "enunciado": "De acordo com o princípio da universalidade da seguridade social, os estrangeiros no Brasil poderão receber atendimento da seguridade social.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-056",
+   "numero": 56,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-1",
+   "texto": null,
+   "comando": "Com relação ao conteúdo e à autonomia da legislação previdenciária, julgue o item abaixo.",
+   "enunciado": "Lei complementar editada pela União poderá autorizar os estados e o DF a legislar sobre questões específicas relacionadas à seguridade social.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-057",
+   "numero": 57,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-4",
+   "texto": null,
+   "comando": "Com base no disposto na Lei n.º 8.213/1991, julgue os itens a seguir, acerca dos segurados do RGPS.",
+   "enunciado": "Situação hipotética: Pedro trabalha como professor remunerado de uma escola particular e, concomitantemente, explora atividade econômica agropecuária em regime de economia familiar em uma chácara de dois módulos fiscais. Assertiva: Nessa situação, Pedro é segurado obrigatório do RGPS em relação a cada uma das atividades realizadas.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-058",
+   "numero": 58,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-4",
+   "texto": null,
+   "comando": "Com base no disposto na Lei n.º 8.213/1991, julgue os itens a seguir, acerca dos segurados do RGPS.",
+   "enunciado": "Brasileiro contratado pela Organização das Nações Unidas, da qual o Brasil faz parte como membro efetivo, é considerado segurado obrigatório do RGPS, mesmo que domiciliado e contratado no exterior, salvo se estiver coberto por regime próprio de previdência social.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-059",
+   "numero": 59,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-4",
+   "texto": null,
+   "comando": "Com base no disposto na Lei n.º 8.213/1991, julgue os itens a seguir, acerca dos segurados do RGPS.",
+   "enunciado": "Pastor evangélico que atue exclusivamente em sua atividade religiosa é considerado segurado facultativo do RGPS.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-060",
+   "numero": 60,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-4",
+   "texto": null,
+   "comando": "Com base no disposto na Lei n.º 8.213/1991, julgue os itens a seguir, acerca dos segurados do RGPS.",
+   "enunciado": "É considerado segurado obrigatório do RGPS na qualidade de contribuinte individual o associado eleito para cargo de direção em cooperativa, associação ou entidade de qualquer natureza, mesmo que não receba remuneração.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-061",
+   "numero": 61,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-4",
+   "texto": null,
+   "comando": "Com base no disposto na Lei n.º 8.213/1991, julgue os itens a seguir, acerca dos segurados do RGPS.",
+   "enunciado": "Síndica do condomínio predial em que resida e que receba como pró-labore a quantia equivalente a um salário mínimo será considerada segurada obrigatória do RGPS na qualidade de empregada.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-062",
+   "numero": 62,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-4",
+   "texto": null,
+   "comando": "Com base no disposto na Lei n.º 8.213/1991, julgue os itens a seguir, acerca dos segurados do RGPS.",
+   "enunciado": "O pescador que exerça essa atividade como principal meio de vida é considerado segurado especial mesmo que tenha empregados permanentes.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-063",
+   "numero": 63,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-4",
+   "texto": null,
+   "comando": "Com relação ao segurado especial e ao segurado facultativo, julgue os próximos itens à luz do Decreto n.º 3.048/1999.",
+   "enunciado": "Situação hipotética: Maria, com vinte e dois anos de idade, recebe bolsa de estudos para se dedicar em tempo integral a trabalho de pesquisa, não possuindo qualquer vinculação a regime de previdência. Assertiva: Nessa situação, Maria poderá filiar-se facultativamente ao RGPS.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-064",
+   "numero": 64,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-4",
+   "texto": null,
+   "comando": "Com relação ao segurado especial e ao segurado facultativo, julgue os próximos itens à luz do Decreto n.º 3.048/1999.",
+   "enunciado": "O recebimento de dinheiro decorrente de programa assistencial oficial do governo federal descaracteriza a condição de segurado especial.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-065",
+   "numero": 65,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-5",
+   "texto": null,
+   "comando": "A respeito da inscrição e da filiação dos segurados obrigatórios e facultativos na forma do Decreto n.º 3.048/1999, julgue os itens a seguir.",
+   "enunciado": "A filiação do segurado obrigatório ao RGPS decorre automaticamente do exercício da atividade remunerada.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-066",
+   "numero": 66,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-5",
+   "texto": null,
+   "comando": "A respeito da inscrição e da filiação dos segurados obrigatórios e facultativos na forma do Decreto n.º 3.048/1999, julgue os itens a seguir.",
+   "enunciado": "Desde que presentes os demais pressupostos da filiação, admite-se a inscrição post mortem do segurado especial.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-067",
+   "numero": 67,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-5",
+   "texto": null,
+   "comando": "A respeito da inscrição e da filiação dos segurados obrigatórios e facultativos na forma do Decreto n.º 3.048/1999, julgue os itens a seguir.",
+   "enunciado": "A filiação ao RGPS na qualidade de segurado facultativo pode retroagir, permitindo-se o recolhimento das contribuições relativas a competências anteriores à data da inscrição.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-068",
+   "numero": 68,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-5",
+   "texto": null,
+   "comando": "A respeito da inscrição e da filiação dos segurados obrigatórios e facultativos na forma do Decreto n.º 3.048/1999, julgue os itens a seguir.",
+   "enunciado": "Os dados constantes dos cadastros informatizados da previdência social, como o Cadastro Nacional de Informações Sociais (CNIS), valem como prova da filiação à previdência social, do tempo de contribuição e dos salários-de-contribuição, desde que acompanhados de outras provas documentais.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-069",
+   "numero": 69,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-4",
+   "texto": null,
+   "comando": "Julgue os itens seguintes à luz do Decreto n.º 3.048/1999 e da CF.",
+   "enunciado": "O indivíduo que, não sendo detentor de cargo efetivo, for nomeado para um cargo em comissão no âmbito da União não será segurado obrigatório do RGPS.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-070",
+   "numero": 70,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-2",
+   "texto": null,
+   "comando": "Julgue os itens seguintes à luz do Decreto n.º 3.048/1999 e da CF.",
+   "enunciado": "Situação hipotética: João exerce atividade econômica com finalidade lucrativa na sua própria residência. Recentemente, ele contratou Maria para fazer a limpeza de sua residência, de forma habitual e remunerada, e, inclusive, atender clientes. Assertiva: Nessa situação, João será considerado empregador doméstico com relação aos serviços prestados por Maria.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-071",
+   "numero": 71,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-2",
+   "texto": null,
+   "comando": "Julgue os itens seguintes à luz do Decreto n.º 3.048/1999 e da CF.",
+   "enunciado": "Equiparar-se-á a empresa, para os fins do RGPS, a pessoa física que, para fazer uma reforma na própria casa, contratar um mestre de obras e um ajudante.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-072",
+   "numero": 72,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-2",
+   "texto": null,
+   "comando": "Com relação ao financiamento da seguridade social, julgue os seguintes itens.",
+   "enunciado": "Em caso de eventuais insuficiências financeiras decorrentes do pagamento de benefícios de prestação continuada, a previdência social poderá elevar alíquotas das contribuições sociais de empregados e empregadores até o limite do débito apurado.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-073",
+   "numero": 73,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-2",
+   "texto": null,
+   "comando": "Com relação ao financiamento da seguridade social, julgue os seguintes itens.",
+   "enunciado": "Além da contribuição proveniente de empregados e empregadores, são fontes de custeio da seguridade social, de forma direta e indireta, os recursos oriundos dos orçamentos da União, dos estados, do DF e dos municípios.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-074",
+   "numero": 74,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-2",
+   "texto": null,
+   "comando": "Julgue os próximos itens, relativos às contribuições dos segurados empregados, dos empregados domésticos e dos segurados facultativos.",
+   "enunciado": "A alíquota de contribuição, para custeio da seguridade social, dos segurados facultativos e dos segurados empregados é a mesma e varia segundo o salário-de-contribuição.",
+   "gabarito": "E",
+   "observacao": "Gabarito pela lei da época (empregado: 8%, 9% ou 11%). Hoje, após a EC 103/2019 (art. 28), o empregado, inclusive o doméstico, paga alíquotas progressivas de 7,5% a 14%; o facultativo continua com 20% (ou 11%/5% nos planos simplificados). O item continua errado."
+  },
+  {
+   "id": "inss-2016-075",
+   "numero": 75,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-2",
+   "texto": null,
+   "comando": "Julgue os próximos itens, relativos às contribuições dos segurados empregados, dos empregados domésticos e dos segurados facultativos.",
+   "enunciado": "A alíquota de contribuição do empregado doméstico para o custeio da seguridade social é inferior à alíquota aplicável aos demais empregados.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-076",
+   "numero": 76,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-2",
+   "texto": null,
+   "comando": "No que se refere à contribuição de empresas e empregadores domésticos para o financiamento da seguridade social, julgue os itens subsequentes.",
+   "enunciado": "A contribuição do empregador doméstico é de 20% e incide sobre o salário mínimo.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-077",
+   "numero": 77,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-2",
+   "texto": null,
+   "comando": "No que se refere à contribuição de empresas e empregadores domésticos para o financiamento da seguridade social, julgue os itens subsequentes.",
+   "enunciado": "A contribuição empresarial de associação desportiva que mantenha equipe de futebol profissional distingue-se da contribuição exigida de outras empresas.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-078",
+   "numero": 78,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-2",
+   "texto": null,
+   "comando": "A respeito do custeio da seguridade social, julgue os itens que se seguem.",
+   "enunciado": "Constitui fonte de receita da seguridade social um percentual incidente sobre os valores arrecadados com os resultados dos leilões de bens apreendidos pela Receita Federal do Brasil.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-079",
+   "numero": 79,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-2",
+   "texto": null,
+   "comando": "A respeito do custeio da seguridade social, julgue os itens que se seguem.",
+   "enunciado": "Para efeito de custeio dos benefícios da aposentadoria especial e dos concedidos em razão do grau de incidência de incapacidade laborativa decorrente dos riscos ambientais do trabalho, as alíquotas aplicadas incidem exclusivamente sobre a remuneração do segurado sujeito a condições especiais que lhe prejudiquem a saúde ou a integridade física.",
+   "gabarito": "X"
+  },
+  {
+   "id": "inss-2016-080",
+   "numero": 80,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-2",
+   "texto": null,
+   "comando": "A respeito do custeio da seguridade social, julgue os itens que se seguem.",
+   "enunciado": "Parte dos valores arrecadados com concurso de prognósticos promovidos por órgãos do poder público ou por sociedades comerciais ou civis dentro do território nacional é destinada ao custeio da seguridade social.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-081",
+   "numero": 81,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-7",
+   "texto": null,
+   "comando": "Em cada um dos próximos itens, é apresentada uma situação hipotética acerca de salário-de-contribuição, seguida de uma assertiva a ser julgada.",
+   "enunciado": "Bruna, empregada da empresa Vargas & Vargas Cia. Ltda., entrou em gozo de licença-maternidade. Nessa situação, haverá incidência da contribuição previdenciária sobre o valor recebido por Bruna a título de salário-maternidade.",
+   "gabarito": "C",
+   "observacao": "Desde 2020 o STF (RE 576.967, Tema 72) considera inconstitucional a contribuição *do empregador* sobre o salário-maternidade. A contribuição da própria segurada continua incidindo (Lei 8.212, art. 28, § 2º)."
+  },
+  {
+   "id": "inss-2016-082",
+   "numero": 82,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-7",
+   "texto": null,
+   "comando": "Em cada um dos próximos itens, é apresentada uma situação hipotética acerca de salário-de-contribuição, seguida de uma assertiva a ser julgada.",
+   "enunciado": "Gustavo inscreveu-se na previdência social na condição de segurado facultativo. Nessa situação, o salário-de-contribuição de Gustavo deverá variar entre um salário mínimo e o teto máximo fixado em portaria interministerial.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-083",
+   "numero": 83,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-7",
+   "texto": null,
+   "comando": "Em cada um dos próximos itens, é apresentada uma situação hipotética acerca de salário-de-contribuição, seguida de uma assertiva a ser julgada.",
+   "enunciado": "Zilda mantém vínculo empregatício com a empresa Y e com a empresa Z, das quais recebe remuneração mensal equivalente a dois e três salários mínimos, respectivamente. Nessa situação, a contribuição previdenciária de Zilda deverá incidir sobre os valores recebidos de ambos os empregos.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-084",
+   "numero": 84,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-7",
+   "texto": null,
+   "comando": "Em cada um dos próximos itens, é apresentada uma situação hipotética acerca de salário-de-contribuição, seguida de uma assertiva a ser julgada.",
+   "enunciado": "O contrato de trabalho de Carlos, empregado da empresa L & M Ltda., foi rescindido antes que ele pudesse usufruir de férias vencidas. Nessa situação, haverá a incidência de contribuição previdenciária sobre a importância paga a título de indenização das férias vencidas e sobre o respectivo adicional constitucional.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-085",
+   "numero": 85,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-2",
+   "texto": null,
+   "comando": "Com referência a arrecadação e recolhimento das contribuições destinadas à seguridade social, julgue os itens que se seguem.",
+   "enunciado": "As empresas são obrigadas a arrecadar a contribuição do segurado contribuinte individual a seu serviço, descontando-a da respectiva remuneração.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-086",
+   "numero": 86,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-2",
+   "texto": null,
+   "comando": "Com referência a arrecadação e recolhimento das contribuições destinadas à seguridade social, julgue os itens que se seguem.",
+   "enunciado": "A isenção de contribuição previdenciária concedida às pessoas jurídicas de direito privado estende-se aos seus empregados e aos trabalhadores avulsos a seu serviço.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-087",
+   "numero": 87,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-2",
+   "texto": null,
+   "comando": "Com referência a arrecadação e recolhimento das contribuições destinadas à seguridade social, julgue os itens que se seguem.",
+   "enunciado": "Compete à Receita Federal do Brasil arrecadar e fiscalizar o recolhimento das contribuições sociais previstas na CF.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-088",
+   "numero": 88,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-2",
+   "texto": null,
+   "comando": "A respeito do recolhimento de contribuição previdenciária fora do prazo, julgue os itens subsequentes.",
+   "enunciado": "As contribuições devidas à seguridade social já descontadas dos segurados empregados e não recolhidas até seu vencimento poderão ser objeto de acordo para pagamento parcelado.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-089",
+   "numero": 89,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-2",
+   "texto": null,
+   "comando": "A respeito do recolhimento de contribuição previdenciária fora do prazo, julgue os itens subsequentes.",
+   "enunciado": "As contribuições sociais incluídas ou não em notificação fiscal de lançamento ou inscritas em dívida ativa que forem pagas com atraso estarão sujeitas a atualização monetária, juros de mora e multa, a qual varia entre 8% e 20% sobre o crédito devido.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-090",
+   "numero": 90,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-2",
+   "texto": "inss-2016-t5",
+   "comando": "Tendo como referência essa situação hipotética e com base nas disposições legais a respeito dos crimes contra a seguridade social, julgue os próximos itens.",
+   "enunciado": "Iniciada ação fiscal em desfavor de Maria, o juiz responsável pelo processo não poderá deixar de aplicar pena, ainda que Maria efetue os pagamentos devidos, seja ré primária e goze de bons antecedentes.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-091",
+   "numero": 91,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-2",
+   "texto": "inss-2016-t5",
+   "comando": "Tendo como referência essa situação hipotética e com base nas disposições legais a respeito dos crimes contra a seguridade social, julgue os próximos itens.",
+   "enunciado": "A conduta de Maria configura crime de apropriação indébita previdenciária, para o qual a pena prevista é reclusão e multa.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-092",
+   "numero": 92,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-16",
+   "texto": "inss-2016-t6",
+   "comando": "Acerca dessa situação hipotética e dos recursos nos processos administrativos de competência do INSS, julgue os itens que se seguem.",
+   "enunciado": "Caso seja interposto recurso contra a decisão que indeferiu o pedido de Mateus, o órgão regional do INSS que proferiu a decisão não poderá reformá-la, devendo encaminhar o recurso à instância competente.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-093",
+   "numero": 93,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-16",
+   "texto": "inss-2016-t6",
+   "comando": "Acerca dessa situação hipotética e dos recursos nos processos administrativos de competência do INSS, julgue os itens que se seguem.",
+   "enunciado": "Contra a decisão do INSS pelo indeferimento, Mateus poderá interpor recurso administrativo, que será julgado, em primeira instância, pela Câmara de Julgamento da Previdência Social.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-094",
+   "numero": 94,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-15",
+   "texto": null,
+   "comando": "Com relação a contribuições sociais dos segurados e(ou) a decadência e prescrição relativamente a benefícios previdenciários, cada um dos próximos itens apresenta uma situação hipotética, seguida de uma assertiva a ser julgada.",
+   "enunciado": "Dagoberto obteve aposentadoria por tempo de contribuição concedida pelo INSS em junho de 2012. Entretanto, o INSS não efetuou o pagamento do abono anual proporcional do ano de 2012 nem o do ano de 2013. Nessa situação, atualmente, Dagoberto não mais tem direito a exigir o pagamento dos abonos anuais referentes aos anos de 2012 e 2013, visto que está prescrito o direito ao percebimento das referidas prestações.",
+   "gabarito": "E",
+   "observacao": "O item foi julgado com a data da prova (2016). Contando de hoje, já teriam passado mais de cinco anos, e as parcelas de 2012 e 2013 estariam prescritas."
+  },
+  {
+   "id": "inss-2016-095",
+   "numero": 95,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-2",
+   "texto": null,
+   "comando": "Com relação a contribuições sociais dos segurados e(ou) a decadência e prescrição relativamente a benefícios previdenciários, cada um dos próximos itens apresenta uma situação hipotética, seguida de uma assertiva a ser julgada.",
+   "enunciado": "Ronaldo, segurado contribuinte individual da previdência social, optou pela contribuição de alíquota reduzida, de 11%, que exclui o direito ao benefício de aposentadoria por tempo de contribuição. Nessa situação, caso pretenda obter aposentadoria por tempo de contribuição, Ronaldo poderá fazer a complementação da diferença entre o percentual pago e o percentual devido, acrescida de juros moratórios.",
+   "gabarito": "C",
+   "observacao": "Gabarito pela lei da época. A EC 103/2019 extinguiu a aposentadoria por tempo de contribuição para quem se filiou depois dela; ficou só nas regras de transição. A complementação do art. 21, § 3º, da Lei 8.212 continua prevista."
+  },
+  {
+   "id": "inss-2016-096",
+   "numero": 96,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-17",
+   "texto": null,
+   "comando": "Julgue os itens seguintes à luz do Decreto n.º 6.214/2007, que regulamenta o BPC da assistência social devido à pessoa com deficiência e ao idoso.",
+   "enunciado": "Um dos critérios para o idoso habilitar-se à concessão do BPC é não possuir outro benefício da seguridade social, excetuados o de assistência médica e a pensão especial de natureza indenizatória.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-097",
+   "numero": 97,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-17",
+   "texto": null,
+   "comando": "Julgue os itens seguintes à luz do Decreto n.º 6.214/2007, que regulamenta o BPC da assistência social devido à pessoa com deficiência e ao idoso.",
+   "enunciado": "O valor a ser pago ao beneficiário do BPC é de um salário mínimo mensal.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-098",
+   "numero": 98,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-17",
+   "texto": null,
+   "comando": "Julgue os itens seguintes à luz do Decreto n.º 6.214/2007, que regulamenta o BPC da assistência social devido à pessoa com deficiência e ao idoso.",
+   "enunciado": "É permitido ao beneficiário do BPC acumular o recebimento desse benefício com o do seguro-desemprego.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-099",
+   "numero": 99,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-17",
+   "texto": null,
+   "comando": "Julgue os itens seguintes à luz do Decreto n.º 6.214/2007, que regulamenta o BPC da assistência social devido à pessoa com deficiência e ao idoso.",
+   "enunciado": "O BPC do idoso que se encontre na condição de acolhimento de longa permanência em hospital será suspenso até a data da sua alta.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-100",
+   "numero": 100,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-17",
+   "texto": null,
+   "comando": "Julgue os itens seguintes à luz do Decreto n.º 6.214/2007, que regulamenta o BPC da assistência social devido à pessoa com deficiência e ao idoso.",
+   "enunciado": "A idade mínima para que um indivíduo passe a ter direito ao BPC do idoso é de sessenta anos.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-101",
+   "numero": 101,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-17",
+   "texto": null,
+   "comando": "Julgue os itens seguintes à luz do Decreto n.º 6.214/2007, que regulamenta o BPC da assistência social devido à pessoa com deficiência e ao idoso.",
+   "enunciado": "No caso de morte do beneficiário do BPC, seus familiares são obrigados a informar tal fato ao INSS, situação em que o pagamento do benefício cessará.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-102",
+   "numero": 102,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-17",
+   "texto": null,
+   "comando": "Julgue os próximos itens com base na Lei n.º 8.742/1993, que dispõe sobre a organização da assistência social.",
+   "enunciado": "O centro de referência de assistência social (CRAS) é uma unidade de base estadual e tem por finalidade atender a população de baixa renda e as pessoas que estejam submetidas ao cumprimento de pena de reclusão.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-103",
+   "numero": 103,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-17",
+   "texto": null,
+   "comando": "Julgue os próximos itens com base na Lei n.º 8.742/1993, que dispõe sobre a organização da assistência social.",
+   "enunciado": "O centro de referência especializado de assistência social (CREAS) constitui unidade que presta serviços a indivíduos e famílias que se encontrem em situação de risco pessoal ou social decorrente de violação de direitos.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-104",
+   "numero": 104,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-17",
+   "texto": null,
+   "comando": "Julgue os próximos itens com base na Lei n.º 8.742/1993, que dispõe sobre a organização da assistência social.",
+   "enunciado": "A política de assistência social tem como objetivos, entre outros, a promoção da integração do cidadão ao mercado de trabalho e o amparo às crianças e aos adolescentes carentes.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-105",
+   "numero": 105,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-17",
+   "texto": null,
+   "comando": "Julgue os próximos itens com base na Lei n.º 8.742/1993, que dispõe sobre a organização da assistência social.",
+   "enunciado": "A assistência social organiza-se por meio de um conjunto de serviços e programas que são estratificados em ações de proteção social básica, ações de proteção social secundária e ações de proteção social terciária, sendo essa última direcionada para pessoas em situação de violência.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-106",
+   "numero": 106,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-17",
+   "texto": null,
+   "comando": "Em relação às instâncias deliberativas do SUAS, julgue os itens a seguir à luz da Lei n.º 8.742/1993.",
+   "enunciado": "Situação hipotética: O CNAS, por decisão da maioria simples de seus membros, aprovou a proposição, ao Ministério do Planejamento, Orçamento e Gestão, de alteração dos limites de repasse mensal dos benefícios previstos em lei. Assertiva: Nessa situação, a aprovação da proposição ocorreu em conformidade com o que estabelece a Lei n.º 8.742/1993.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-107",
+   "numero": 107,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-17",
+   "texto": null,
+   "comando": "Em relação às instâncias deliberativas do SUAS, julgue os itens a seguir à luz da Lei n.º 8.742/1993.",
+   "enunciado": "Os conselhos estaduais de assistência social e os conselhos municipais de assistência social, instâncias deliberativas do SUAS, têm caráter permanente e composição paritária entre governo e sociedade civil.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-108",
+   "numero": 108,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-17",
+   "texto": null,
+   "comando": "Em relação às instâncias deliberativas do SUAS, julgue os itens a seguir à luz da Lei n.º 8.742/1993.",
+   "enunciado": "O CNAS, instância responsável pela coordenação da PNAS, é presidido alternadamente pelo(a) ministro(a) da previdência social e por um representante eleito da sociedade civil, sendo de dois anos o mandato do seu presidente, permitida a recondução.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-109",
+   "numero": 109,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-17",
+   "texto": null,
+   "comando": "Em relação às instâncias deliberativas do SUAS, julgue os itens a seguir à luz da Lei n.º 8.742/1993.",
+   "enunciado": "O CNAS tem caráter paritário: metade dos seus membros são representantes governamentais e a outra metade é composta por representantes da sociedade civil.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-110",
+   "numero": 110,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-17",
+   "texto": null,
+   "comando": "Em relação às instâncias deliberativas do SUAS, julgue os itens a seguir à luz da Lei n.º 8.742/1993.",
+   "enunciado": "Compete ao CNAS aprovar a PNAS, assim como convocar, ordinariamente, a cada quatro anos, a conferência nacional de assistência social, que terá a atribuição de avaliar a situação da assistência social e propor diretrizes para o aperfeiçoamento do sistema.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-111",
+   "numero": 111,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-11",
+   "texto": null,
+   "comando": "Com base no disposto na Lei n.º 8.213/1991, que trata dos planos de benefícios da previdência social e dá outras providências, julgue os itens seguintes.",
+   "enunciado": "Não é considerada doença do trabalho a doença endêmica adquirida por segurado habitante de região em que ela se desenvolva, mesmo que essa doença seja resultante de contato direto determinado pela natureza do trabalho.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-112",
+   "numero": 112,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-11",
+   "texto": null,
+   "comando": "Com base no disposto na Lei n.º 8.213/1991, que trata dos planos de benefícios da previdência social e dá outras providências, julgue os itens seguintes.",
+   "enunciado": "Equipara-se ao acidente do trabalho o acidente sofrido pelo segurado, no local e no horário do trabalho, em consequência de desabamento, inundação, incêndio e outros casos fortuitos ou decorrentes de força maior.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-113",
+   "numero": 113,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-8",
+   "texto": null,
+   "comando": "Com base no disposto na Lei n.º 8.213/1991, que trata dos planos de benefícios da previdência social e dá outras providências, julgue os itens seguintes.",
+   "enunciado": "Em regra, o período de carência para a concessão do benefício de auxílio-doença é de doze contribuições mensais.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-114",
+   "numero": 114,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-1",
+   "texto": null,
+   "comando": "Com base no disposto na Lei n.º 8.213/1991, que trata dos planos de benefícios da previdência social e dá outras providências, julgue os itens seguintes.",
+   "enunciado": "Os princípios que regem a previdência social incluem a uniformidade e a equivalência dos benefícios e serviços prestados às populações urbanas e rurais.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-115",
+   "numero": 115,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-16",
+   "texto": null,
+   "comando": "Com base no disposto na Lei n.º 8.213/1991, que trata dos planos de benefícios da previdência social e dá outras providências, julgue os itens seguintes.",
+   "enunciado": "Compõem o Conselho Nacional de Previdência Social representantes do governo federal e da sociedade civil, a qual é representada por aposentados e pensionistas, trabalhadores em atividade e empregadores.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-116",
+   "numero": 116,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-4",
+   "texto": null,
+   "comando": "Com base no disposto no Decreto n.º 3.048/1999, que aprovou o regulamento da previdência social, julgue os itens subsecutivos.",
+   "enunciado": "A dona de casa e o estudante podem filiar-se facultativamente ao RGPS mediante contribuição, desde que não estejam exercendo atividade remunerada que os enquadre como segurados obrigatórios da previdência social.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-117",
+   "numero": 117,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-1",
+   "texto": null,
+   "comando": "Com base no disposto no Decreto n.º 3.048/1999, que aprovou o regulamento da previdência social, julgue os itens subsecutivos.",
+   "enunciado": "A universalidade da cobertura e do atendimento inclui-se entre os princípios que regem as ações dos poderes públicos e da sociedade destinadas a assegurar o direito relativo à saúde, à previdência e à assistência social.",
+   "gabarito": "C"
+  },
+  {
+   "id": "inss-2016-118",
+   "numero": 118,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-4",
+   "texto": null,
+   "comando": "Com base no disposto no Decreto n.º 3.048/1999, que aprovou o regulamento da previdência social, julgue os itens subsecutivos.",
+   "enunciado": "Aquele que presta serviço de natureza contínua, mediante remuneração, a pessoa ou família, no âmbito residencial desta, em atividade sem fins lucrativos, é considerado contribuinte individual, segurado obrigatório da previdência social.",
+   "gabarito": "E"
+  },
+  {
+   "id": "inss-2016-119",
+   "numero": 119,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-13",
+   "texto": "inss-2016-t7",
+   "comando": "Considerando essa situação hipotética, julgue os itens que se seguem, com base nos regramentos previdenciários acerca do auxílio-reclusão.",
+   "enunciado": "Como Valdemar é segurado de baixa renda da previdência social, ele e seus dependentes fazem jus ao recebimento do valor correspondente ao auxílio-reclusão, que é de um salário mínimo, a ser rateado entre eles.",
+   "gabarito": "E",
+   "observacao": "Gabarito pela lei da época. Hoje (Lei 13.846/2019 e EC 103/2019), o auxílio-reclusão exige carência de 24 contribuições, só cabe no regime fechado, a baixa renda é medida pela média dos 12 últimos salários de contribuição e o valor não pode passar de um salário mínimo. O item continua errado, porque o benefício é só dos dependentes."
+  },
+  {
+   "id": "inss-2016-120",
+   "numero": 120,
+   "materia": "seguridade-social",
+   "topico": "seguridade-social-14",
+   "texto": "inss-2016-t7",
+   "comando": "Considerando essa situação hipotética, julgue os itens que se seguem, com base nos regramentos previdenciários acerca do auxílio-reclusão.",
+   "enunciado": "Assim que terminar de cumprir a pena, Valdemar deixará de ser segurado da previdência social.",
+   "gabarito": "E"
+  }
+ ]
+}

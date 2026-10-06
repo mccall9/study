@@ -26,7 +26,7 @@ Este tópico trata de como o Brasil se formou como Estado e como seu território
 - Mar territorial de 12 milhas náuticas e zona econômica exclusiva de 200 milhas (Lei 8.617/1993). Mar territorial e recursos da zona econômica exclusiva são bens da União ([CF, art. 20, V e VI](/lei/cf#art20-v)). A Marinha chama essa área de "Amazônia Azul".
 - 26 Estados e o Distrito Federal. Não há Territórios Federais hoje, mas eles podem ser criados por lei complementar ([art. 18, § 2º](/lei/cf#art18-p2)).
 - Com a CF de 1988, criou-se o Tocantins (desmembrado de Goiás), Roraima e Amapá passaram de Territórios a Estados, e Fernando de Noronha foi reincorporado a Pernambuco.
-- Capitais: Salvador (período colonial), Rio de Janeiro (a partir de 1763) e Brasília (desde 1960).
+- Capitais: Salvador (até 1763), Rio de Janeiro (de 1763 a 1960) e Brasília (desde 1960).
 
 **Regionalizações**
 - **IBGE**: cinco macrorregiões (Norte, Nordeste, Centro-Oeste, Sudeste e Sul), que respeitam os limites estaduais e servem para estatística e planejamento.

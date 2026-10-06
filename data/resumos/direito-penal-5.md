@@ -27,8 +27,8 @@ Culpabilidade é o juízo de reprovação sobre quem praticou um fato típico e 
 
 **Coação irresistível e obediência hierárquica** ([art. 22](/lei/cp#art22)): só é punível o autor da coação ou da ordem.
 - A coação deve ser **moral** e **irresistível**. A coação **física** irresistível elimina a própria conduta (não há fato típico).
-- Se a coação era resistível ou a ordem vinha de superior, o executor responde, com atenuante ([art. 65, III, c](/lei/cp#art65-iii-c)).
-- A obediência pressupõe hierarquia de direito público e ordem **não manifestamente ilegal**. Ordem claramente ilegal: respondem superior e subordinado.
+- A obediência pressupõe hierarquia de direito público e ordem **não manifestamente ilegal**.
+- Se a coação era resistível ou a ordem era manifestamente ilegal, o executor também responde, mas com atenuante ([art. 65, III, c](/lei/cp#art65-iii-c)).
 
 ## Pegadinhas do Cebraspe
 
