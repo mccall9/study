@@ -1,12 +1,13 @@
-import { BookOpen, ExternalLink, FileText, ListChecks, Scale } from "lucide-react";
+import { BookOpen, ExternalLink, FileText, Highlighter, ListChecks, NotebookPen, Scale, Star } from "lucide-react";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ConcursoBadge } from "@/components/concurso-badge";
 import { ConcursoFiltro } from "@/components/concurso-filtro";
 import { PageHeader } from "@/components/page-header";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { materiasDoConcurso, parseConcurso } from "@/lib/edital";
-import { GRUPOS, LEIS_META } from "@/lib/leis-meta";
+import { getAnotacoes, getMarcacoes } from "@/lib/data";
+import { MATERIAS, materiasDoConcurso, parseConcurso } from "@/lib/edital";
+import { getLeiMeta, GRUPOS, LEIS_META } from "@/lib/leis-meta";
 import { REFERENCIAS } from "@/lib/materiais";
 import { PROVAS, QUESTOES, validas } from "@/lib/questoes";
 import { topicosComResumo } from "@/lib/resumos";
@@ -23,7 +24,23 @@ const OFICIAIS = [
 
 export default async function MateriaisPage({ searchParams }: { searchParams: Promise<{ concurso?: string }> }) {
   const concurso = parseConcurso((await searchParams).concurso);
-  const comResumo = await topicosComResumo();
+  const [comResumo, marcacoes, anotacoes] = await Promise.all([topicosComResumo(), getMarcacoes(), getAnotacoes()]);
+  const topicos = new Map(MATERIAS.flatMap((m) => m.topicos.map((t) => [t.id, t.titulo] as const)));
+  const topicosFavoritos = marcacoes
+    .filter((m) => m.tipo === "favorito" && m.alvo.startsWith("topico:"))
+    .map((m) => m.alvo.slice("topico:".length))
+    .filter((id) => topicos.has(id));
+  const topicosAnotados = [...anotacoes.keys()].filter((a) => a.startsWith("topico:")).map((a) => a.slice("topico:".length)).filter((id) => topicos.has(id));
+  const grifosPorLei = new Map<string, number>();
+  for (const m of marcacoes) {
+    if (m.tipo !== "destaque" || !m.alvo.startsWith("lei:")) continue;
+    const lei = m.alvo.split(":")[1];
+    grifosPorLei.set(lei, (grifosPorLei.get(lei) ?? 0) + 1);
+  }
+  const questoesFavoritas = marcacoes.filter((m) => m.tipo === "favorito" && m.alvo.startsWith("questao:")).length;
+  const idsAnotadas = [...anotacoes.keys()].filter((a) => a.startsWith("questao:")).map((a) => a.slice("questao:".length));
+  const questoesAnotadas = idsAnotadas.length;
+  const temPessoal = topicosFavoritos.length + topicosAnotados.length + grifosPorLei.size + questoesFavoritas + questoesAnotadas > 0;
   const porTopico = new Map<string, number>();
   for (const q of validas(QUESTOES)) if (q.topico) porTopico.set(q.topico, (porTopico.get(q.topico) ?? 0) + 1);
 
@@ -34,6 +51,67 @@ export default async function MateriaisPage({ searchParams }: { searchParams: Pr
       </PageHeader>
 
       <div className="space-y-4">
+        {temPessoal && (
+          <Card>
+            <CardHeader className="flex-row items-center gap-2">
+              <Star className="size-4 fill-amber-400 text-amber-500" />
+              <div>
+                <CardTitle>Meus favoritos e anotações</CardTitle>
+                <CardDescription>O que você marcou para voltar depois.</CardDescription>
+              </div>
+            </CardHeader>
+            <CardContent className="space-y-3 text-sm">
+              {[...new Set([...topicosFavoritos, ...topicosAnotados])].length > 0 && (
+                <ul className="space-y-1.5">
+                  {[...new Set([...topicosFavoritos, ...topicosAnotados])].map((id) => (
+                    <li key={id} className="flex items-center gap-2">
+                      {topicosFavoritos.includes(id) ? (
+                        <Star className="size-3.5 shrink-0 fill-amber-400 text-amber-500" />
+                      ) : (
+                        <NotebookPen className="size-3.5 shrink-0 text-muted-foreground" />
+                      )}
+                      <Link href={`/topico/${id}`} className="truncate hover:underline">
+                        {topicos.get(id)}
+                      </Link>
+                      {topicosAnotados.includes(id) && topicosFavoritos.includes(id) && (
+                        <NotebookPen className="size-3.5 shrink-0 text-muted-foreground" aria-label="com anotação" />
+                      )}
+                    </li>
+                  ))}
+                </ul>
+              )}
+              {grifosPorLei.size > 0 && (
+                <div className="flex flex-wrap gap-2">
+                  {[...grifosPorLei].map(([lei, n]) => (
+                    <Link
+                      key={lei}
+                      href={`/lei/${lei}?grifos=1`}
+                      className="inline-flex items-center gap-1.5 rounded-full border bg-amber-100/60 px-3 py-1.5 hover:bg-amber-100 dark:bg-amber-400/10"
+                    >
+                      <Highlighter className="size-3.5 text-amber-600" /> {getLeiMeta(lei)?.curto ?? lei} · {n}
+                    </Link>
+                  ))}
+                </div>
+              )}
+              {(questoesFavoritas > 0 || questoesAnotadas > 0) && (
+                <p className="text-muted-foreground">
+                  {questoesFavoritas > 0 && (
+                    <Link href="/questoes/treino?situacao=favoritas" className="text-primary hover:underline">
+                      {questoesFavoritas} {questoesFavoritas === 1 ? "questão favorita" : "questões favoritas"}
+                    </Link>
+                  )}
+                  {questoesFavoritas > 0 && questoesAnotadas > 0 && " · "}
+                  {questoesAnotadas > 0 && (
+                    <Link href={`/questoes/treino?ids=${idsAnotadas.join(",")}`} className="text-primary hover:underline">
+                      {questoesAnotadas} {questoesAnotadas === 1 ? "questão com anotação" : "questões com anotação"}
+                    </Link>
+                  )}
+                </p>
+              )}
+            </CardContent>
+          </Card>
+        )}
+
         <Card>
           <CardHeader className="flex-row items-center gap-2">
             <Scale className="size-4 text-primary" />

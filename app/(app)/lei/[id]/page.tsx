@@ -1,4 +1,4 @@
-import { ArrowLeft, ExternalLink, Search } from "lucide-react";
+import { ArrowLeft, ExternalLink, Highlighter, Search } from "lucide-react";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -7,11 +7,13 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/form";
 import { questoesPorArtigo } from "@/lib/comentarios";
+import { getMarcacoes } from "@/lib/data";
 import { carregarLei } from "@/lib/leis";
 import { artigosDaLei, buscar, normalizar, rotularAncora } from "@/lib/leis-logica";
 import { getLeiMeta } from "@/lib/leis-meta";
+import { idsMarcados } from "@/lib/marcacoes";
 
-type Props = { params: Promise<{ id: string }>; searchParams: Promise<{ q?: string }> };
+type Props = { params: Promise<{ id: string }>; searchParams: Promise<{ q?: string; grifos?: string }> };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return { title: getLeiMeta((await params).id)?.curto ?? "Lei" };
@@ -37,9 +39,11 @@ function Destacado({ texto, termo }: { texto: string; termo: string }) {
 
 export default async function LeiPage({ params, searchParams }: Props) {
   const { id } = await params;
-  const { q } = await searchParams;
-  const [lei, caiu] = await Promise.all([carregarLei(id), questoesPorArtigo(id)]);
+  const { q, grifos } = await searchParams;
+  const [lei, caiu, marcacoes] = await Promise.all([carregarLei(id), questoesPorArtigo(id), getMarcacoes(`lei:${id}:`)]);
   if (!lei) notFound();
+  const grifados = idsMarcados(marcacoes, "destaque", `lei:${id}:`);
+  const soGrifos = grifos === "1";
   const meta = getLeiMeta(id);
   const ids = new Set(artigosDaLei(lei).map((a) => a.id));
   const termo = q?.trim() ?? "";
@@ -63,6 +67,17 @@ export default async function LeiPage({ params, searchParams }: Props) {
             Ver no Planalto <ExternalLink className="size-3" />
           </a>
         </p>
+        {grifados.size > 0 && (
+          <p className="mt-2 text-sm">
+            <Link
+              href={soGrifos ? `/lei/${id}` : `/lei/${id}?grifos=1`}
+              className="inline-flex items-center gap-1.5 text-primary hover:underline"
+            >
+              <Highlighter className="size-4" />
+              {soGrifos ? "Ver a lei inteira" : `Só os meus grifos (${grifados.size})`}
+            </Link>
+          </p>
+        )}
       </div>
 
       <form className="mb-4 flex gap-2" action={`/lei/${id}`}>
@@ -114,20 +129,32 @@ export default async function LeiPage({ params, searchParams }: Props) {
               </nav>
             </details>
           )}
-          <Card className="px-4 sm:px-6">
-            <div className="divide-y [content-visibility:auto]">
-              {lei.blocos.map((b, i) =>
-                b.t === "h" ? (
-                  <div key={i} id={`h${i}`} className="scroll-mt-20 pt-5 pb-2 text-center">
-                    <p className="text-xs font-semibold tracking-wide text-muted-foreground uppercase">{b.x}</p>
-                    {b.s && <p className="text-sm font-semibold">{b.s}</p>}
-                  </div>
-                ) : (
-                  <ArtigoLei key={b.id} artigo={b} leiId={id} caiu={caiu.get(b.id)} />
-                ),
-              )}
-            </div>
-          </Card>
+          {soGrifos ? (
+            <Card className="px-4 sm:px-6">
+              <div className="divide-y">
+                {lei.blocos.map((b) =>
+                  b.t === "a" && grifados.has(b.id) ? (
+                    <ArtigoLei key={b.id} artigo={b} leiId={id} caiu={caiu.get(b.id)} grifado />
+                  ) : null,
+                )}
+              </div>
+            </Card>
+          ) : (
+            <Card className="px-4 sm:px-6">
+              <div className="divide-y [content-visibility:auto]">
+                {lei.blocos.map((b, i) =>
+                  b.t === "h" ? (
+                    <div key={i} id={`h${i}`} className="scroll-mt-20 pt-5 pb-2 text-center">
+                      <p className="text-xs font-semibold tracking-wide text-muted-foreground uppercase">{b.x}</p>
+                      {b.s && <p className="text-sm font-semibold">{b.s}</p>}
+                    </div>
+                  ) : (
+                    <ArtigoLei key={b.id} artigo={b} leiId={id} caiu={caiu.get(b.id)} grifado={grifados.has(b.id)} />
+                  ),
+                )}
+              </div>
+            </Card>
+          )}
         </>
       )}
     </>

@@ -1,8 +1,10 @@
 @import "tailwindcss";
 
-@custom-variant dark (@media (prefers-color-scheme: dark));
+/* Tema escolhido no app (components/tema.tsx): claro por padrão; escuro ou automático pelo botão. */
+@custom-variant dark (&:where([data-tema="escuro"], [data-tema="escuro"] *));
 
 :root {
+  color-scheme: light;
   --background: oklch(0.985 0.002 250);
   --foreground: oklch(0.2 0.02 260);
   --card: oklch(1 0 0);
@@ -24,22 +26,22 @@
   --radius: 0.75rem;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: oklch(0.16 0.015 262);
-    --foreground: oklch(0.95 0.005 260);
-    --card: oklch(0.2 0.018 262);
-    --card-foreground: var(--foreground);
-    --muted: oklch(0.25 0.018 262);
-    --muted-foreground: oklch(0.7 0.015 260);
-    --primary: oklch(0.68 0.15 262);
-    --primary-foreground: oklch(0.16 0.02 262);
-    --accent: oklch(0.28 0.05 262);
-    --accent-foreground: oklch(0.85 0.08 262);
-    --destructive: oklch(0.68 0.19 25);
-    --border: oklch(0.3 0.018 262);
-    --ring: oklch(0.68 0.15 262);
-  }
+/* Escuro em cinza neutro (sem o fundo azulado), com os controles nativos também escuros. */
+:root[data-tema="escuro"] {
+  color-scheme: dark;
+  --background: oklch(0.17 0.004 260);
+  --foreground: oklch(0.95 0.003 260);
+  --card: oklch(0.215 0.005 260);
+  --card-foreground: var(--foreground);
+  --muted: oklch(0.26 0.006 260);
+  --muted-foreground: oklch(0.72 0.008 260);
+  --primary: oklch(0.7 0.14 262);
+  --primary-foreground: oklch(0.17 0.01 262);
+  --accent: oklch(0.29 0.03 262);
+  --accent-foreground: oklch(0.87 0.06 262);
+  --destructive: oklch(0.68 0.19 25);
+  --border: oklch(0.32 0.006 260);
+  --ring: oklch(0.7 0.14 262);
 }
 
 @theme inline {
@@ -76,4 +78,24 @@
     @apply bg-background text-foreground antialiased;
     -webkit-tap-highlight-color: transparent;
   }
+}
+
+/* Treino de questões: no celular, os botões de resposta ficam no lugar da navegação inferior;
+   no computador, o modo foco esconde a barra lateral. (Atributos postos por components/modo-foco.tsx.) */
+html[data-treino] .nav-inferior {
+  display: none;
+}
+@media (width >= 48rem) {
+  html[data-foco] .nav-lateral {
+    display: none;
+  }
+  html[data-foco] .layout-app {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+/* Lista aberta dos selects nativos com as cores do tema (onde o navegador permite). */
+select option {
+  background-color: var(--card);
+  color: var(--foreground);
 }

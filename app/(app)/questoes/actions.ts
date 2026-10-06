@@ -1,6 +1,7 @@
 "use server";
 
 import { getComentario, type Comentario } from "@/lib/comentarios";
+import { isConfianca, type Confianca } from "@/lib/confianca";
 import { getProva, QUESTOES_POR_ID, validas } from "@/lib/questoes";
 import { corrigir, resumo, type Gabarito, type RespostaValor } from "@/lib/questoes-logica";
 import { createClient, MODO_DEMO } from "@/lib/supabase/server";
@@ -21,7 +22,11 @@ export type Correcao = {
 };
 
 /** Corrige e registra a resposta de um item no modo treino. */
-export async function responder(questaoId: string, resposta: RespostaValor): Promise<Correcao | { erro: string }> {
+export async function responder(
+  questaoId: string,
+  resposta: RespostaValor,
+  confianca: Confianca | null = null,
+): Promise<Correcao | { erro: string }> {
   const questao = QUESTOES_POR_ID.get(questaoId);
   if (!questao || questao.gabarito === "X") return { erro: "Questão não encontrada." };
   if (!isResposta(resposta)) return { erro: "Resposta inválida." };
@@ -36,7 +41,13 @@ export async function responder(questaoId: string, resposta: RespostaValor): Pro
   if (MODO_DEMO) return { ...correcao, aviso: AVISO_DEMO };
 
   const supabase = await createClient();
-  const { error } = await supabase.from("respostas").insert({ questao_id: questaoId, resposta, correta });
+  const { error } = await supabase.from("respostas").insert({
+    questao_id: questaoId,
+    resposta,
+    correta,
+    // O nível de confiança só faz sentido quando a usuária marcou C ou E.
+    confianca: resposta !== "B" && isConfianca(confianca) ? confianca : null,
+  });
   // Sem revalidatePath: as páginas são dinâmicas e buscam os dados de novo ao navegar, e
   // recarregar aqui mudaria a lista do treino no meio da sessão.
   if (error) return { ...correcao, erro: "A resposta foi corrigida, mas não foi salva. Tente de novo." };

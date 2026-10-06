@@ -8,11 +8,13 @@ import { Markdown } from "@/components/markdown";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { questoesPorArtigo } from "@/lib/comentarios";
-import { getProgresso, getRespostas } from "@/lib/data";
+import { Anotacao, BotaoMarcacao } from "@/components/marcacao";
+import { getAnotacoes, getMarcacoes, getProgresso, getRespostas } from "@/lib/data";
 import { MATERIAS } from "@/lib/edital";
 import { carregarLei } from "@/lib/leis";
 import { filtrarDispositivos, resolverArtigos, type Artigo } from "@/lib/leis-logica";
 import { getLeiMeta } from "@/lib/leis-meta";
+import { alvoArtigo, alvoTopico } from "@/lib/marcacoes";
 import { LIMITE_ARTIGOS_NA_PAGINA, REFERENCIAS } from "@/lib/materiais";
 import { QUESTOES, validas } from "@/lib/questoes";
 import { resumo, ultimaPorQuestao } from "@/lib/questoes-logica";
@@ -43,7 +45,15 @@ export default async function TopicoPage({ params }: Props) {
   if (!achado) notFound();
   const { materia, topico, indice } = achado;
 
-  const [progresso, respostas, textoResumo] = await Promise.all([getProgresso(), getRespostas(), getResumo(topico.id)]);
+  const alvo = alvoTopico(topico.id);
+  const [progresso, respostas, textoResumo, marcacoes, anotacoes] = await Promise.all([
+    getProgresso(),
+    getRespostas(),
+    getResumo(topico.id),
+    getMarcacoes(),
+    getAnotacoes(alvo),
+  ]);
+  const marcado = (a: string, tipo: "favorito" | "destaque") => marcacoes.some((m) => m.alvo === a && m.tipo === tipo);
   const questoes = validas(QUESTOES).filter((q) => q.topico === topico.id);
   const ids = new Set(questoes.map((q) => q.id));
   const doTopico = respostas.filter((r) => ids.has(r.questao_id));
@@ -83,6 +93,8 @@ export default async function TopicoPage({ params }: Props) {
         </div>
         <div className="flex flex-wrap items-center gap-2">
           <StatusTopico topicoId={topico.id} status={progresso[topico.id] ?? "nao_iniciado"} />
+          <BotaoMarcacao alvo={alvo} tipo="favorito" inicial={marcado(alvo, "favorito")} />
+          <Anotacao alvo={alvo} inicial={anotacoes.get(alvo) ?? ""} placeholder="Dúvidas, macetes, o que revisar neste tópico…" />
           <Button asChild size="sm" variant="secondary">
             <Link href={`/estudar?materia=${materia.slug}`}>
               <Play /> Estudar com cronômetro
@@ -152,7 +164,14 @@ export default async function TopicoPage({ params }: Props) {
                 ) : (
                   <div className="divide-y">
                     {r.artigos.map((a) => (
-                      <ArtigoLei key={a.id} artigo={a} leiId={r.ref.lei} caiu={r.caiu.get(a.id)} compacto />
+                      <ArtigoLei
+                        key={a.id}
+                        artigo={a}
+                        leiId={r.ref.lei}
+                        caiu={r.caiu.get(a.id)}
+                        compacto
+                        grifado={marcado(alvoArtigo(r.ref.lei, a.id), "destaque")}
+                      />
                     ))}
                     {r.ref.dispositivos && (
                       <Link href={`/lei/${r.ref.lei}#${r.artigos[0].id}`} className="block pt-3 text-sm text-primary hover:underline">

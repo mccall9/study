@@ -8,6 +8,7 @@ import { Progress } from "@/components/ui/form";
 import { getMetaHoras, getProgresso, getRespostas, getSessoes } from "@/lib/data";
 import { CONCURSOS, getMateria, MATERIAS } from "@/lib/edital";
 import { cadernoDeErros, resumo } from "@/lib/questoes-logica";
+import { agendaDeRevisao, revisoesDoDia } from "@/lib/revisao";
 import {
   diaLocal,
   inicioDaSemana,
@@ -61,6 +62,7 @@ export default async function PainelPage() {
   const segunda = inicioDaSemana(diaLocal(agora));
   const questoesSemana = resumo(respostas.filter((r) => diaLocal(r.respondida_em) >= segunda));
   const noCaderno = cadernoDeErros(respostas).size;
+  const revisoesHoje = revisoesDoDia(agendaDeRevisao(respostas), agora).length;
 
   return (
     <>
@@ -138,14 +140,28 @@ export default async function PainelPage() {
                 </span>
               )}
             </p>
-            <p className="text-sm text-muted-foreground">
-              {noCaderno > 0
-                ? `${noCaderno} ${noCaderno === 1 ? "questão" : "questões"} no caderno de erros.`
-                : "Provas oficiais da PRF e do INSS."}
-            </p>
-            <Button asChild size="sm" variant="secondary">
-              <Link href="/questoes">Resolver questões</Link>
-            </Button>
+            {revisoesHoje > 0 ? (
+              <p className="flex items-center gap-1.5 text-sm font-medium">
+                <CalendarClock className="size-4 text-primary" />
+                {revisoesHoje} {revisoesHoje === 1 ? "revisão" : "revisões"} para hoje
+              </p>
+            ) : (
+              <p className="text-sm text-muted-foreground">
+                {noCaderno > 0
+                  ? `${noCaderno} ${noCaderno === 1 ? "questão" : "questões"} no caderno de erros.`
+                  : "Provas oficiais da PRF e do INSS."}
+              </p>
+            )}
+            <div className="flex flex-wrap gap-2">
+              {revisoesHoje > 0 && (
+                <Button asChild size="sm">
+                  <Link href="/questoes/treino?situacao=revisao">Revisar agora</Link>
+                </Button>
+              )}
+              <Button asChild size="sm" variant="secondary">
+                <Link href="/questoes">Resolver questões</Link>
+              </Button>
+            </div>
           </CardContent>
         </Card>
       </div>
