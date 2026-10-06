@@ -4,6 +4,7 @@ import { getComentario, type Comentario } from "@/lib/comentarios";
 import { isConfianca, type Confianca } from "@/lib/confianca";
 import { getProva, QUESTOES_POR_ID, validas } from "@/lib/questoes";
 import { corrigir, resumo, type Gabarito, type RespostaValor } from "@/lib/questoes-logica";
+import { SIMULADO_PERSONALIZADO } from "@/lib/simulado";
 import { createClient, MODO_DEMO } from "@/lib/supabase/server";
 
 const AVISO_DEMO = "Modo demonstração: a resposta foi corrigida, mas não foi salva.";
@@ -72,14 +73,21 @@ export async function finalizarSimulado(
   provaId: string,
   marcadas: Record<string, RespostaValor>,
   iniciadoEm: string,
+  /** Simulado personalizado (provaId "personalizado"): as questões sorteadas. */
+  ids?: string[],
 ): Promise<ResultadoSimulado | { erro: string }> {
-  const prova = getProva(provaId);
-  if (!prova) return { erro: "Prova não encontrada." };
+  const questoes =
+    provaId === SIMULADO_PERSONALIZADO
+      ? (ids ?? [])
+          .slice(0, 300)
+          .map((id) => QUESTOES_POR_ID.get(id))
+          .filter((q): q is NonNullable<typeof q> => !!q && q.gabarito !== "X")
+      : validas(getProva(provaId)?.questoes ?? []);
+  if (questoes.length === 0) return { erro: "Prova não encontrada." };
   const inicio = Date.parse(iniciadoEm);
   if (Number.isNaN(inicio)) return { erro: "Data de início inválida." };
   const duracaoSeg = Math.max(0, Math.round((Date.now() - inicio) / 1000));
 
-  const questoes = validas(prova.questoes);
   const correcao: ResultadoSimulado["correcao"] = {};
   for (const q of questoes) {
     const resposta = isResposta(marcadas[q.id]) ? marcadas[q.id] : "B";

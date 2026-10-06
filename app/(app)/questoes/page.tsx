@@ -15,6 +15,7 @@ import { idsMarcados } from "@/lib/marcacoes";
 import { agendaDeRevisao, proximasRevisoes, revisoesDoDia } from "@/lib/revisao";
 import { formatarDuracao } from "@/lib/stats";
 import { FiltroTreino } from "./filtro-treino";
+import { MontarSimulado } from "./montar-simulado";
 
 export const metadata: Metadata = { title: "Questões" };
 
@@ -36,9 +37,12 @@ export default async function QuestoesPage() {
 
   const porMateria: Record<string, number> = {};
   const porTopico: Record<string, number> = {};
+  const porMateriaConcurso: Record<string, Partial<Record<"PRF" | "INSS", number>>> = {};
   for (const q of banco) {
     porMateria[q.materia] = (porMateria[q.materia] ?? 0) + 1;
     if (q.topico) porTopico[q.topico] = (porTopico[q.topico] ?? 0) + 1;
+    const c = (porMateriaConcurso[q.materia] ??= {});
+    c[q.concurso] = (c[q.concurso] ?? 0) + 1;
   }
 
   return (
@@ -168,6 +172,14 @@ export default async function QuestoesPage() {
               </div>
             ))}
           </div>
+          <details className="rounded-lg border">
+            <summary className="cursor-pointer px-3 py-2.5 text-sm font-medium select-none">
+              Montar simulado personalizado (escolha matérias, quantidade e tempo)
+            </summary>
+            <div className="border-t p-3">
+              <MontarSimulado contagem={porMateriaConcurso} />
+            </div>
+          </details>
           {simulados.length > 0 && (
             <div>
               <p className="mb-2 flex items-center gap-1.5 text-sm font-medium">
@@ -177,7 +189,8 @@ export default async function QuestoesPage() {
                 {simulados.map((s) => (
                   <div key={s.id} className="flex items-center justify-between gap-3 px-3 py-2">
                     <span className="min-w-0 truncate">
-                      {DATA.format(new Date(s.finalizado_em))} · {getProva(s.prova_id)?.nome.split(" · ")[0] ?? s.prova_id}
+                      {DATA.format(new Date(s.finalizado_em))} ·{" "}
+                      {s.prova_id === "personalizado" ? "Personalizado" : (getProva(s.prova_id)?.nome.split(" · ")[0] ?? s.prova_id)}
                     </span>
                     <span className="shrink-0 tabular-nums text-muted-foreground">
                       <span className="text-status-questoes">{s.certas}✓</span>{" "}
@@ -240,7 +253,12 @@ export default async function QuestoesPage() {
       {desempenho.length > 0 && (
         <Card className="mt-4">
           <CardHeader>
-            <CardTitle>Desempenho por matéria</CardTitle>
+            <div className="flex flex-wrap items-center justify-between gap-2">
+              <CardTitle>Desempenho por matéria</CardTitle>
+              <Button asChild size="sm" variant="ghost">
+                <Link href="/questoes/desempenho">Semanas e tópicos →</Link>
+              </Button>
+            </div>
             <CardDescription>Todas as respostas, do treino e dos simulados.</CardDescription>
           </CardHeader>
           <CardContent>
