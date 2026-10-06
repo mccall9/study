@@ -1,5 +1,7 @@
 import Link from "next/link";
+import { Grifavel } from "@/components/grifavel";
 import type { Artigo, Dispositivo } from "@/lib/leis-logica";
+import { alvoArtigo } from "@/lib/marcacoes";
 import { cn } from "@/lib/utils";
 
 /** Recuo do dispositivo pelo tipo: caput e §, inciso, alínea. */
@@ -19,14 +21,17 @@ export function ArtigoLei({
   caiu = [],
   destaque,
   compacto = false,
+  grifado,
 }: {
   artigo: Artigo;
   leiId: string;
   caiu?: QuestaoQueCaiu[];
   destaque?: string;
   compacto?: boolean;
+  /** Se informado, mostra o botão de grifar (true = já grifado pela usuária). */
+  grifado?: boolean;
 }) {
-  return (
+  const conteudo = (
     <article id={artigo.id} className="scroll-mt-20 space-y-1.5 py-3">
       {artigo.rotulo && <p className="text-sm font-semibold">{artigo.rotulo}</p>}
       {artigo.d.map((d, i) => (
@@ -56,5 +61,11 @@ export function ArtigoLei({
         </p>
       )}
     </article>
+  );
+  if (grifado === undefined) return conteudo;
+  return (
+    <Grifavel alvo={alvoArtigo(leiId, artigo.id)} inicial={grifado}>
+      {conteudo}
+    </Grifavel>
   );
 }

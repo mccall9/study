@@ -1,4 +1,4 @@
-import { BookX, FileCheck2, Target, Trophy } from "lucide-react";
+import { BookX, CalendarClock, FileCheck2, Gauge, Star, Target, Trophy } from "lucide-react";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ConcursoBadge } from "@/components/concurso-badge";
@@ -6,10 +6,13 @@ import { PageHeader } from "@/components/page-header";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Progress } from "@/components/ui/form";
-import { getRespostas, getSimulados } from "@/lib/data";
+import { CONFIANCA_LABEL, desempenhoPorConfianca } from "@/lib/confianca";
+import { getMarcacoes, getRespostas, getSimulados } from "@/lib/data";
 import { getMateria } from "@/lib/edital";
 import { getProva, PROVAS, QUESTOES, QUESTOES_POR_ID, validas } from "@/lib/questoes";
 import { cadernoDeErros, desempenhoPorMateria, resumo, ultimaPorQuestao } from "@/lib/questoes-logica";
+import { idsMarcados } from "@/lib/marcacoes";
+import { agendaDeRevisao, proximasRevisoes, revisoesDoDia } from "@/lib/revisao";
 import { formatarDuracao } from "@/lib/stats";
 import { FiltroTreino } from "./filtro-treino";
 
@@ -18,12 +21,18 @@ export const metadata: Metadata = { title: "Questões" };
 const DATA = new Intl.DateTimeFormat("pt-BR", { day: "2-digit", month: "2-digit", timeZone: "America/Sao_Paulo" });
 
 export default async function QuestoesPage() {
-  const [respostas, simulados] = await Promise.all([getRespostas(), getSimulados()]);
+  const [respostas, simulados, marcacoes] = await Promise.all([getRespostas(), getSimulados(), getMarcacoes("questao:")]);
   const banco = validas(QUESTOES);
   const feitas = ultimaPorQuestao(respostas).size;
   const geral = resumo(respostas);
   const caderno = cadernoDeErros(respostas).size;
   const desempenho = desempenhoPorMateria(respostas, QUESTOES_POR_ID);
+  const agora = new Date();
+  const agenda = agendaDeRevisao(respostas);
+  const revisoesHoje = revisoesDoDia(agenda, agora).length;
+  const amanha = proximasRevisoes(agenda, agora, 1)[0].total;
+  const favoritas = idsMarcados(marcacoes, "favorito", "questao:").size;
+  const porConfianca = desempenhoPorConfianca(respostas);
 
   const porMateria: Record<string, number> = {};
   const porTopico: Record<string, number> = {};
@@ -39,7 +48,7 @@ export default async function QuestoesPage() {
         description={`${banco.length} itens oficiais do Cebraspe: ${PROVAS.map((p) => p.nome.split(" · ")[0]).join(" e ")}.`}
       />
 
-      <div className="grid gap-4 sm:grid-cols-3">
+      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         <Card>
           <CardHeader className="flex-row items-center justify-between">
             <CardDescription>Já feitas</CardDescription>
@@ -61,7 +70,8 @@ export default async function QuestoesPage() {
           <CardContent>
             <p className="text-3xl font-bold tabular-nums">{geral.aproveitamento}%</p>
             <p className="mt-2 text-sm text-muted-foreground tabular-nums">
-              {geral.certas} certas · {geral.erradas} erradas · {geral.brancos} em branco
+              {geral.certas} {geral.certas === 1 ? "certa" : "certas"} · {geral.erradas} {geral.erradas === 1 ? "errada" : "erradas"} ·{" "}
+              {geral.brancos} em branco
             </p>
           </CardContent>
         </Card>
@@ -91,7 +101,38 @@ export default async function QuestoesPage() {
             )}
           </CardContent>
         </Card>
+        <Card>
+          <CardHeader className="flex-row items-center justify-between">
+            <CardDescription>Revisões de hoje</CardDescription>
+            <CalendarClock className="size-4 text-muted-foreground" />
+          </CardHeader>
+          <CardContent className="space-y-2">
+            <p className="text-3xl font-bold tabular-nums">
+              {revisoesHoje}
+              <span className="ml-1 text-base font-normal text-muted-foreground">
+                {revisoesHoje === 1 ? "questão" : "questões"}
+              </span>
+            </p>
+            {revisoesHoje > 0 ? (
+              <Button asChild size="sm">
+                <Link href="/questoes/treino?situacao=revisao">Revisar agora</Link>
+              </Button>
+            ) : (
+              <p className="text-sm text-muted-foreground">
+                {amanha > 0 ? `Amanhã: ${amanha} ${amanha === 1 ? "questão" : "questões"}.` : "Os erros voltam em 1, 3, 7, 15 e 30 dias."}
+              </p>
+            )}
+          </CardContent>
+        </Card>
       </div>
+
+      {favoritas > 0 && (
+        <p className="mt-3 text-sm">
+          <Link href="/questoes/treino?situacao=favoritas" className="inline-flex items-center gap-1.5 text-primary hover:underline">
+            <Star className="size-4 fill-amber-400 text-amber-500" /> Treinar as favoritas ({favoritas})
+          </Link>
+        </p>
+      )}
 
       <Card className="mt-4">
         <CardHeader>
@@ -150,6 +191,51 @@ export default async function QuestoesPage() {
           )}
         </CardContent>
       </Card>
+
+      {porConfianca.length > 0 && (
+        <Card className="mt-4">
+          <CardHeader>
+            <div className="flex items-center gap-2">
+              <Gauge className="size-4 text-primary" />
+              <CardTitle>Quando arriscar</CardTitle>
+            </div>
+            <CardDescription>
+              No Cebraspe, cada erro anula um acerto: só compensa marcar quando você acerta mais da metade das vezes.
+            </CardDescription>
+          </CardHeader>
+          <CardContent>
+            <ul className="divide-y text-sm">
+              {porConfianca.map((c) => (
+                <li key={c.confianca} className="flex flex-wrap items-center justify-between gap-x-3 gap-y-1 py-2">
+                  <span className="font-medium">{CONFIANCA_LABEL[c.confianca]}</span>
+                  <span className="text-muted-foreground tabular-nums">
+                    {c.acerto}% de acerto em {c.certas + c.erradas} · saldo {c.saldo > 0 ? "+" : ""}
+                    {c.saldo.toLocaleString("pt-BR")} por item
+                  </span>
+                  <span
+                    className={
+                      c.vale === "marcar"
+                        ? "w-full text-xs text-status-questoes"
+                        : c.vale === "branco"
+                          ? "w-full text-xs text-destructive"
+                          : "w-full text-xs text-muted-foreground"
+                    }
+                  >
+                    {c.vale === "marcar"
+                      ? "Vale marcar."
+                      : c.vale === "branco"
+                        ? "Melhor deixar em branco quando estiver assim."
+                        : "Empate: marcar ou deixar em branco dá no mesmo."}
+                  </span>
+                </li>
+              ))}
+            </ul>
+            <p className="mt-2 text-xs text-muted-foreground">
+              Conta só as respostas em que você escolheu o nível de confiança no treino.
+            </p>
+          </CardContent>
+        </Card>
+      )}
 
       {desempenho.length > 0 && (
         <Card className="mt-4">

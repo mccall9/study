@@ -52,7 +52,7 @@ export function SideNav() {
 export function BottomNav() {
   const pathname = usePathname();
   return (
-    <nav className="fixed inset-x-0 bottom-0 z-20 border-t bg-card/95 pb-[env(safe-area-inset-bottom)] backdrop-blur md:hidden">
+    <nav className="nav-inferior fixed inset-x-0 bottom-0 z-20 border-t bg-card/95 pb-[env(safe-area-inset-bottom)] backdrop-blur md:hidden">
       <div className="grid grid-cols-5">
         {LINKS_CELULAR.map(({ href, label, icon: Icon }) => (
           <Link

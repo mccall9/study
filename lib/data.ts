@@ -1,5 +1,7 @@
 import "server-only";
+import { isConfianca } from "./confianca";
 import { MATERIAS } from "./edital";
+import { isTipoMarcacao, type Marcacao } from "./marcacoes";
 import { QUESTOES, validas } from "./questoes";
 import type { Resposta, RespostaValor } from "./questoes-logica";
 import { createClient, MODO_DEMO } from "./supabase/server";
@@ -52,10 +54,32 @@ export async function getRespostas(): Promise<Resposta[]> {
   const supabase = await createClient();
   const { data, error } = await supabase
     .from("respostas")
-    .select("questao_id, resposta, correta, respondida_em, simulado_id")
+    .select("questao_id, resposta, correta, respondida_em, simulado_id, confianca")
     .order("respondida_em", { ascending: false });
   if (error) throw error;
-  return data as Resposta[];
+  return data.map((r) => ({ ...r, confianca: isConfianca(r.confianca) ? r.confianca : null })) as Resposta[];
+}
+
+/** Favoritos, destaques e reportes da usuária. `prefixo` filtra o alvo (ex.: "lei:cf:"). */
+export async function getMarcacoes(prefixo?: string): Promise<Marcacao[]> {
+  if (MODO_DEMO) return [];
+  const supabase = await createClient();
+  let consulta = supabase.from("marcacoes").select("alvo, tipo");
+  if (prefixo) consulta = consulta.like("alvo", `${prefixo}%`);
+  const { data, error } = await consulta;
+  if (error) throw error;
+  return data.filter((m): m is Marcacao => isTipoMarcacao(m.tipo));
+}
+
+/** Anotações da usuária por alvo. `prefixo` filtra o alvo (ex.: "questao:"). */
+export async function getAnotacoes(prefixo?: string): Promise<Map<string, string>> {
+  if (MODO_DEMO) return new Map();
+  const supabase = await createClient();
+  let consulta = supabase.from("anotacoes").select("alvo, texto");
+  if (prefixo) consulta = consulta.like("alvo", `${prefixo}%`);
+  const { data, error } = await consulta;
+  if (error) throw error;
+  return new Map(data.map((a) => [a.alvo, a.texto]));
 }
 
 export type SimuladoFeito = {
@@ -95,6 +119,7 @@ function respostasDemo(): Resposta[] {
         correta: resposta === "B" ? null : resposta === q.gabarito,
         respondida_em: new Date(agora - i * 3_600_000).toISOString(),
         simulado_id: null,
+        confianca: (["certeza", "duvida", "chute"] as const)[i % 3],
       };
     });
 }

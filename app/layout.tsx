@@ -9,23 +9,16 @@ export const metadata: Metadata = {
   robots: { index: false, follow: false },
 };
 
-export const viewport: Viewport = {
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#fbfcfd" },
-    { media: "(prefers-color-scheme: dark)", color: "#14161f" },
-  ],
-};
+export const viewport: Viewport = { themeColor: "#fbfcfd" };
+
+// Antes de pintar a página: tamanho de letra e tema salvos (evita o texto "pular" e a tela piscar).
+const PREFERENCIAS = `try{var d=document.documentElement,f=localStorage.getItem("estudos:fonte");if(f)d.style.fontSize=f+"%";var t=localStorage.getItem("estudos:tema")||"claro";var e=t==="escuro"||(t==="auto"&&matchMedia("(prefers-color-scheme: dark)").matches);d.dataset.tema=e?"escuro":"claro";var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=e?"#1a1b1f":"#fbfcfd"}catch(x){}`;
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="pt-BR" suppressHydrationWarning>
+    <html lang="pt-BR" data-tema="claro" suppressHydrationWarning>
       <head>
-        {/* Aplica o tamanho de letra salvo antes de pintar a página (evita o texto "pular"). */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `try{var f=localStorage.getItem("estudos:fonte");if(f)document.documentElement.style.fontSize=f+"%"}catch(e){}`,
-          }}
-        />
+        <script dangerouslySetInnerHTML={{ __html: PREFERENCIAS }} />
       </head>
       <body>{children}</body>
     </html>

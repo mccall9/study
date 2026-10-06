@@ -2,6 +2,7 @@ import { GraduationCap, LogOut } from "lucide-react";
 import { sair } from "@/app/actions";
 import { BottomNav, SideNav } from "@/components/nav";
 import { TamanhoLetra } from "@/components/tamanho-letra";
+import { BotaoTema } from "@/components/tema";
 import { Button } from "@/components/ui/button";
 import { getUsuario } from "@/lib/data";
 import { MODO_DEMO } from "@/lib/supabase/server";
@@ -11,8 +12,8 @@ export const dynamic = "force-dynamic";
 export default async function AppLayout({ children }: { children: React.ReactNode }) {
   const usuario = await getUsuario();
   return (
-    <div className="min-h-dvh md:grid md:grid-cols-[220px_1fr]">
-      <aside className="sticky top-0 hidden h-dvh flex-col gap-6 border-r bg-card p-4 md:flex">
+    <div className="layout-app min-h-dvh md:grid md:grid-cols-[220px_1fr]">
+      <aside className="nav-lateral sticky top-0 hidden h-dvh flex-col gap-6 border-r bg-card p-4 md:flex">
         <div className="flex items-center gap-2 px-2 pt-1 font-semibold">
           <GraduationCap className="size-5 text-primary" />
           Estudos
@@ -22,6 +23,10 @@ export default async function AppLayout({ children }: { children: React.ReactNod
           <div className="flex items-center justify-between">
             <span>Tamanho da letra</span>
             <TamanhoLetra />
+          </div>
+          <div className="flex items-center justify-between">
+            <span>Tema</span>
+            <BotaoTema />
           </div>
           <p className="truncate">{usuario?.email}</p>
           <form action={sair}>
@@ -39,6 +44,7 @@ export default async function AppLayout({ children }: { children: React.ReactNod
             Estudos
           </div>
           <div className="flex items-center gap-1">
+            <BotaoTema />
             <TamanhoLetra />
             <form action={sair}>
               <Button variant="ghost" size="icon" aria-label="Sair">

@@ -1,6 +1,8 @@
 // Regras das questões, sem acesso a banco: dá para usar no servidor, no cliente e nos testes.
 
+import type { Confianca } from "./confianca";
 import type { Concurso } from "./edital";
+import { agendaDeRevisao, revisoesDoDia } from "./revisao";
 
 export type Gabarito = "C" | "E" | "X"; // X = item anulado
 export type RespostaValor = "C" | "E" | "B"; // B = deixou em branco
@@ -28,9 +30,10 @@ export type Resposta = {
   correta: boolean | null;
   respondida_em: string;
   simulado_id: string | null;
+  confianca?: Confianca | null;
 };
 
-export type Situacao = "todas" | "nao_respondidas" | "erros";
+export type Situacao = "todas" | "nao_respondidas" | "erros" | "revisao" | "favoritas";
 
 export type Filtro = {
   concurso: Concurso | null;
@@ -114,9 +117,21 @@ export function cadernoDeErros(respostas: Resposta[]): Set<string> {
   return ids;
 }
 
-export function filtrar(questoes: Questao[], filtro: Filtro, respostas: Resposta[]): Questao[] {
+export function filtrar(
+  questoes: Questao[],
+  filtro: Filtro,
+  respostas: Resposta[],
+  { favoritas = new Set<string>(), agora = new Date() }: { favoritas?: Set<string>; agora?: Date } = {},
+): Questao[] {
   const ultima = ultimaPorQuestao(respostas);
-  const erros = filtro.situacao === "erros" ? cadernoDeErros(respostas) : null;
+  const so: Set<string> | null =
+    filtro.situacao === "erros"
+      ? cadernoDeErros(respostas)
+      : filtro.situacao === "revisao"
+        ? new Set(revisoesDoDia(agendaDeRevisao(respostas), agora).map((r) => r.questao_id))
+        : filtro.situacao === "favoritas"
+          ? favoritas
+          : null;
   return questoes.filter(
     (q) =>
       q.gabarito !== "X" &&
@@ -124,7 +139,7 @@ export function filtrar(questoes: Questao[], filtro: Filtro, respostas: Resposta
       (!filtro.materia || q.materia === filtro.materia) &&
       (!filtro.topico || q.topico === filtro.topico) &&
       (filtro.situacao !== "nao_respondidas" || !ultima.has(q.id)) &&
-      (!erros || erros.has(q.id)),
+      (!so || so.has(q.id)),
   );
 }
 
@@ -148,5 +163,5 @@ export function separarAssertiva(enunciado: string): { situacao: string | null; 
 }
 
 export function parseSituacao(valor: string | undefined | null): Situacao {
-  return valor === "nao_respondidas" || valor === "erros" ? valor : "todas";
+  return valor === "nao_respondidas" || valor === "erros" || valor === "revisao" || valor === "favoritas" ? valor : "todas";
 }

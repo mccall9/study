@@ -83,6 +83,12 @@ describe("caderno de erros", () => {
     expect(filtrar(questoes, { ...base, situacao: "erros" }, respostas).map((q) => q.id)).toEqual(["b", "c"]);
     expect(filtrar(questoes, { ...base, concurso: "PRF", situacao: "erros" }, respostas).map((q) => q.id)).toEqual(["c"]);
     expect(filtrar(questoes, { ...base, materia: "fisica", situacao: "todas" }, respostas).map((q) => q.id)).toEqual(["c"]);
+    // Revisão em 04/10: "b" errada em 03/10 vence hoje; "c" (branco em 01/10) está atrasada;
+    // "a" foi acertada na revisão de 02/10 e só volta em 05/10.
+    const agora = new Date("2026-10-04T15:00:00Z");
+    expect(filtrar(questoes, { ...base, situacao: "revisao" }, respostas, { agora }).map((q) => q.id)).toEqual(["b", "c"]);
+    const favoritas = new Set(["a", "d", "x"]);
+    expect(filtrar(questoes, { ...base, situacao: "favoritas" }, respostas, { favoritas }).map((q) => q.id)).toEqual(["a", "d"]);
   });
 
   it("agrupa o desempenho por matéria", () => {

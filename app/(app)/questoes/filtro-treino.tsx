@@ -13,6 +13,14 @@ const SITUACOES: { valor: Situacao; rotulo: string }[] = [
   { valor: "todas", rotulo: "Todas" },
   { valor: "nao_respondidas", rotulo: "Só as que não fiz" },
   { valor: "erros", rotulo: "Caderno de erros" },
+  { valor: "revisao", rotulo: "Revisões de hoje" },
+  { valor: "favoritas", rotulo: "Favoritas" },
+];
+
+const CONCURSOS_FILTRO = [
+  { valor: "", rotulo: "Os dois" },
+  { valor: "PRF", rotulo: "PRF" },
+  { valor: "INSS", rotulo: "INSS" },
 ];
 
 /** Monta a URL do treino a partir dos filtros. `porTopico` diz quantas questões há em cada tópico. */
@@ -43,20 +51,29 @@ export function FiltroTreino({ porTopico, porMateria }: { porTopico: Record<stri
     <div className="space-y-4">
       <div className="grid gap-3 sm:grid-cols-3">
         <div className="space-y-1.5">
-          <Label htmlFor="f-concurso">Concurso</Label>
-          <Select
-            id="f-concurso"
-            value={concurso}
-            onChange={(e) => {
-              setConcurso(e.target.value);
-              setMateria("");
-              setTopico("");
-            }}
-          >
-            <option value="">PRF e INSS</option>
-            <option value="PRF">PRF</option>
-            <option value="INSS">INSS</option>
-          </Select>
+          <Label id="f-concurso">Concurso</Label>
+          <div role="group" aria-labelledby="f-concurso" className="grid h-11 grid-cols-3 rounded-lg border bg-muted/50 p-1">
+            {CONCURSOS_FILTRO.map((c) => (
+              <button
+                key={c.valor}
+                type="button"
+                aria-pressed={concurso === c.valor}
+                onClick={() => {
+                  setConcurso(c.valor);
+                  setMateria("");
+                  setTopico("");
+                }}
+                className={cn(
+                  "rounded-md text-sm font-medium transition-colors",
+                  concurso === c.valor
+                    ? "bg-card text-foreground shadow-sm ring-1 ring-border"
+                    : "text-muted-foreground hover:text-foreground",
+                )}
+              >
+                {c.rotulo}
+              </button>
+            ))}
+          </div>
         </div>
         <div className="space-y-1.5">
           <Label htmlFor="f-materia">Matéria</Label>
