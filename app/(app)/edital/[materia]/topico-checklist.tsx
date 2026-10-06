@@ -1,6 +1,7 @@
 "use client";
 
-import { Check, CheckCheck, Circle, CircleDot } from "lucide-react";
+import { Check, CheckCheck, ChevronRight, Circle, CircleDot } from "lucide-react";
+import Link from "next/link";
 import { useOptimistic, useState, useTransition } from "react";
 import { definirStatus } from "@/app/actions";
 import { Card } from "@/components/ui/card";
@@ -48,26 +49,32 @@ export function TopicoChecklist({
           const status = otimista[t.id] ?? "nao_iniciado";
           const { icon: Icon, cor } = ESTILO[status];
           return (
-            <button
-              key={t.id}
-              type="button"
-              onClick={() => avancar(t.id)}
-              className="flex w-full items-center gap-3 px-4 py-3 text-left transition-colors hover:bg-muted/60 active:bg-muted"
-            >
-              <Icon className={cn("size-5 shrink-0", cor)} />
-              <span className="min-w-0 flex-1">
-                <span className="mr-1 text-muted-foreground tabular-nums">{i + 1}.</span>
-                {t.titulo}
-                {questoesPorTopico[t.id] ? (
-                  <span className="mt-0.5 block text-xs text-muted-foreground">
-                    {questoesPorTopico[t.id]} {questoesPorTopico[t.id] === 1 ? "questão" : "questões"}
-                  </span>
-                ) : null}
-              </span>
-              <span className={cn("hidden shrink-0 text-xs font-medium sm:inline", cor)}>
-                {STATUS_LABEL[status]}
-              </span>
-            </button>
+            <div key={t.id} className="flex items-stretch">
+              <button
+                type="button"
+                onClick={() => avancar(t.id)}
+                aria-label={`Status: ${STATUS_LABEL[status]}. Tocar para avançar`}
+                className="flex shrink-0 items-center px-4 transition-colors hover:bg-muted/60 active:bg-muted"
+              >
+                <Icon className={cn("size-5", cor)} />
+              </button>
+              <Link
+                href={`/topico/${t.id}`}
+                className="flex min-w-0 flex-1 items-center gap-3 py-3 pr-4 transition-colors hover:bg-muted/60 active:bg-muted"
+              >
+                <span className="min-w-0 flex-1">
+                  <span className="mr-1 text-muted-foreground tabular-nums">{i + 1}.</span>
+                  {t.titulo}
+                  {questoesPorTopico[t.id] ? (
+                    <span className="mt-0.5 block text-xs text-muted-foreground">
+                      {questoesPorTopico[t.id]} {questoesPorTopico[t.id] === 1 ? "questão" : "questões"}
+                    </span>
+                  ) : null}
+                </span>
+                <span className={cn("hidden shrink-0 text-xs font-medium sm:inline", cor)}>{STATUS_LABEL[status]}</span>
+                <ChevronRight className="size-4 shrink-0 text-muted-foreground" />
+              </Link>
+            </div>
           );
         })}
       </Card>

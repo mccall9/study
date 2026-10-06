@@ -1,6 +1,7 @@
 import { GraduationCap, LogOut } from "lucide-react";
 import { sair } from "@/app/actions";
 import { BottomNav, SideNav } from "@/components/nav";
+import { TamanhoLetra } from "@/components/tamanho-letra";
 import { Button } from "@/components/ui/button";
 import { getUsuario } from "@/lib/data";
 import { MODO_DEMO } from "@/lib/supabase/server";
@@ -18,6 +19,10 @@ export default async function AppLayout({ children }: { children: React.ReactNod
         </div>
         <SideNav />
         <div className="mt-auto space-y-2 px-2 text-xs text-muted-foreground">
+          <div className="flex items-center justify-between">
+            <span>Tamanho da letra</span>
+            <TamanhoLetra />
+          </div>
           <p className="truncate">{usuario?.email}</p>
           <form action={sair}>
             <Button variant="ghost" size="sm" className="-ml-3">
@@ -33,11 +38,14 @@ export default async function AppLayout({ children }: { children: React.ReactNod
             <GraduationCap className="size-5 text-primary" />
             Estudos
           </div>
-          <form action={sair}>
-            <Button variant="ghost" size="icon" aria-label="Sair">
-              <LogOut />
-            </Button>
-          </form>
+          <div className="flex items-center gap-1">
+            <TamanhoLetra />
+            <form action={sair}>
+              <Button variant="ghost" size="icon" aria-label="Sair">
+                <LogOut />
+              </Button>
+            </form>
+          </div>
         </header>
         {MODO_DEMO && (
           <div className="border-b bg-accent px-4 py-2 text-center text-xs text-accent-foreground">

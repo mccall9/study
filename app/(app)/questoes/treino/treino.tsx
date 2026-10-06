@@ -3,6 +3,7 @@
 import { Check, CheckCircle2, Circle, CircleSlash, RotateCcw, X, XCircle } from "lucide-react";
 import Link from "next/link";
 import { useCallback, useEffect, useLayoutEffect, useRef, useState, useTransition } from "react";
+import { ComentarioQuestao } from "@/components/comentario";
 import { Placar } from "@/components/placar";
 import { Enunciado, TextoDeApoio } from "@/components/questao";
 import { Button } from "@/components/ui/button";
@@ -208,7 +209,8 @@ export function Treino({ pacote, descricao }: { pacote: Pacote; descricao: strin
                 {correcao.aviso && <p className="text-xs text-muted-foreground">{correcao.aviso}</p>}
               </div>
             )}
-            {erro && <p className="rounded-md bg-destructive/10 p-3 text-sm text-destructive">{erro}</p>}
+            {correcao?.comentario && <ComentarioQuestao comentario={correcao.comentario} />}
+          {erro && <p className="rounded-md bg-destructive/10 p-3 text-sm text-destructive">{erro}</p>}
 
             {correcao && (
               <Button size="lg" className="w-full" onClick={proxima}>

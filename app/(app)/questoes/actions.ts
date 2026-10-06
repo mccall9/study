@@ -1,5 +1,6 @@
 "use server";
 
+import { getComentario, type Comentario } from "@/lib/comentarios";
 import { getProva, QUESTOES_POR_ID, validas } from "@/lib/questoes";
 import { corrigir, resumo, type Gabarito, type RespostaValor } from "@/lib/questoes-logica";
 import { createClient, MODO_DEMO } from "@/lib/supabase/server";
@@ -14,6 +15,7 @@ export type Correcao = {
   gabarito: Gabarito;
   correta: boolean | null;
   observacao?: string;
+  comentario?: Comentario | null;
   aviso?: string;
   erro?: string;
 };
@@ -25,7 +27,12 @@ export async function responder(questaoId: string, resposta: RespostaValor): Pro
   if (!isResposta(resposta)) return { erro: "Resposta inválida." };
 
   const correta = corrigir(questao.gabarito, resposta);
-  const correcao: Correcao = { gabarito: questao.gabarito, correta, observacao: questao.observacao };
+  const correcao: Correcao = {
+    gabarito: questao.gabarito,
+    correta,
+    observacao: questao.observacao,
+    comentario: await getComentario(questaoId),
+  };
   if (MODO_DEMO) return { ...correcao, aviso: AVISO_DEMO };
 
   const supabase = await createClient();
@@ -44,6 +51,7 @@ export type ResultadoSimulado = {
   total: number;
   duracaoSeg: number;
   correcao: Record<string, { gabarito: Gabarito; resposta: RespostaValor; correta: boolean | null }>;
+  comentarios: Record<string, Comentario>;
   aviso?: string;
   erro?: string;
 };
@@ -67,7 +75,13 @@ export async function finalizarSimulado(
     correcao[q.id] = { gabarito: q.gabarito, resposta, correta: corrigir(q.gabarito, resposta) };
   }
   const r = resumo(Object.values(correcao));
+  const comentarios: Record<string, Comentario> = {};
+  for (const q of questoes) {
+    const c = await getComentario(q.id);
+    if (c) comentarios[q.id] = c;
+  }
   const resultado: ResultadoSimulado = {
+    comentarios,
     certas: r.certas,
     erradas: r.erradas,
     brancos: r.brancos,
