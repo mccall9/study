@@ -1,6 +1,6 @@
 "use client";
 
-import { Check, Highlighter, Loader2, NotebookPen, Star, TriangleAlert } from "lucide-react";
+import { Check, CircleCheck, Highlighter, Loader2, NotebookPen, Star, TriangleAlert } from "lucide-react";
 import { useState, useTransition } from "react";
 import { anotar, marcar } from "@/app/actions-marcacoes";
 import { Button } from "@/components/ui/button";
@@ -12,6 +12,7 @@ const VISUAL: Record<TipoMarcacao, { icone: typeof Star; desligado: string; liga
   favorito: { icone: Star, desligado: "Favoritar", ligado: "Favorita", cor: "text-amber-500 [&_svg]:fill-amber-400" },
   destaque: { icone: Highlighter, desligado: "Grifar", ligado: "Grifado", cor: "text-amber-600" },
   reportado: { icone: TriangleAlert, desligado: "Reportar erro", ligado: "Erro reportado", cor: "text-destructive" },
+  assistido: { icone: CircleCheck, desligado: "Marcar como assistida", ligado: "Assistida", cor: "text-status-questoes" },
 };
 
 /** Botão que liga/desliga uma marcação, com atualização otimista. */

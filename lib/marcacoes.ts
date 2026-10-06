@@ -1,16 +1,17 @@
 // Favoritos, destaques e anotações apontam para um "alvo" em texto, o mesmo formato
-// que o banco valida: questao:prf-2021-009 · lei:cf:art5 · topico:direito-constitucional-2
+// que o banco valida: questao:prf-2021-009 · lei:cf:art5 · topico:direito-constitucional-2 · video:<id do YouTube>
 
-export const TIPOS_MARCACAO = ["favorito", "destaque", "reportado"] as const;
+export const TIPOS_MARCACAO = ["favorito", "destaque", "reportado", "assistido"] as const;
 export type TipoMarcacao = (typeof TIPOS_MARCACAO)[number];
 
 export type Marcacao = { alvo: string; tipo: TipoMarcacao };
 
-const ALVO = /^(questao|lei|topico):[a-z0-9:-]+$/;
+const ALVO = /^(questao|lei|topico|video):[A-Za-z0-9:_-]+$/;
 
 export const alvoQuestao = (id: string) => `questao:${id}`;
 export const alvoTopico = (id: string) => `topico:${id}`;
 export const alvoArtigo = (lei: string, artigo: string) => `lei:${lei}:${artigo}`;
+export const alvoVideo = (id: string) => `video:${id}`;
 
 export function isAlvo(valor: unknown): valor is string {
   return typeof valor === "string" && valor.length <= 120 && ALVO.test(valor);

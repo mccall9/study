@@ -20,7 +20,7 @@ const LINKS_CELULAR = LINKS.filter((l) => l.href !== "/historico");
 function ativo(pathname: string, href: string) {
   if (href === "/") return pathname === "/";
   // Lei seca e página do tópico fazem parte de Materiais.
-  if (href === "/materiais") return ["/materiais", "/lei", "/topico"].some((p) => pathname.startsWith(p));
+  if (href === "/materiais") return ["/materiais", "/lei", "/topico", "/arquivos"].some((p) => pathname.startsWith(p));
   return pathname.startsWith(href);
 }
 
