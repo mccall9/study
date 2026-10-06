@@ -15,7 +15,15 @@ const ESTILO: Record<Status, { icon: typeof Circle; cor: string }> = {
   questoes_ok: { icon: CheckCheck, cor: "text-status-questoes" },
 };
 
-export function TopicoChecklist({ topicos, progresso }: { topicos: Topico[]; progresso: Progresso }) {
+export function TopicoChecklist({
+  topicos,
+  progresso,
+  questoesPorTopico = {},
+}: {
+  topicos: Topico[];
+  progresso: Progresso;
+  questoesPorTopico?: Record<string, number>;
+}) {
   const [otimista, aplicar] = useOptimistic(
     progresso,
     (atual, { id, status }: { id: string; status: Status }) => ({ ...atual, [id]: status }),
@@ -50,6 +58,11 @@ export function TopicoChecklist({ topicos, progresso }: { topicos: Topico[]; pro
               <span className="min-w-0 flex-1">
                 <span className="mr-1 text-muted-foreground tabular-nums">{i + 1}.</span>
                 {t.titulo}
+                {questoesPorTopico[t.id] ? (
+                  <span className="mt-0.5 block text-xs text-muted-foreground">
+                    {questoesPorTopico[t.id]} {questoesPorTopico[t.id] === 1 ? "questão" : "questões"}
+                  </span>
+                ) : null}
               </span>
               <span className={cn("hidden shrink-0 text-xs font-medium sm:inline", cor)}>
                 {STATUS_LABEL[status]}

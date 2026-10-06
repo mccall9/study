@@ -1,6 +1,6 @@
 "use client";
 
-import { BookOpenCheck, History, LayoutDashboard, Timer } from "lucide-react";
+import { BookOpenCheck, History, LayoutDashboard, ListChecks, Timer } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
@@ -9,6 +9,7 @@ const LINKS = [
   { href: "/", label: "Painel", icon: LayoutDashboard },
   { href: "/edital", label: "Edital", icon: BookOpenCheck },
   { href: "/estudar", label: "Estudar", icon: Timer },
+  { href: "/questoes", label: "Questões", icon: ListChecks },
   { href: "/historico", label: "Histórico", icon: History },
 ];
 
@@ -45,7 +46,7 @@ export function BottomNav() {
   const pathname = usePathname();
   return (
     <nav className="fixed inset-x-0 bottom-0 z-20 border-t bg-card/95 pb-[env(safe-area-inset-bottom)] backdrop-blur md:hidden">
-      <div className="grid grid-cols-4">
+      <div className="grid grid-cols-5">
         {LINKS.map(({ href, label, icon: Icon }) => (
           <Link
             key={href}
