@@ -38,6 +38,7 @@ Dependentes são as pessoas que o RGPS protege por causa do vínculo com o segur
 - A invalidez ou a deficiência mantém o filho como dependente depois dos 21 anos.
 
 ## Como pode cair
+
 *Itens de treino escritos para este resumo, não são de prova oficial.*
 
 1. A dependência econômica dos pais do segurado é presumida pela legislação previdenciária.

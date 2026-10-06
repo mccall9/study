@@ -46,6 +46,7 @@ Os arts. 280 a 290-A do CTB descrevem o caminho entre a infração e a punição
 - Assinatura do infrator no auto vale como notificação da autuação.
 
 ## Como pode cair
+
 *Itens de treino escritos para este resumo, não são de prova oficial.*
 
 1. Se a notificação da autuação não for expedida no prazo máximo de trinta dias, o auto de infração será arquivado e seu registro julgado insubsistente.

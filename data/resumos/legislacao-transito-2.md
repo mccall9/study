@@ -39,6 +39,7 @@ No âmbito das rodovias e estradas federais, compete à PRF:
 - A PRF aplica suspensão só quando a infração a prevê de forma específica; a suspensão por pontos é do órgão estadual ([art. 22, § 1º](/lei/ctb#art22-p1)).
 
 ## Como pode cair
+
 *Itens de treino escritos para este resumo, não são de prova oficial.*
 
 1. O CONTRAN é o coordenador do Sistema Nacional de Trânsito e seu órgão máximo executivo.

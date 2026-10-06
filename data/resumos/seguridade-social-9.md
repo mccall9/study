@@ -35,6 +35,7 @@ O valor de um benefício do RGPS sai de duas contas: o **salário de benefício*
 - O acréscimo de 25% pode ultrapassar o teto.
 
 ## Como pode cair
+
 *Itens de treino escritos para este resumo, não são de prova oficial.*
 
 1. Pelas regras atuais, o salário de benefício corresponde à média dos maiores salários de contribuição equivalentes a 80% de todo o período contributivo.

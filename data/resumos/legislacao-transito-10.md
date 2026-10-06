@@ -51,6 +51,7 @@ Quando suspenso, quando contribuir para sinistro grave, quando condenado por del
 - Dirigir suspenso gera cassação.
 
 ## Como pode cair
+
 *Itens de treino escritos para este resumo, não são de prova oficial.*
 
 1. A remoção do veículo é penalidade aplicada pela autoridade de trânsito.

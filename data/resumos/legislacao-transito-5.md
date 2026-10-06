@@ -44,6 +44,7 @@ Pelo Anexo II (confira as figuras lá), as placas verticais se dividem em regula
 - Publicidade ao longo da via não é proibida; depende de aprovação prévia.
 
 ## Como pode cair
+
 *Itens de treino escritos para este resumo, não são de prova oficial.*
 
 1. As indicações do semáforo prevalecem sobre as ordens do agente de trânsito, por serem sinais luminosos.

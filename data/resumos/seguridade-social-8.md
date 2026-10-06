@@ -36,6 +36,7 @@ Carência é o "número mínimo de contribuições mensais indispensáveis para 
 - Carência é diferente de tempo de contribuição: a aposentadoria pede os dois.
 
 ## Como pode cair
+
 *Itens de treino escritos para este resumo, não são de prova oficial.*
 
 1. A concessão de pensão por morte depende de o segurado ter vertido, no mínimo, dezoito contribuições mensais.

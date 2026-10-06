@@ -38,6 +38,7 @@ O Regime Geral de Previdência Social (RGPS) é o regime público que protege os
 - A previdência complementar é facultativa e autônoma em relação ao RGPS.
 
 ## Como pode cair
+
 *Itens de treino escritos para este resumo, não são de prova oficial.*
 
 1. O Conselho Nacional de Previdência Social tem composição paritária entre representantes do governo e da sociedade civil.

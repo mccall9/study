@@ -35,6 +35,7 @@ O condenado com trânsito em julgado por homicídio doloso, ou tentativa, contra
 - Auxílio-reclusão só no regime fechado e com carência de 24 meses.
 
 ## Como pode cair
+
 *Itens de treino escritos para este resumo, não são de prova oficial.*
 
 1. Os dependentes do segurado de baixa renda preso em regime semiaberto têm direito ao auxílio-reclusão.

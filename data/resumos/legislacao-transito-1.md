@@ -39,6 +39,7 @@ Os arts. 1º a 4º do Código de Trânsito Brasileiro (CTB, Lei 9.503/1997) dize
 - O CTB vale também para condutores de veículos estrangeiros.
 
 ## Como pode cair
+
 *Itens de treino escritos para este resumo, não são de prova oficial.*
 
 1. Para os efeitos do CTB, as áreas de estacionamento de estabelecimentos privados de uso coletivo são consideradas vias terrestres.

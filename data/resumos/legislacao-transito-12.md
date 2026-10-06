@@ -36,6 +36,7 @@ Os arts. 291 a 312-B do CTB trazem as regras gerais e os crimes de trânsito. Pa
 - O art. 309 exige perigo de dano; já o art. 310 é crime de perigo abstrato (STJ, Súmula 575).
 
 ## Como pode cair
+
 *Itens de treino escritos para este resumo, não são de prova oficial.*
 
 1. Ao condutor que prestar pronto e integral socorro à vítima de sinistro não se imporá prisão em flagrante nem se exigirá fiança.

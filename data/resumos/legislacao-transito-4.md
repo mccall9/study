@@ -43,6 +43,7 @@ Permanecer ou andar na pista, salvo para cruzá-la onde permitido; cruzar pista 
 - Pedestre também comete infração e paga multa reduzida à metade da leve.
 
 ## Como pode cair
+
 *Itens de treino escritos para este resumo, não são de prova oficial.*
 
 1. Nas vias rurais sem acostamento, os pedestres devem circular pelos bordos da pista, em fila única, no mesmo sentido de deslocamento dos veículos.

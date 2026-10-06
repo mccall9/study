@@ -54,6 +54,7 @@ Infração de trânsito é "a inobservância de qualquer preceito deste Código 
 - Entregar ou permitir a direção a quem não pode dirigir gera as mesmas penalidades do art. 162 ([arts. 163](/lei/ctb#art163) e [164](/lei/ctb#art164)).
 
 ## Como pode cair
+
 *Itens de treino escritos para este resumo, não são de prova oficial.*
 
 1. Dirigir segurando ou manuseando telefone celular constitui infração de natureza média.

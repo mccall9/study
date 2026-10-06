@@ -49,6 +49,7 @@ O [art. 145](/lei/ctb#art145) traz requisitos parecidos para quem conduz transpo
 - Moto-frete pode levar gás de cozinha e água mineral, só com side-car.
 
 ## Como pode cair
+
 *Itens de treino escritos para este resumo, não são de prova oficial.*
 
 1. Para conduzir veículo de escolares, exige-se idade superior a vinte e um anos e habilitação na categoria D.
