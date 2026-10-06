@@ -2,7 +2,7 @@
 
 import { Check, Flag, Play, X } from "lucide-react";
 import Link from "next/link";
-import { useEffect, useMemo, useState, useTransition } from "react";
+import { useEffect, useMemo, useRef, useState, useTransition } from "react";
 import { ComentarioQuestao } from "@/components/comentario";
 import { Placar } from "@/components/placar";
 import { Enunciado, TextoDeApoio } from "@/components/questao";
@@ -57,13 +57,21 @@ export function Simulado({
   nome,
   pacote,
   observacao,
+  chave = `estudos:simulado:${provaId}`,
+  ids,
+  limiteSeg,
 }: {
   provaId: string;
   nome: string;
   pacote: Pacote;
   observacao: string;
+  /** Onde o andamento fica salvo no aparelho. */
+  chave?: string;
+  /** Simulado personalizado: as questões sorteadas, enviadas na correção. */
+  ids?: string[];
+  /** Tempo de prova; ao acabar, o simulado é entregue automaticamente. */
+  limiteSeg?: number;
 }) {
-  const chave = `estudos:simulado:${provaId}`;
   const [salvo, setSalvo] = useState<Salvo | null>(null);
   const [carregado, setCarregado] = useState(false);
   const [agora, setAgora] = useState(() => Date.now());
@@ -71,6 +79,7 @@ export function Simulado({
   const [erro, setErro] = useState<string | null>(null);
   const [enviando, startEnvio] = useTransition();
   const grupos = useMemo(() => agrupar(pacote.itens), [pacote.itens]);
+  const finalizarRef = useRef<(semPerguntar?: boolean) => void>(() => {});
 
   useEffect(() => {
     setSalvo(ler(chave));
@@ -88,6 +97,16 @@ export function Simulado({
     return () => clearInterval(id);
   }, [emAndamento]);
 
+  // Tempo esgotado: entrega sozinho, uma vez, como na prova.
+  const esgotou = emAndamento && limiteSeg !== undefined && salvo !== null && agora - Date.parse(salvo.iniciadoEm) >= limiteSeg * 1000;
+  const entregue = useRef(false);
+  useEffect(() => {
+    if (esgotou && !entregue.current && !enviando) {
+      entregue.current = true;
+      finalizarRef.current(true);
+    }
+  }, [esgotou, enviando]);
+
   function iniciar() {
     setAgora(Date.now());
     setSalvo({ iniciadoEm: new Date().toISOString(), marcadas: {} });
@@ -103,14 +122,14 @@ export function Simulado({
     });
   }
 
-  function finalizar() {
+  function finalizar(semPerguntar = false) {
     if (!salvo) return;
     const brancos = pacote.itens.length - Object.keys(salvo.marcadas).length;
     const aviso = brancos > 0 ? `\n\n${brancos} ${brancos === 1 ? "item está" : "itens estão"} em branco.` : "";
-    if (!confirm(`Finalizar o simulado e ver a correção?${aviso}`)) return;
+    if (!semPerguntar && !confirm(`Finalizar o simulado e ver a correção?${aviso}`)) return;
     setErro(null);
     startEnvio(async () => {
-      const r = await finalizarSimulado(provaId, salvo.marcadas, salvo.iniciadoEm);
+      const r = await finalizarSimulado(provaId, salvo.marcadas, salvo.iniciadoEm, ids);
       if ("correcao" in r && !r.erro) {
         setResultado(r);
         gravar(chave, null);
@@ -120,6 +139,8 @@ export function Simulado({
       }
     });
   }
+
+  finalizarRef.current = finalizar;
 
   if (resultado) return <Resultado nome={nome} pacote={pacote} resultado={resultado} />;
 
@@ -136,7 +157,11 @@ export function Simulado({
           <ul className="list-disc space-y-1 pl-5 text-sm text-muted-foreground">
             <li>Marque Certo ou Errado em cada item. Se não tiver segurança, deixe em branco.</li>
             <li>Na correção, cada errada anula uma certa, como no Cebraspe.</li>
-            <li>O cronômetro começa agora e continua se você fechar a página.</li>
+            <li>
+              {limiteSeg
+                ? `Você tem ${Math.round(limiteSeg / 60)} minutos; quando o tempo acabar, o simulado é entregue sozinho.`
+                : "O cronômetro começa agora e continua se você fechar a página."}
+            </li>
           </ul>
           <Button size="lg" className="w-full" onClick={iniciar}>
             <Play /> Começar simulado
@@ -147,18 +172,21 @@ export function Simulado({
   }
 
   const decorrido = Math.max(0, Math.floor((agora - Date.parse(salvo.iniciadoEm)) / 1000));
+  const restante = limiteSeg ? Math.max(0, limiteSeg - decorrido) : null;
   const marcadas = Object.keys(salvo.marcadas).length;
 
   return (
     <div className="mx-auto max-w-2xl space-y-5">
       <div className="sticky top-0 z-10 -mx-4 flex items-center justify-between gap-3 border-b bg-background/95 px-4 py-2.5 backdrop-blur md:top-0">
         <div className="text-sm">
-          <p className="font-semibold tabular-nums">{relogio(decorrido)}</p>
+          <p className={cn("font-semibold tabular-nums", restante !== null && restante <= 300 && "text-destructive")}>
+            {restante !== null ? `${relogio(restante)} restantes` : relogio(decorrido)}
+          </p>
           <p className="text-xs text-muted-foreground tabular-nums">
             {marcadas} de {pacote.itens.length} marcados
           </p>
         </div>
-        <Button onClick={finalizar} disabled={enviando}>
+        <Button onClick={() => finalizar()} disabled={enviando}>
           <Flag /> {enviando ? "Corrigindo…" : "Finalizar"}
         </Button>
       </div>
@@ -195,7 +223,7 @@ export function Simulado({
         </section>
       ))}
 
-      <Button size="lg" className="w-full" onClick={finalizar} disabled={enviando}>
+      <Button size="lg" className="w-full" onClick={() => finalizar()} disabled={enviando}>
         <Flag /> {enviando ? "Corrigindo…" : "Finalizar simulado"}
       </Button>
     </div>
