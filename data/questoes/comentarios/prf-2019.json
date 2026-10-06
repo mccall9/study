@@ -1,0 +1,748 @@
+{
+ "prf-2019-001": {
+  "t": "Certo. “Vicejar” significa vegetar com viço, desenvolver-se, brotar; *germinar* tem sentido próximo (brotar, desenvolver-se) e é verbo intransitivo, como “viceja” no trecho, de modo que a troca mantém a coerência e a correção."
+ },
+ "prf-2019-002": {
+  "t": "Errado. O texto não afirma diferença biológica: diz que somos animais diurnos, “por mais que boêmios da pá virada e vampiros em geral *discordem* dessa afirmativa”. Trata-se de um comportamento (hábito noturno), dito com humor, e não de uma natureza biológica diferente."
+ },
+ "prf-2019-004": {
+  "t": "Certo. Em “como é que se fazia”, a expressão “é que” é *expletiva* (de realce): pode ser retirada sem alterar a estrutura nem o sentido da frase (“como se fazia?”)."
+ },
+ "prf-2019-005": {
+  "t": "Errado. Não ocorre crase antes de palavra masculina: “à nosso dispor” está incorreto; o certo seria *a nosso dispor* (ou “ao nosso dispor”). A reescrita, portanto, prejudica a correção gramatical."
+ },
+ "prf-2019-006": {
+  "t": "Certo. Sem vírgulas, a oração adjetiva “que se infiltra no ambiente no qual dormimos” é *restritiva* (só a luz urbana que entra no quarto); entre vírgulas, passaria a *explicativa* (toda luz urbana se infiltra). A frase continua correta, mas o sentido muda."
+ },
+ "prf-2019-007": {
+  "t": "Errado. O pretérito imperfeito do indicativo “existia”, em “se existia”, apresenta a hipótese como algo que pode ter ocorrido; com o subjuntivo, “se existisse” exigiria outra correlação de tempos (“já teria sido extinto”) e passaria a indicar hipótese contrária à realidade. A troca altera o sentido e prejudica a correlação verbal."
+ },
+ "prf-2019-008": {
+  "t": "Errado. “A cidade toda” significa a cidade inteira; “toda cidade” (sem artigo) significa *qualquer cidade*, cada uma das cidades. A substituição muda o sentido do período."
+ },
+ "prf-2019-009": {
+  "t": "Certo. “Transferir-se para o mundo das trevas eternas” é um eufemismo para morrer, e “já deve ter” indica probabilidade. Logo, é correto inferir que o funcionário provavelmente já morreu."
+ },
+ "prf-2019-010": {
+  "t": "Certo. “Estas” (que colocam os homens em dependência da natureza) e “las” (em “atendê-las”) retomam “necessidades dos seres humanos”: são as necessidades que serão atendidas pelos elementos do mundo natural."
+ },
+ "prf-2019-011": {
+  "t": "Errado. “Se prestarmos atenção” expressa *condição* (com futuro do subjuntivo e futuro do presente “perceberemos”); “Quando prestamos” expressa tempo/habitualidade. Além disso, “existe pelas atividades” não equivale exatamente a “existe em razão de atividades”. Os sentidos se alteram."
+ },
+ "prf-2019-012": {
+  "t": "Certo. A locução prepositiva “em razão de” equivale a “por causa de”, “devido a”: quase tudo existe *por causa* das atividades do trabalho humano. Expressa causa."
+ },
+ "prf-2019-013": {
+  "t": "Certo, pelo gabarito. A expressão “assim como” relaciona duas ideias do período, aproximando-as por comparação (a produção movimenta relações diversas, *assim como* a organização do trabalho mudou entre sociedades)."
+ },
+ "prf-2019-014": {
+  "t": "Errado. O texto não diz que é a abundância de recursos que leva à não separação. Diz que, nas sociedades tribais, o trabalho está integrado às outras dimensões da sociabilidade, e que Sahlins as chamou de “sociedades de abundância” porque nelas as necessidades básicas são plenamente satisfeitas. A relação de causa criada pelo item não está no texto."
+ },
+ "prf-2019-015": {
+  "t": "Errado. O advérbio “praticamente” pode ser isolado por vírgulas, como termo intercalado, sem prejuízo da correção: “e, praticamente, todos trabalham”. A vírgula é facultativa nesse caso."
+ },
+ "prf-2019-016": {
+  "t": "Errado. Em “dos objetos que nos cercam”, o sujeito de “cercam” é o pronome relativo “que”, que retoma “os objetos”: são *os objetos* que nos cercam. “Os processos de produção dos objetos” é sujeito de “movimentam”."
+ },
+ "prf-2019-017": {
+  "t": "Errado. Não há contradição: o texto diz que o nome delineia a imagem que fazem de nós, “embora não do que somos”. Pôr nos olhos “um azul que não possuem” é justamente atribuir uma qualidade que a pessoa não tem, o que *confirma* a ideia de que o nome mostra a imagem, e não a realidade."
+ },
+ "prf-2019-018": {
+  "t": "Certo. Dizer que os nomes são “completamente díspares” já informa que são totalmente diferentes; “nenhuma letra se igualando a outra” repete a ideia, reforçando-a."
+ },
+ "prf-2019-019": {
+  "t": "Certo. Em “Mas eis que um surgiu”, “um” retoma “homônimo”: surgiu um indivíduo com o mesmo nome (nome e sobrenome) do autor."
+ },
+ "prf-2019-020": {
+  "t": "Errado. O texto diz apenas que o sobrenome é “sonoro, hispânico”. Ter sobrenome de origem hispânica não permite inferir a nacionalidade do autor."
+ },
+ "prf-2019-021": {
+  "t": "Errado. Uma função afim de inclinação positiva é sempre crescente, e a sequência sobe e desce (25, 75, 50, 150, 100...). Logo, os termos não podem ser ordenadas de pontos de uma reta crescente."
+ },
+ "prf-2019-022": {
+  "t": "Errado. A sequência intercala duas progressões geométricas de razão 2: termos ímpares 25, 50, 100, 200, 400, 800 e termos pares 75, 150, 300, 600, 1.200, *2.400*. O 12.º termo é 2.400, e não 1.600."
+ },
+ "prf-2019-023": {
+  "t": "Certo. Cada termo é o dobro do termo duas posições antes: a₃ = 50 = 2 × 25, a₄ = 150 = 2 × 75, a₅ = 100 = 2 × 50, e assim por diante. Logo, aₙ = 2 × aₙ₋₂ para n ≥ 3."
+ },
+ "prf-2019-024": {
+  "t": "Errado. A vista da esquerda mostra a linha do meio (profundidade) com 2 cubos de altura. Nessa vista superior, a linha do meio só tem cubo na coluna do meio, que pela vista frontal tem altura 1. Não há como obter a altura 2 nessa linha, então a figura não pode ser a vista superior."
+ },
+ "prf-2019-025": {
+  "t": "Certo. A coluna da esquerda (altura 3 na vista frontal) pode ter 3 cubos no fundo e 2 no meio; a coluna do meio, 1 cubo na linha do meio; a da direita, 1 cubo na frente. Isso gera a vista frontal (3, 1, 1) e a vista da esquerda (3, 2, 1). A figura é possível."
+ },
+ "prf-2019-026": {
+  "t": "Certo. Com 3 cubos no fundo e 2 no meio, ambos na coluna da esquerda, e 1 cubo em cada uma das posições da frente nas colunas do meio e da direita, obtém-se a vista frontal (3, 1, 1) e a vista da esquerda (3, 2, 1). A figura é possível."
+ },
+ "prf-2019-027": {
+  "t": "Errado. Como 150e^(–x) é sempre positivo, f(x) = 350 + 150e^(–x) é sempre *maior* que 350. Pelo modelo, o número de acidentes nunca fica abaixo de 350, muito menos de 300."
+ },
+ "prf-2019-028": {
+  "t": "Certo. f(0) = 500 e f(1) = 350 + 150/e ≈ 350 + 55,2 ≈ 405. Houve queda em relação ao início, mas ainda mais de 400 acidentes com vítimas fatais."
+ },
+ "prf-2019-029": {
+  "t": "Errado. Navegadores são clientes de HTTP/HTTPS. SMTP (envio de e-mail) e NNTP (notícias) exigem programas próprios, e o suporte a FTP foi *removido* das versões modernas do Chrome, do Firefox e do Edge."
+ },
+ "prf-2019-030": {
+  "t": "Certo. Ferramentas de acesso remoto (como a Área de Trabalho Remota ou o TeamViewer) permitem acessar e controlar outro computador a qualquer distância, bastando que ambos estejam conectados à Internet e o acesso esteja autorizado."
+ },
+ "prf-2019-032": {
+  "t": "Certo. Vírus de script (escritos em JavaScript ou VBScript, por exemplo) podem ser executados automaticamente ao se abrir uma página web ou um e-mail em HTML, a depender das configurações de segurança do navegador."
+ },
+ "prf-2019-034": {
+  "t": "Certo. No SaaS, o software é oferecido como serviço pela Internet (como webmail e editores on-line): o usuário acessa os aplicativos de qualquer lugar, com um dispositivo conectado, sem instalá-los."
+ },
+ "prf-2019-035": {
+  "t": "Errado. Desprezado o atrito do ar, não há força horizontal sobre o projétil: o movimento horizontal é *uniforme*, e o deslocamento x = v·t é função *afim* (linear) do tempo. A função quadrática descreve a queda vertical."
+ },
+ "prf-2019-036": {
+  "t": "Errado. v = 720 km/h = 200 m/s; o projétil leva t = 50/200 = 0,25 s até o alvo. Nesse tempo, cai h = g·t²/2 = 4,9 × 0,0625 ≈ 0,31 m. Como o raio do alvo é 0,10 m, o projétil passa abaixo do círculo e *não* o atinge."
+ },
+ "prf-2019-037": {
+  "t": "Certo. O trabalho do peso na queda de 1,5 m é W = m·g·h = 0,015 × 9,8 × 1,5 ≈ 0,22 J, que é superior a 0,10 J."
+ },
+ "prf-2019-038": {
+  "t": "Errado. v = 54 km/h = 15 m/s; a aceleração centrípeta é v²/R = 225/50 = 4,5 m/s², menor que g = 9,8 m/s²."
+ },
+ "prf-2019-039": {
+  "t": "Certo. A maior aceleração centrípeta que o atrito estático consegue fornecer é μ·g = 0,60 × 9,8 = 5,88 m/s². Como 4,8 m/s² < 5,88 m/s², o atrito basta e o veículo faz a curva sem derrapar."
+ },
+ "prf-2019-040": {
+  "t": "Certo. Em sistema isolado (sem forças externas resultantes), a quantidade de movimento total se conserva: a soma das quantidades de movimento dos dois veículos é a mesma antes e depois da colisão."
+ },
+ "prf-2019-041": {
+  "t": "Errado. O Código de Ética diz o contrário: “A moralidade da Administração Pública *não se limita* à distinção entre o bem e o mal, devendo ser acrescida da ideia de que o fim é sempre o bem comum” (Decreto 1.171/1994, anexo, III).",
+  "b": [
+   {
+    "lei": "d1171",
+    "a": "anexo-iii"
+   }
+  ]
+ },
+ "prf-2019-042": {
+  "t": "Errado. A dignidade, o decoro, o zelo, a eficácia e a consciência dos princípios morais devem nortear o servidor “seja no exercício do cargo ou função, *ou fora dele*” (Decreto 1.171/1994, anexo, I). A função pública se integra na vida particular do servidor (item VI).",
+  "b": [
+   {
+    "lei": "d1171",
+    "a": "anexo-i"
+   },
+   {
+    "lei": "d1171",
+    "a": "anexo-vi"
+   }
+  ]
+ },
+ "prf-2019-043": {
+  "t": "Certo. É vedado ao servidor “apresentar-se embriagado no serviço ou fora dele habitualmente” (Decreto 1.171/1994, anexo, XV, n), e a pena aplicável pela Comissão de Ética é a de *censura* (item XXII).",
+  "b": [
+   {
+    "lei": "d1171",
+    "a": "anexo-xv-n"
+   },
+   {
+    "lei": "d1171",
+    "a": "anexo-xxii"
+   }
+  ]
+ },
+ "prf-2019-044": {
+  "t": "Certo. O Código de Ética veda “desviar servidor público para atendimento a interesse particular” (anexo, XV, j) e “ser, em função de seu espírito de solidariedade, conivente com erro ou infração a este Código de Ética” (XV, c). As duas condutas podem ser apuradas pela Comissão de Ética.",
+  "b": [
+   {
+    "lei": "d1171",
+    "a": "anexo-xv-j"
+   },
+   {
+    "lei": "d1171",
+    "a": "anexo-xv-c"
+   }
+  ]
+ },
+ "prf-2019-045": {
+  "t": "Certo. A forte dependência do modal rodoviário, mais caro por tonelada transportada em longas distâncias, eleva o custo do frete entre regiões produtoras, centros consumidores e portos. Esse custo logístico (o chamado “custo Brasil”) encarece os produtos e reduz sua competitividade."
+ },
+ "prf-2019-046": {
+  "t": "Errado. A malha rodoviária não conecta em rede todos os municípios: há grandes vazios, sobretudo na Amazônia, onde muitos municípios dependem do transporte fluvial ou aéreo. Além disso, os países desenvolvidos citados têm matriz de transporte mais equilibrada, com mais ferrovias e hidrovias."
+ },
+ "prf-2019-047": {
+  "t": "Errado. Na leitura de Milton Santos, a globalização organiza o território de forma hierárquica e seletiva: o capital escolhe os lugares mais rentáveis, o que tende a *aprofundar* as desigualdades regionais, e não a reduzi-las nem a criar uma economia “justa e solidária”."
+ },
+ "prf-2019-048": {
+  "t": "Certo. O setor de serviços é o de maior e crescente participação no PIB brasileiro, e a modernização do agronegócio ampliou serviços ligados às cadeias de produção e consumo, como tecnologia, transporte, logística e finanças."
+ },
+ "prf-2019-049": {
+  "t": "Errado. Nos grandes eventos da década (Copa das Confederações 2013, Copa do Mundo 2014, Olimpíadas 2016), a PRF manteve sua atuação nas rodovias federais, com policiamento, fiscalização e escoltas integradas às demais forças. Não concentrou o policiamento nos locais dos eventos, que ficaram a cargo de outros órgãos."
+ },
+ "prf-2019-050": {
+  "t": "Certo. Além da fiscalização e do combate ao crime nas rodovias federais, a PRF desenvolve ações de educação para o trânsito para adultos e crianças, como o projeto Festival Estudantil Temático de Trânsito (FETRAN). O CTB atribui à PRF promover projetos de educação e segurança (art. 20, IX).",
+  "b": [
+   {
+    "lei": "ctb",
+    "a": "art20-ix"
+   }
+  ]
+ },
+ "prf-2019-051": {
+  "t": "Certo. O “racha” (art. 308 do CTB) é crime que se consuma com a participação na disputa não autorizada “gerando situação de risco à incolumidade pública ou privada”. Não depende de lesão: a lesão grave só qualifica o crime (§ 1º).",
+  "b": [
+   {
+    "lei": "ctb",
+    "a": "art308"
+   }
+  ]
+ },
+ "prf-2019-052": {
+  "t": "Certo. Se do racha resulta lesão corporal grave, sem que o agente quisesse o resultado ou assumisse o risco, a pena é de *reclusão*, de 3 a 6 anos (CTB, art. 308, § 1º).",
+  "b": [
+   {
+    "lei": "ctb",
+    "a": "art308-p1"
+   }
+  ]
+ },
+ "prf-2019-053": {
+  "t": "Errado. Os benefícios da Lei 9.099/1995 (arts. 74, 76 e 88) não se aplicam à lesão culposa de trânsito se o agente participava de racha (CTB, art. 291, § 1º, II). Nesse caso, *deverá* ser instaurado inquérito policial (art. 291, § 2º).",
+  "b": [
+   {
+    "lei": "ctb",
+    "a": "art291-p1-ii"
+   },
+   {
+    "lei": "ctb",
+    "a": "art291-p2"
+   }
+  ]
+ },
+ "prf-2019-054": {
+  "t": "Errado. A omissão de socorro do art. 304 alcança o condutor “ainda que a sua omissão seja suprida por terceiros ou que se trate de vítima com morte instantânea ou com *ferimentos leves*” (CTB, art. 304, parágrafo único). A conduta não é atípica.",
+  "b": [
+   {
+    "lei": "ctb",
+    "a": "art304-pu"
+   }
+  ]
+ },
+ "prf-2019-055": {
+  "t": "Errado. Violar a suspensão é crime (CTB, art. 307), mas a pena é de detenção de seis meses a um ano e multa, com nova imposição adicional de *idêntico prazo* de suspensão, e não do dobro. Também não há vedação legal à substituição por pena restritiva de direitos.",
+  "b": [
+   {
+    "lei": "ctb",
+    "a": "art307"
+   },
+   {
+    "lei": "ctb",
+    "a": "art307-txt"
+   }
+  ]
+ },
+ "prf-2019-056": {
+  "t": "Certo. Os três cometeram homicídio culposo na direção de veículo (art. 302), cuja pena inclui a suspensão ou proibição de obter a habilitação. A pena aumenta de 1/3 à metade quando o crime ocorre na faixa de pedestres ou na calçada (§ 1º, II) ou quando o agente conduz veículo de transporte de passageiros no exercício da profissão (§ 1º, IV).",
+  "b": [
+   {
+    "lei": "ctb",
+    "a": "art302-p1-ii"
+   },
+   {
+    "lei": "ctb",
+    "a": "art302-p1-iv"
+   }
+  ]
+ },
+ "prf-2019-057": {
+  "t": "Certo. Dirigir sem placas e com habilitação de categoria diferente da do veículo são agravantes dos crimes de trânsito (CTB, art. 298, II e IV). E o juiz fixa a pena-base “dando especial atenção à culpabilidade do agente e às circunstâncias e consequências do crime” (art. 291, § 4º).",
+  "b": [
+   {
+    "lei": "ctb",
+    "a": "art298-ii"
+   },
+   {
+    "lei": "ctb",
+    "a": "art298-iv"
+   },
+   {
+    "lei": "ctb",
+    "a": "art291-p4"
+   }
+  ]
+ },
+ "prf-2019-058": {
+  "t": "Errado. Entregar a direção a pessoa não habilitada é crime do art. 310 do CTB, que *não* exige perigo de dano: é crime de perigo abstrato (Súmula 575 do STJ). Sandro responde mesmo que Wellington dirija sem causar perigo.",
+  "b": [
+   {
+    "lei": "ctb",
+    "a": "art310"
+   }
+  ]
+ },
+ "prf-2019-059": {
+  "t": "Errado. O crime de dirigir sem habilitação (CTB, art. 309) exige que a conduta ocorra “*gerando perigo de dano*”. Sem perigo concreto, Wellington comete apenas a infração administrativa do art. 162, I.",
+  "b": [
+   {
+    "lei": "ctb",
+    "a": "art309"
+   },
+   {
+    "lei": "ctb",
+    "a": "art162-i"
+   }
+  ]
+ },
+ "prf-2019-060": {
+  "t": "Errado. Dirigir com CNH vencida há mais de 30 dias é infração gravíssima punida com multa (CTB, art. 162, V), mas não há *remoção* do veículo, só retenção até a apresentação de condutor habilitado. Na época, a medida incluía também o recolhimento da CNH; a Lei 14.071/2020 deixou apenas a retenção.",
+  "b": [
+   {
+    "lei": "ctb",
+    "a": "art162-v"
+   },
+   {
+    "lei": "ctb",
+    "a": "art162-txt-12"
+   }
+  ]
+ },
+ "prf-2019-063": {
+  "t": "Certo. Estacionar afastado da guia da calçada de 50 cm a 1 m é infração leve, e a mais de 1 m, grave. Nos dois casos há multa e remoção do veículo (CTB, art. 181, II e III).",
+  "b": [
+   {
+    "lei": "ctb",
+    "a": "art181-ii"
+   },
+   {
+    "lei": "ctb",
+    "a": "art181-iii"
+   }
+  ]
+ },
+ "prf-2019-064": {
+  "t": "Errado. Transitar “produzindo fumaça, gases ou partículas em níveis superiores aos fixados pelo CONTRAN” é infração administrativa (CTB, art. 231, III), com multa e retenção. O CTB não prevê crime de trânsito para essa conduta, qualquer que seja o nível de fumaça.",
+  "b": [
+   {
+    "lei": "ctb",
+    "a": "art231-iii"
+   }
+  ]
+ },
+ "prf-2019-065": {
+  "t": "Errado. A concessionária ou permissionária de serviço público “tem o direito de ser informada dos pontos atribuídos” aos motoristas de seu quadro que exercem atividade remunerada ao volante (CTB, art. 261, § 8º). Não depende de autorização do empregado.",
+  "b": [
+   {
+    "lei": "ctb",
+    "a": "art261-p8"
+   }
+  ]
+ },
+ "prf-2019-066": {
+  "t": "Errado. Quando a infração é cometida com veículo licenciado no exterior, a multa “deverá ser paga *antes de sua saída do País*, respeitado o princípio de reciprocidade” (CTB, art. 260, § 4º), e não no país de origem.",
+  "b": [
+   {
+    "lei": "ctb",
+    "a": "art260-p4"
+   }
+  ]
+ },
+ "prf-2019-067": {
+  "t": "Certo. Nas rodovias de pista dupla, a velocidade máxima, onde não houver sinalização, é de 110 km/h para automóveis, camionetas, caminhonetes e motocicletas (CTB, art. 61, § 1º, II, a, 1).",
+  "b": [
+   {
+    "lei": "ctb",
+    "a": "art61-p1-ii-a-n1"
+   }
+  ]
+ },
+ "prf-2019-068": {
+  "t": "Certo. É a ordem do art. 89 do CTB: as ordens do agente prevalecem sobre as normas de circulação e outros sinais; o semáforo, sobre os demais sinais; e os sinais, sobre as demais normas de trânsito.",
+  "b": [
+   {
+    "lei": "ctb",
+    "a": "art89-i"
+   },
+   {
+    "lei": "ctb",
+    "a": "art89-ii"
+   },
+   {
+    "lei": "ctb",
+    "a": "art89-iii"
+   }
+  ]
+ },
+ "prf-2019-069": {
+  "t": "Certo. A PRF integra o Sistema Nacional de Trânsito (CTB, art. 7º, V) e compete a ela, nas rodovias e estradas federais, “implementar as medidas da Política Nacional de Segurança e Educação de Trânsito” (art. 20, VIII).",
+  "b": [
+   {
+    "lei": "ctb",
+    "a": "art7-v"
+   },
+   {
+    "lei": "ctb",
+    "a": "art20-viii"
+   }
+  ]
+ },
+ "prf-2019-070": {
+  "t": "Errado. As funções estão trocadas. O CONTRAN é o “coordenador do Sistema e órgão máximo *normativo* e consultivo” (CTB, art. 7º, I); o órgão máximo *executivo* de trânsito da União era o DENATRAN (hoje Senatran). A coordenação máxima cabe ao ministério designado pelo Presidente da República (art. 9º).",
+  "b": [
+   {
+    "lei": "ctb",
+    "a": "art7-i"
+   },
+   {
+    "lei": "ctb",
+    "a": "art9"
+   }
+  ]
+ },
+ "prf-2019-071": {
+  "t": "Errado. A infração do art. 165 também pode ser caracterizada por “constatação de sinais que indiquem [...] alteração da capacidade psicomotora” ou por qualquer outra prova admitida (CTB, art. 277, § 2º). Sem o etilômetro, o policial pode lavrar o auto com base nos sinais observados, como prevê a resolução do CONTRAN.",
+  "b": [
+   {
+    "lei": "ctb",
+    "a": "art277-p2"
+   },
+   {
+    "lei": "ctb",
+    "a": "art165"
+   }
+  ]
+ },
+ "prf-2019-074": {
+  "t": "Errado, pelo gabarito. A resolução do CONTRAN sobre fiscalização de velocidade vigente à época (Resolução 396/2011) não admitia, em rodovia, um medidor portátil tão próximo (1 km) de um medidor fixo no mesmo trecho; a distância mínima exigida era maior. Hoje o tema está na Resolução CONTRAN 798/2020, então confira a distância atual."
+ },
+ "prf-2019-076": {
+  "t": "Errado. A resolução do CONTRAN sobre transporte de bicicletas (Resolução 549/2015, vigente à época) *permite* o transporte no compartimento de carga aberto (caçamba), inclusive quando a bicicleta ultrapassa o comprimento do compartimento, desde que observadas as condições de segurança e sinalização da norma."
+ },
+ "prf-2019-077": {
+  "t": "Errado. A Resolução CONTRAN 549/2015 manda observar as instruções do fabricante do dispositivo e do veículo. Por isso, a expressão “independentemente de instruções do fabricante” torna o item errado."
+ },
+ "prf-2019-078": {
+  "t": "Certo. Pela Resolução CONTRAN 549/2015, no transporte em dispositivo no teto, o conjunto veículo-dispositivo-bicicletas não pode ultrapassar a altura máxima de 4,40 m, que é o limite geral de altura dos veículos."
+ },
+ "prf-2019-079": {
+  "t": "Certo. A ficha registra saída às 17h e a abordagem ocorreu às 21h: no máximo 4 horas de direção. O limite para o motorista profissional no transporte de cargas é de 5 horas e meia ininterruptas (CTB, art. 67-C).",
+  "b": [
+   {
+    "lei": "ctb",
+    "a": "art67-c"
+   }
+  ]
+ },
+ "prf-2019-080": {
+  "t": "Errado. Disco-diagrama com superposição de registros, que impede a leitura, caracteriza registrador “viciado ou defeituoso” (CTB, art. 230, XIV): infração grave, com multa e retenção. A ficha de trabalho controla o tempo de direção, mas não afasta a infração pelo defeito no equipamento obrigatório.",
+  "b": [
+   {
+    "lei": "ctb",
+    "a": "art230-xiv"
+   }
+  ]
+ },
+ "prf-2019-081": {
+  "t": "Certo, pelo gabarito. Combinações de veículos com mais de 19,80 m dependem de Autorização Especial de Trânsito, e a norma do CONTRAN restringe o horário e o tipo de via em que podem circular. Às 21h, em pista simples, o tráfego da cegonha de 22 m descumpria a restrição, o que gera autuação e penalidade do CTB."
+ },
+ "prf-2019-082": {
+  "t": "Errado. A resolução do CONTRAN sobre amarração de cargas (Resolução 552/2015) não manda tensionar sempre pelo lado externo das guardas, “independentemente” do espaço ocupado. A forma correta de tensionar depende de como a carga ocupa a carroceria, e a figura da esquerda (carga que não ocupa toda a largura) não segue a regra."
+ },
+ "prf-2019-084": {
+  "t": "Errado. Pela Resolução CONTRAN 552/2015, os pontos de amarração internos não são opcionais para os dois tipos de baú, frigorífico e lonado. O item generaliza uma faculdade que a norma não dá."
+ },
+ "prf-2019-085": {
+  "t": "Certo. A norma do CONTRAN sobre motofrete e mototáxi (Resolução 356/2010, vigente à época) proíbe o transporte de galões, salvo galões de água mineral de até 20 litros, e só com auxílio de *side-car* ou semirreboque. Apenas o dispositivo da figura 1A9-V (carro lateral) atende a essa exigência."
+ },
+ "prf-2019-086": {
+  "t": "Certo. Pela resolução do CONTRAN sobre capacetes (Resolução 453/2013, vigente à época), a viseira deve estar abaixada, protegendo os olhos, com o veículo em movimento. Com a motocicleta parada, aguardando no semáforo, o condutor pode levantá-la."
+ },
+ "prf-2019-087": {
+  "t": "Errado. O capacete é obrigatório também para o condutor de quadriciclo motorizado em qualquer via, sem restrição a vias urbanas pavimentadas (Resolução CONTRAN 453/2013, vigente à época; CTB, arts. 54, I, e 244, I). O condutor cometeu infração e o policial deveria tê-la autuado.",
+  "b": [
+   {
+    "lei": "ctb",
+    "a": "art54-i"
+   },
+   {
+    "lei": "ctb",
+    "a": "art244-i"
+   }
+  ]
+ },
+ "prf-2019-088": {
+  "t": "Certo. A assinatura do infrator no auto vale como notificação do cometimento da infração (CTB, art. 280, VI). A resolução do CONTRAN da época (Resolução 619/2016, hoje substituída pela Resolução 918/2022) previa que o auto assinado pelo condutor que é também o proprietário, com o prazo de defesa, vale como notificação da autuação, dispensando outra.",
+  "b": [
+   {
+    "lei": "ctb",
+    "a": "art280-vi"
+   }
+  ]
+ },
+ "prf-2019-089": {
+  "t": "Errado. A própria PRF aplica as multas e as *arrecada* (CTB, art. 20, III); a receita é aplicada conforme o art. 320 do CTB e não é repassada ao DNIT.",
+  "b": [
+   {
+    "lei": "ctb",
+    "a": "art20-iii"
+   },
+   {
+    "lei": "ctb",
+    "a": "art320"
+   }
+  ]
+ },
+ "prf-2019-090": {
+  "t": "Errado pela lei da época. Em 2019 a suspensão do direito de dirigir era aplicada pelo órgão executivo de trânsito do estado (Detran), responsável pelos processos de suspensão (CTB, art. 22, II). Hoje é diferente: a Lei 14.071/2020 incluiu o art. 20, XII, e a PRF passou a aplicar a suspensão quando ela é prevista de forma específica para a infração, como no art. 165. Hoje o item seria certo.",
+  "b": [
+   {
+    "lei": "ctb",
+    "a": "art22-ii"
+   },
+   {
+    "lei": "ctb",
+    "a": "art20-xii"
+   },
+   {
+    "lei": "ctb",
+    "a": "art165-txt-2"
+   }
+  ]
+ },
+ "prf-2019-092": {
+  "t": "Certo. O vício de motivo ocorre quando a matéria de fato ou de direito em que se fundamenta o ato é *materialmente inexistente* ou *juridicamente inadequada* ao resultado obtido (Lei 4.717/1965, art. 2º, parágrafo único, d)."
+ },
+ "prf-2019-093": {
+  "t": "Errado. O poder de polícia é atividade da *administração pública* (CTN, art. 78). Empresas privadas não o exercem, e a delegação a pessoas de direito privado é admitida pelo STF apenas em fases específicas (como consentimento e fiscalização) e para entidades da administração indireta, em regime não concorrencial, e não a qualquer empresa ou concessionária."
+ },
+ "prf-2019-094": {
+  "t": "Errado. O abuso de poder (excesso de poder ou desvio de finalidade) pode decorrer tanto de ação quanto de *omissão* do agente público, por exemplo quando ele deixa de praticar ato a que está obrigado."
+ },
+ "prf-2019-095": {
+  "t": "Errado. Por ato comissivo, a responsabilidade do Estado é *objetiva*, fundada no risco administrativo (CF, art. 37, § 6º): a vítima precisa provar a conduta, o dano e o nexo causal, mas não a culpa ou o dolo do agente, que só importam para o direito de regresso.",
+  "b": [
+   {
+    "lei": "cf",
+    "a": "art37-p6"
+   }
+  ]
+ },
+ "prf-2019-096": {
+  "t": "Errado. Na requisição administrativa por iminente perigo público, a indenização é “ulterior, *se houver dano*” (CF, art. 5º, XXV). O dano não é presumido e precisa existir.",
+  "b": [
+   {
+    "lei": "cf",
+    "a": "art5-xxv"
+   }
+  ]
+ },
+ "prf-2019-097": {
+  "t": "Errado. A PRF destina-se ao patrulhamento ostensivo das *rodovias* federais (CF, art. 144, § 2º). As ferrovias federais cabem à polícia ferroviária federal (§ 3º).",
+  "b": [
+   {
+    "lei": "cf",
+    "a": "art144-p2"
+   },
+   {
+    "lei": "cf",
+    "a": "art144-p3"
+   }
+  ]
+ },
+ "prf-2019-098": {
+  "t": "Errado. A regra de agregação e passagem para a inatividade na diplomação, para quem tem mais de dez anos de serviço, é do *militar* alistável (CF, art. 14, § 8º, II). O policial rodoviário federal é servidor civil: eleito deputado federal, fica afastado do cargo (art. 38, I).",
+  "b": [
+   {
+    "lei": "cf",
+    "a": "art14-p8-ii"
+   },
+   {
+    "lei": "cf",
+    "a": "art38-i"
+   }
+  ]
+ },
+ "prf-2019-099": {
+  "t": "Certo. A CF assegura ao preso a informação de seus direitos, “entre os quais o de permanecer calado” (art. 5º, LXIII), e o “direito à identificação dos responsáveis por sua prisão” (art. 5º, LXIV).",
+  "b": [
+   {
+    "lei": "cf",
+    "a": "art5-lxiii"
+   },
+   {
+    "lei": "cf",
+    "a": "art5-lxiv"
+   }
+  ]
+ },
+ "prf-2019-100": {
+  "t": "Certo. É o texto do art. 144, § 10, I, da CF (EC 82/2014): a segurança viária “compreende a educação, engenharia e fiscalização de trânsito [...] que assegurem ao cidadão o direito à mobilidade urbana eficiente”.",
+  "b": [
+   {
+    "lei": "cf",
+    "a": "art144-p10-i"
+   }
+  ]
+ },
+ "prf-2019-101": {
+  "t": "Certo. Iludir o pagamento de imposto devido pela entrada de mercadoria é descaminho (CP, art. 334). Para o STF e o STJ, é crime *formal*: consuma-se com a ilusão do tributo, sem depender da constituição definitiva do crédito tributário (não se aplica a Súmula Vinculante 24).",
+  "b": [
+   {
+    "lei": "cp",
+    "a": "art334"
+   }
+  ]
+ },
+ "prf-2019-102": {
+  "t": "Errado. O servidor que, com infração de dever funcional, facilita o descaminho responde pelo crime autônomo de *facilitação de contrabando ou descaminho* (CP, art. 318), e não por “descaminho qualificado”.",
+  "b": [
+   {
+    "lei": "cp",
+    "a": "art318"
+   }
+  ]
+ },
+ "prf-2019-103": {
+  "t": "Certo. O agente foi encontrado, logo depois, com a arma que faz presumir ser ele o autor do crime: é o flagrante *presumido* ou ficto (CPP, art. 302, IV).",
+  "b": [
+   {
+    "lei": "cpp",
+    "a": "art302-iv"
+   }
+  ]
+ },
+ "prf-2019-104": {
+  "t": "Errado. O flagrante feito por policiais é *obrigatório* (CPP, art. 301: as autoridades policiais e seus agentes “deverão prender”), mas a excludente que abriga a ação é o *estrito cumprimento do dever legal*. O exercício regular de direito ampara o flagrante facultativo, feito por qualquer do povo (CP, art. 23, III).",
+  "b": [
+   {
+    "lei": "cpp",
+    "a": "art301"
+   },
+   {
+    "lei": "cp",
+    "a": "art23-iii"
+   }
+  ]
+ },
+ "prf-2019-105": {
+  "t": "Errado. No auto de prisão em flagrante, a autoridade ouve *primeiro o condutor*, depois as testemunhas e, por fim, interroga o preso (CPP, art. 304).",
+  "b": [
+   {
+    "lei": "cpp",
+    "a": "art304"
+   }
+  ]
+ },
+ "prf-2019-106": {
+  "t": "Errado. A legalidade proíbe a analogia *in malam partem* (para criar crime ou agravar pena), mas admite a analogia *in bonam partem*, em favor do réu. A proibição não é absoluta.",
+  "b": [
+   {
+    "lei": "cp",
+    "a": "art1"
+   },
+   {
+    "lei": "cf",
+    "a": "art5-xxxix"
+   }
+  ]
+ },
+ "prf-2019-107": {
+  "t": "Errado. É vedada a edição de medida provisória sobre *direito penal* (CF, art. 62, § 1º, I, b), ainda mais para agravar pena. A aprovação posterior pelo Congresso não supre a vedação.",
+  "b": [
+   {
+    "lei": "cf",
+    "a": "art62-p1-i-b"
+   }
+  ]
+ },
+ "prf-2019-108": {
+  "t": "Certo. Transportar pessoa mediante grave ameaça com a finalidade de exploração sexual é tráfico de pessoas (CP, art. 149-A, V). É crime formal, consumado com o transporte, ainda que a exploração não ocorra. A pena aumenta de 1/3 até a metade quando a vítima é criança ou adolescente (§ 1º, II).",
+  "b": [
+   {
+    "lei": "cp",
+    "a": "art149-a"
+   },
+   {
+    "lei": "cp",
+    "a": "art149-a-p1-ii"
+   }
+  ]
+ },
+ "prf-2019-110": {
+  "t": "Certo. A casa pode ser invadida sem consentimento e sem mandado “em caso de flagrante delito”, a qualquer hora, de dia ou à noite (CF, art. 5º, XI). Basta haver situação de flagrante, em qualquer de suas modalidades (próprio, impróprio ou presumido).",
+  "b": [
+   {
+    "lei": "cf",
+    "a": "art5-xi"
+   }
+  ]
+ },
+ "prf-2019-111": {
+  "t": "Errado. Transportar munição de uso *permitido* sem autorização também é crime (Estatuto do Desarmamento, art. 14), e não mera infração administrativa. Eurípedes responde pelo crime do art. 16 (uso restrito). Após o Pacote Anticrime, o art. 16 ganhou o § 2º, sobre arma de uso proibido, mas a conclusão do item não muda.",
+  "b": [
+   {
+    "lei": "l10826",
+    "a": "art14"
+   },
+   {
+    "lei": "l10826",
+    "a": "art16"
+   }
+  ]
+ },
+ "prf-2019-112": {
+  "t": "Errado. Submeter adolescente à exploração sexual é crime (ECA, art. 244-A; CP, art. 218-B), e o consentimento da vítima menor de 18 anos é irrelevante: a lei protege justamente quem ainda não tem plena capacidade de consentir.",
+  "b": [
+   {
+    "lei": "l8069",
+    "a": "art244-a"
+   },
+   {
+    "lei": "cp",
+    "a": "art218-b"
+   }
+  ]
+ },
+ "prf-2019-114": {
+  "t": "Certo, pelo gabarito. A Política Nacional de Enfrentamento ao Tráfico de Pessoas (Decreto 5.948/2006) foi concebida como ação articulada de diversos órgãos do governo federal, e sua coordenação e seus planos nacionais envolveram vários ministérios e secretarias ligadas à Presidência da República."
+ },
+ "prf-2019-115": {
+  "t": "Errado. Nem sempre haverá responsabilização: a Lei 9.605/1998 permite ao juiz deixar de aplicar a pena na guarda doméstica de espécie silvestre não ameaçada (art. 29, § 2º) e diz não ser crime o abate de animal em estado de necessidade, entre outras hipóteses (art. 37). Além disso, a autuação não dispensa o devido processo.",
+  "b": [
+   {
+    "lei": "l9605",
+    "a": "art29-p2"
+   },
+   {
+    "lei": "l9605",
+    "a": "art37"
+   }
+  ]
+ },
+ "prf-2019-116": {
+  "t": "Certo. Os direitos humanos são *universais*: pertencem a toda pessoa pela simples condição humana. Quem viola direitos humanos continua titular deles (por exemplo, direito ao devido processo e proibição de tortura)."
+ },
+ "prf-2019-117": {
+  "t": "Errado. Pela Convenção Americana, o Estado se compromete a *respeitar e garantir* os direitos (art. 1.1). Pode ser responsabilizado também por omissão, por exemplo quando deixa de prevenir, investigar ou punir violações cometidas por particulares (dever de devida diligência), e não só por atos de seus agentes.",
+  "b": [
+   {
+    "lei": "d678",
+    "a": "art1-n1"
+   }
+  ]
+ },
+ "prf-2019-118": {
+  "t": "Errado. Os direitos humanos foram afirmados progressivamente ao longo da história (historicidade). É a ideia das “gerações” ou dimensões: direitos civis e políticos, depois sociais, econômicos e culturais, depois difusos, como paz e meio ambiente."
+ },
+ "prf-2019-119": {
+  "t": "Errado, pelo gabarito. Pela CF e pelo STF, os tratados de direitos humanos aprovados pelo rito do art. 5º, § 3º, equivalem a emendas constitucionais. Os demais têm status *supralegal* (abaixo da CF e acima das leis, RE 466.343), e não meramente legal.",
+  "b": [
+   {
+    "lei": "cf",
+    "a": "art5-p3"
+   }
+  ]
+ },
+ "prf-2019-120": {
+  "t": "Certo. A equivalência às emendas constitucionais depende da aprovação, em cada Casa do Congresso, em dois turnos, por três quintos dos votos dos respectivos membros (CF, art. 5º, § 3º).",
+  "b": [
+   {
+    "lei": "cf",
+    "a": "art5-p3"
+   }
+  ]
+ }
+}

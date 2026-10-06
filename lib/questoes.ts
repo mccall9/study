@@ -1,6 +1,7 @@
 import "server-only";
 import inss2016 from "@/data/questoes/inss-2016.json";
 import inss2022 from "@/data/questoes/inss-2022.json";
+import prf2019 from "@/data/questoes/prf-2019.json";
 import prf2021 from "@/data/questoes/prf-2021.json";
 import type { Concurso } from "./edital";
 import type { Gabarito, Questao } from "./questoes-logica";
@@ -61,7 +62,7 @@ function carregar(json: ProvaJson): Prova {
   };
 }
 
-export const PROVAS: Prova[] = [carregar(prf2021), carregar(inss2022), carregar(inss2016)];
+export const PROVAS: Prova[] = [carregar(prf2021), carregar(inss2022), carregar(prf2019), carregar(inss2016)];
 
 export const QUESTOES: Questao[] = PROVAS.flatMap((p) => p.questoes);
 
