@@ -1,0 +1,935 @@
+{
+ "inss-2022-001": {
+  "t": "Errado. O texto inverte a relação. Ele cita o envelhecimento da população e a maior presença das mulheres no mercado de trabalho como dois fatores que, juntos, aumentam a demanda por cuidados (\"Esse fato, aliado ao envelhecimento da população, gerou [...] uma crise no provimento de cuidados\"). O envelhecimento não explica a entrada das mulheres no mercado."
+ },
+ "inss-2022-002": {
+  "t": "Certo. O texto diz que, nos países do hemisfério norte, a crise se resolveu com a mercantilização dos serviços e maior atuação do Estado, enquanto na América Latina \"o fornecimento de cuidados é tradicionalmente feito pelas famílias\", com escassa presença do Estado."
+ },
+ "inss-2022-003": {
+  "t": "Errado. Dados, depoimentos de especialistas e argumentos são recursos típicos de texto expositivo-argumentativo (no caso, um texto jornalístico de divulgação científica). Texto descritivo é o que caracteriza seres, objetos ou lugares, o que não predomina aqui."
+ },
+ "inss-2022-004": {
+  "t": "Errado. O texto não fala em profissionalização que tenha remodelado a essência do conceito. Ele diz que o conceito se tornou objeto de pesquisa e que o *entendimento* sobre ele se ampliou: deixou de ser visto só como necessidade em situações de dependência e passou a ser visto como trabalho fundamental para o bem-estar de todos."
+ },
+ "inss-2022-005": {
+  "t": "Errado. Os estudos citados descrevem a dimensão emocional do cuidado e mostram que, no hemisfério norte, a crise foi enfrentada justamente com mercantilização e maior atuação do Estado. O texto não traz nenhuma recomendação contra a participação do Estado ou do mercado."
+ },
+ "inss-2022-006": {
+  "t": "Certo. \"Nas quais\" retoma \"famílias\" (nas famílias, mulheres desempenham papel central). Com \"cujas\", que indica posse, a frase ficaria \"famílias, cujas mulheres desempenham [...] papel central\": as mulheres das famílias. A estrutura continua correta, como o item pede (só o aspecto sintático)."
+ },
+ "inss-2022-007": {
+  "t": "Certo. No primeiro período do terceiro parágrafo aparece \"a noção arraigada de que o trabalho de cuidado seria uma manifestação de amor\". No período seguinte, \"a ideia decorre [...] de construção cultural\" retoma essa mesma noção, um caso de coesão por substituição (sinônimo)."
+ },
+ "inss-2022-008": {
+  "t": "Certo. \"Na medida em que\" tem valor causal: o cuidado é fundamental para o bem-estar de todos *porque* qualquer pessoa pode se fragilizar. \"Pois\", com o mesmo valor explicativo/causal, mantém a coerência."
+ },
+ "inss-2022-009": {
+  "t": "Certo. Nos dois casos, a vírgula isola um adjunto adverbial (de conformidade) deslocado para antes da oração principal: \"De acordo com o último relatório da OIT,\" e \"Conforme definição da OIT,\". Mesmo motivo."
+ },
+ "inss-2022-010": {
+  "t": "Errado. A primeira parte está certa: \"entretanto\" marca oposição ao que se disse sobre o hemisfério norte. Mas \"conquanto\" é conjunção concessiva (equivale a \"embora\") e exige verbo no subjuntivo; não pode substituir a adversativa \"entretanto\" sem prejudicar o texto."
+ },
+ "inss-2022-011": {
+  "t": "Errado. \"Bem-estar\" é substantivo composto e, pela ortografia oficial, é escrito com hífen. Ser substantivo não autoriza tirar o hífen: \"bem estar\", separado, é grafia incorreta."
+ },
+ "inss-2022-012": {
+  "t": "Certo. Em \"tem sido crescente a sua presença em linhas de investigação\", o que está presente nas pesquisas é o conceito de cuidado, citado logo antes (\"o conceito de cuidado surgiu como categoria relevante\")."
+ },
+ "inss-2022-013": {
+  "t": "Errado. \"Por outro lado\" introduz outro aspecto da questão, acrescentando informação; não indica inversão. \"Inversamente\" significa \"de modo contrário\" e alteraria o sentido."
+ },
+ "inss-2022-014": {
+  "t": "Errado. Em \"o que tem sido analisado como uma crise\", o particípio \"analisado\" concorda com o pronome \"o que\" (o fato que tem sido analisado), sujeito da locução verbal. \"Crise\" é predicativo (analisado *como* uma crise); a concordância no feminino não é possível."
+ },
+ "inss-2022-015": {
+  "t": "Errado. O Código de Ética proíbe \"pleitear, solicitar, provocar, sugerir ou receber qualquer tipo de ajuda financeira, gratificação, prêmio, comissão, doação ou vantagem de qualquer espécie, para si, familiares ou *qualquer pessoa*, para o cumprimento da sua missão\" (Decreto 1.171/1994, anexo, XV, g). Repassar todo o valor à instituição não torna a conduta aceitável.",
+  "b": [
+   {
+    "lei": "d1171",
+    "a": "anexo-xv-g"
+   }
+  ]
+ },
+ "inss-2022-016": {
+  "t": "Certo. É quase literal o item II do Código de Ética: o servidor \"não poderá jamais desprezar o elemento ético de sua conduta\" e deve decidir \"principalmente entre o honesto e o desonesto\", conforme o art. 37 da CF.",
+  "b": [
+   {
+    "lei": "d1171",
+    "a": "anexo-ii"
+   }
+  ]
+ },
+ "inss-2022-017": {
+  "t": "Errado. O Código de Ética veda \"apresentar-se embriagado no serviço ou fora dele habitualmente\" (anexo, XV, n). E os atos da vida privada \"poderão acrescer ou diminuir o seu bom conceito na vida funcional\" (item VI).",
+  "b": [
+   {
+    "lei": "d1171",
+    "a": "anexo-xv-n"
+   },
+   {
+    "lei": "d1171",
+    "a": "anexo-vi"
+   }
+  ]
+ },
+ "inss-2022-018": {
+  "t": "Errado. Os membros da Comissão de Ética Pública (sete brasileiros) são designados pelo Presidente da República para mandatos de *três* anos, não coincidentes, \"permitida uma única recondução\" (Decreto 6.029/2007, art. 3º). Há dois erros no item: o prazo e a vedação de recondução.",
+  "b": [
+   {
+    "lei": "d6029",
+    "a": "art3"
+   }
+  ]
+ },
+ "inss-2022-019": {
+  "t": "Certo. Concluída a instrução e constatada falta ética, entre as providências cabíveis está a \"recomendação de abertura de procedimento administrativo, se a gravidade da conduta assim o exigir\" (Decreto 6.029/2007, art. 12, § 5º, III).",
+  "b": [
+   {
+    "lei": "d6029",
+    "a": "art12-p5-iii"
+   }
+  ]
+ },
+ "inss-2022-020": {
+  "t": "Certo. É a redação do art. 11 do Decreto 6.029/2007: qualquer cidadão, agente público, pessoa jurídica de direito privado, associação ou entidade de classe pode provocar a atuação da CEP ou de Comissão de Ética.",
+  "b": [
+   {
+    "lei": "d6029",
+    "a": "art11"
+   }
+  ]
+ },
+ "inss-2022-021": {
+  "t": "Errado. A CF admite o ingresso sem consentimento em mais casos: flagrante delito, desastre, para prestar socorro e, *durante o dia*, por determinação judicial (art. 5º, XI). O item reduz as exceções à ordem judicial e ainda omite a restrição ao período diurno.",
+  "b": [
+   {
+    "lei": "cf",
+    "a": "art5-xi"
+   }
+  ]
+ },
+ "inss-2022-022": {
+  "t": "Errado. A reunião independe de autorização: a CF exige \"apenas prévio aviso à autoridade competente\" (art. 5º, XVI). Os demais requisitos do item (pacífica, sem armas, local aberto ao público, não frustrar outra reunião) estão corretos.",
+  "b": [
+   {
+    "lei": "cf",
+    "a": "art5-xvi"
+   }
+  ]
+ },
+ "inss-2022-023": {
+  "t": "Certo. É o art. 5º, § 3º, da CF: tratados e convenções sobre direitos humanos aprovados em cada Casa do Congresso, em dois turnos, por três quintos dos votos dos membros, equivalem às emendas constitucionais.",
+  "b": [
+   {
+    "lei": "cf",
+    "a": "art5-p3"
+   }
+  ]
+ },
+ "inss-2022-024": {
+  "t": "Errado. \"Ninguém será obrigado a filiar-se ou a manter-se filiado a sindicato\" (CF, art. 8º, V). A segunda parte, sobre o papel do sindicato na defesa da categoria, está correta (art. 8º, III), mas não gera obrigação de filiação.",
+  "b": [
+   {
+    "lei": "cf",
+    "a": "art8-v"
+   },
+   {
+    "lei": "cf",
+    "a": "art8-iii"
+   }
+  ]
+ },
+ "inss-2022-025": {
+  "t": "Errado. A CF *veda* a cassação de direitos políticos (art. 15). As hipóteses listadas no item são de perda ou suspensão, não de cassação.",
+  "b": [
+   {
+    "lei": "cf",
+    "a": "art15"
+   }
+  ]
+ },
+ "inss-2022-026": {
+  "t": "Certo. Os cargos privativos de brasileiro nato estão no art. 12, § 3º, da CF. Entre os parlamentares, só os *presidentes* da Câmara e do Senado precisam ser natos; deputado e senador podem ser naturalizados.",
+  "b": [
+   {
+    "lei": "cf",
+    "a": "art12-p3"
+   }
+  ]
+ },
+ "inss-2022-027": {
+  "t": "Certo. A regra é a vedação de acumular cargos (CF, art. 37, XVI), e \"a proibição de acumular estende-se a empregos e funções e abrange autarquias, fundações, empresas públicas, sociedades de economia mista, suas subsidiárias, e sociedades controladas, direta ou indiretamente, pelo poder público\" (inciso XVII).",
+  "b": [
+   {
+    "lei": "cf",
+    "a": "art37-xvii"
+   }
+  ]
+ },
+ "inss-2022-028": {
+  "t": "Errado. A lei complementar para definir as áreas de atuação é exigida só para as fundações (\"cabendo à lei complementar, neste último caso\", CF, art. 37, XIX), e não \"em todos os casos\".",
+  "b": [
+   {
+    "lei": "cf",
+    "a": "art37-xix"
+   }
+  ]
+ },
+ "inss-2022-029": {
+  "t": "Certo. São as três hipóteses do art. 41, § 1º, da CF: sentença judicial transitada em julgado, processo administrativo com ampla defesa e avaliação periódica de desempenho, na forma de lei complementar, com ampla defesa. (Há ainda a hipótese de excesso de despesa com pessoal, no art. 169, § 4º.)",
+  "b": [
+   {
+    "lei": "cf",
+    "a": "art41-p1"
+   }
+  ]
+ },
+ "inss-2022-030": {
+  "t": "Certo. No mandato eletivo federal, o servidor fica afastado do cargo (CF, art. 38, I), e o tempo de serviço conta para todos os efeitos legais, exceto para promoção por merecimento (inciso IV).",
+  "b": [
+   {
+    "lei": "cf",
+    "a": "art38-i"
+   },
+   {
+    "lei": "cf",
+    "a": "art38-iv"
+   }
+  ]
+ },
+ "inss-2022-031": {
+  "t": "Certo. São os dois sentidos clássicos da expressão. Subjetivo, formal ou orgânico: *quem* exerce a função administrativa (órgãos, entidades e agentes). Objetivo, material ou funcional: a própria *atividade* administrativa."
+ },
+ "inss-2022-032": {
+  "t": "Errado. O item trocou as definições. Excesso de poder: o agente vai além da sua competência. Desvio de poder (ou de finalidade): o agente age dentro da competência, mas busca fim diverso do interesse público. As duas são espécies do gênero abuso de poder."
+ },
+ "inss-2022-033": {
+  "t": "Errado. A lei é, de fato, a fonte primária do direito administrativo, mas ele *não* é codificado no Brasil: as normas estão espalhadas em leis esparsas (8.112, 9.784, 14.133, 8.429, entre outras)."
+ },
+ "inss-2022-034": {
+  "t": "Errado. Autarquias não são subordinadas a ministérios: são *vinculadas*. Entre a administração direta e a indireta não há hierarquia, só supervisão ministerial (tutela ou controle finalístico). Na época da prova, o INSS era vinculado ao Ministério do Trabalho e Previdência."
+ },
+ "inss-2022-035": {
+  "t": "Errado. A ascensão e a transferência foram revogadas (o STF as considerou inconstitucionais, por permitirem acesso a outro cargo sem concurso). Hoje, as formas de provimento da Lei 8.112/1990 são: nomeação, promoção, readaptação, reversão, aproveitamento, reintegração e recondução (art. 8º).",
+  "b": [
+   {
+    "lei": "l8112",
+    "a": "art8"
+   }
+  ]
+ },
+ "inss-2022-036": {
+  "t": "Errado. O item trocou os institutos. Atos ilegais são *anulados*; a revogação é por conveniência ou oportunidade, respeitados os direitos adquiridos (Lei 9.784/1999, art. 53; Súmula 473 do STF).",
+  "b": [
+   {
+    "lei": "l9784",
+    "a": "art53"
+   }
+  ]
+ },
+ "inss-2022-037": {
+  "t": "Certo. É o conceito da Lei 8.987/1995 (art. 2º, II), com a redação dada pela Lei 14.133/2021, que incluiu o diálogo competitivo: delegação feita pelo poder concedente, mediante licitação na modalidade concorrência ou diálogo competitivo, a pessoa jurídica ou consórcio de empresas que demonstre capacidade, por sua conta e risco e por prazo determinado."
+ },
+ "inss-2022-038": {
+  "t": "Certo. Ter interesse direto ou indireto na matéria é causa de *impedimento* (Lei 9.784/1999, art. 18, I). Amizade íntima ou inimizade notória com os interessados é causa de *suspeição*, que pode ser arguida (art. 20).",
+  "b": [
+   {
+    "lei": "l9784",
+    "a": "art18-i"
+   },
+   {
+    "lei": "l9784",
+    "a": "art20"
+   }
+  ]
+ },
+ "inss-2022-039": {
+  "t": "Certo. Pela teoria do risco administrativo, adotada no art. 37, § 6º, da CF, a responsabilidade é objetiva, mas admite excludentes e atenuantes. A culpa exclusiva da vítima exclui a responsabilidade, e a culpa concorrente a reduz.",
+  "b": [
+   {
+    "lei": "cf",
+    "a": "art37-p6"
+   }
+  ]
+ },
+ "inss-2022-040": {
+  "t": "Errado. Desde a Lei 14.230/2021, a Lei de Improbidade alcança o terceiro (não agente público) que \"induza ou concorra *dolosamente*\" para o ato (art. 3º). Não existe mais improbidade culposa.",
+  "b": [
+   {
+    "lei": "l8429",
+    "a": "art3"
+   }
+  ]
+ },
+ "inss-2022-041": {
+  "t": "Certo. Cookies são pequenos arquivos que o site grava no computador do usuário, pelo navegador, para lembrar preferências, sessões de login e configurações nas próximas visitas."
+ },
+ "inss-2022-042": {
+  "t": "Errado. O cadeado e o \"https://\" indicam que a conexão entre o navegador e o site é criptografada (protocolo HTTPS com certificado digital). Não indicam intranet nem exigência de senha: a maioria dos sites públicos da Internet usa HTTPS."
+ },
+ "inss-2022-044": {
+  "t": "Errado. O item descreve o *ransomware*: código malicioso que criptografa os dados da vítima e cobra resgate para liberá-los. *Phishing* é um golpe de engenharia social, com mensagens ou páginas falsas que imitam instituições conhecidas para enganar a vítima e obter senhas, dados bancários e informações pessoais."
+ },
+ "inss-2022-045": {
+  "t": "Certo. O BitLocker é a ferramenta de criptografia de disco do Windows (edições Pro e superiores). Ela cifra a unidade inteira, e os dados ficam ilegíveis para quem tentar acessá-los sem a chave, por exemplo se o computador for furtado."
+ },
+ "inss-2022-046": {
+  "t": "Errado. 35% dos segurados tiveram atendimento presencial; 20% deles correspondem a 0,20 × 35% = 7% do total, e não 10%."
+ },
+ "inss-2022-047": {
+  "t": "Certo. Com só as duas modalidades, todo segurado foi atendido em pelo menos uma delas. Pelo princípio da inclusão-exclusão: 75% + 35% − 100% = 10% passaram pelas duas."
+ },
+ "inss-2022-048": {
+  "t": "Errado. P é uma condicional (\"quando A, B\") com duas proposições simples: \"o segurado apresenta testemunhas com valor de prova\" e \"a agência fornece um servidor exclusivo\". A tabela-verdade tem 2² = 4 linhas. Oito linhas seriam para três proposições."
+ },
+ "inss-2022-050": {
+  "t": "Certo. P é uma condicional (A → B), que só é falsa quando o antecedente é verdadeiro e o consequente é falso (V → F). É uma única combinação entre as quatro possíveis."
+ },
+ "inss-2022-051": {
+  "t": "Certo. A CF prevê o \"caráter democrático e descentralizado da administração, mediante gestão quadripartite, com participação dos trabalhadores, dos empregadores, dos aposentados e do Governo nos órgãos colegiados\" (art. 194, parágrafo único, VII).",
+  "b": [
+   {
+    "lei": "cf",
+    "a": "art194-pu-vii"
+   }
+  ]
+ },
+ "inss-2022-052": {
+  "t": "Errado. A uniformidade e a equivalência entre populações urbanas e rurais são objetivo da seguridade (CF, art. 194, parágrafo único, II), e a \"equidade na forma de participação no custeio\" *também* é (inciso V). O item nega o segundo.",
+  "b": [
+   {
+    "lei": "cf",
+    "a": "art194-pu-ii"
+   },
+   {
+    "lei": "cf",
+    "a": "art194-pu-v"
+   }
+  ]
+ },
+ "inss-2022-053": {
+  "t": "Errado. A territorialidade é a regra, mas há exceções de extraterritorialidade. Por exemplo, o brasileiro contratado no Brasil para trabalhar como empregado em sucursal de empresa nacional no exterior é segurado obrigatório do RGPS (Lei 8.213/1991, art. 11, I, c), e há os acordos internacionais de previdência.",
+  "b": [
+   {
+    "lei": "l8213",
+    "a": "art11-i-c"
+   }
+  ]
+ },
+ "inss-2022-055": {
+  "t": "Errado. Essa pessoa é segurada obrigatória na qualidade de *empregado*, e não de contribuinte individual (Lei 8.212/1991, art. 12, I, f; Lei 8.213/1991, art. 11, I, f).",
+  "b": [
+   {
+    "lei": "l8212",
+    "a": "art12-i-f"
+   },
+   {
+    "lei": "l8213",
+    "a": "art11-i-f"
+   }
+  ]
+ },
+ "inss-2022-056": {
+  "t": "Certo. Daniel explora área de até quatro módulos fiscais, requisito do segurado especial (Lei 8.213/1991, art. 11, VII, a, 1). E não descaracteriza essa condição \"a exploração da atividade turística da propriedade rural, inclusive com hospedagem, por não mais de 120 dias ao ano\" (art. 11, § 8º, II). Noventa dias estão dentro do limite.",
+  "b": [
+   {
+    "lei": "l8213",
+    "a": "art11-vii-a-n1"
+   },
+   {
+    "lei": "l8213",
+    "a": "art11-p8-ii"
+   }
+  ]
+ },
+ "inss-2022-057": {
+  "t": "Errado. O ministro de confissão religiosa e o membro de instituto de vida consagrada, de congregação ou de ordem religiosa são segurados *obrigatórios*, na qualidade de contribuintes individuais (Lei 8.212/1991, art. 12, V, c).",
+  "b": [
+   {
+    "lei": "l8212",
+    "a": "art12-v-c"
+   }
+  ]
+ },
+ "inss-2022-058": {
+  "t": "Certo. Empresa é \"a firma individual ou sociedade que assume o risco de atividade econômica urbana ou rural\" (Lei 8.212/1991, art. 15, I), e o parágrafo único equipara a empresa, entre outros, a cooperativa e a missão diplomática.",
+  "b": [
+   {
+    "lei": "l8212",
+    "a": "art15-i"
+   },
+   {
+    "lei": "l8212",
+    "a": "art15-pu"
+   }
+  ]
+ },
+ "inss-2022-059": {
+  "t": "Errado. Para o segurado obrigatório, a filiação \"decorre automaticamente do exercício de atividade remunerada\". O pagamento da primeira contribuição é o marco da filiação do segurado *facultativo* (Decreto 3.048/1999, art. 20, § 1º).",
+  "b": [
+   {
+    "lei": "d3048",
+    "a": "art20-p1"
+   }
+  ]
+ },
+ "inss-2022-060": {
+  "t": "Certo. É segurado obrigatório, como empregado, \"o exercente de mandato eletivo federal, estadual ou municipal, desde que não vinculado a regime próprio de previdência social\" (Lei 8.212/1991, art. 12, I, j).",
+  "b": [
+   {
+    "lei": "l8212",
+    "a": "art12-i-j"
+   }
+  ]
+ },
+ "inss-2022-061": {
+  "t": "Errado. O conceito previdenciário de empresa abrange atividade \"com fins lucrativos *ou não*\" e *inclui* os órgãos e entidades da administração pública direta, indireta e fundacional (Lei 8.212/1991, art. 15, I).",
+  "b": [
+   {
+    "lei": "l8212",
+    "a": "art15-i"
+   }
+  ]
+ },
+ "inss-2022-062": {
+  "t": "Certo. Empregador doméstico é \"a pessoa ou família que admite a seu serviço, sem finalidade lucrativa, empregado doméstico\" (Lei 8.212/1991, art. 15, II). Pessoa jurídica não pode ser empregadora doméstica.",
+  "b": [
+   {
+    "lei": "l8212",
+    "a": "art15-ii"
+   }
+  ]
+ },
+ "inss-2022-063": {
+  "t": "Certo. Entre as contribuições sociais estão \"as das empresas, incidentes sobre a remuneração paga ou creditada aos segurados a seu serviço\" (Lei 8.212/1991, art. 11, parágrafo único, a).",
+  "b": [
+   {
+    "lei": "l8212",
+    "a": "art11-pu-a"
+   }
+  ]
+ },
+ "inss-2022-064": {
+  "t": "Errado. Constituem outras receitas da seguridade social \"as multas, a atualização monetária e os juros moratórios\" (Lei 8.212/1991, art. 27, I). A atualização monetária está incluída.",
+  "b": [
+   {
+    "lei": "l8212",
+    "a": "art27-i"
+   }
+  ]
+ },
+ "inss-2022-066": {
+  "t": "Errado. A contribuição da associação desportiva que mantém futebol profissional corresponde a *cinco* por cento da receita bruta dos espetáculos e também das receitas de patrocínio, licenciamento de marcas, publicidade e transmissão (Lei 8.212/1991, art. 22, § 6º). Não há alíquota de 20%.",
+  "b": [
+   {
+    "lei": "l8212",
+    "a": "art22-p6"
+   }
+  ]
+ },
+ "inss-2022-067": {
+  "t": "Certo. O salário de contribuição é a base de cálculo das contribuições dos segurados (Lei 8.212/1991, art. 28). O segurado especial é a exceção: ele contribui com uma alíquota sobre o resultado da comercialização da produção (CF, art. 195, § 8º).",
+  "b": [
+   {
+    "lei": "l8212",
+    "a": "art28"
+   },
+   {
+    "lei": "cf",
+    "a": "art195-p8"
+   }
+  ]
+ },
+ "inss-2022-069": {
+  "t": "Errado. Para o contribuinte individual e o facultativo, o limite mínimo é o *salário mínimo*. O piso salarial legal ou normativo da categoria é o limite do empregado (inclusive o doméstico) e do trabalhador avulso (Decreto 3.048/1999, art. 214, § 3º).",
+  "b": [
+   {
+    "lei": "d3048",
+    "a": "art214-p3-i"
+   },
+   {
+    "lei": "d3048",
+    "a": "art214-p3-ii"
+   }
+  ]
+ },
+ "inss-2022-070": {
+  "t": "Certo. Desde a EC 103/2019, só conta como tempo de contribuição a competência com contribuição igual ou superior à mínima (CF, art. 195, § 14). O segurado que recebe menos que o limite mínimo no mês pode complementar a contribuição para alcançá-lo (EC 103/2019, art. 29, I).",
+  "b": [
+   {
+    "lei": "cf",
+    "a": "art195-p14"
+   },
+   {
+    "lei": "emc103",
+    "a": "art29-i"
+   }
+  ]
+ },
+ "inss-2022-071": {
+  "t": "Certo. O limite máximo (teto) do salário de contribuição é reajustado \"na mesma época e com os mesmos índices que os do reajustamento dos benefícios de prestação continuada da Previdência Social\" (Lei 8.212/1991, art. 28, § 5º).",
+  "b": [
+   {
+    "lei": "l8212",
+    "a": "art28-p5"
+   }
+  ]
+ },
+ "inss-2022-073": {
+  "t": "Errado. Desde a Lei 11.457/2007 (\"Super-Receita\"), cabe à Secretaria da Receita Federal do Brasil planejar, executar, acompanhar e avaliar a tributação, a fiscalização e a arrecadação das contribuições sociais e das devidas a título de substituição (Lei 8.212/1991, art. 33). Não é atribuição do INSS.",
+  "b": [
+   {
+    "lei": "l8212",
+    "a": "art33"
+   }
+  ]
+ },
+ "inss-2022-075": {
+  "t": "Errado. A regra é recolher por iniciativa própria até o dia 15 do mês seguinte (Lei 8.212/1991, art. 30, II), mas existe outra forma: quem contribui sobre um salário mínimo pode optar pelo recolhimento *trimestral* (Decreto 3.048/1999, art. 216, § 15).",
+  "b": [
+   {
+    "lei": "l8212",
+    "a": "art30-ii"
+   },
+   {
+    "lei": "d3048",
+    "a": "art216-p15"
+   }
+  ]
+ },
+ "inss-2022-076": {
+  "t": "Certo. A Lei 10.559/2002 (anistia política) garante a contagem, para todos os efeitos, do tempo em que o anistiado foi compelido a se afastar de suas atividades, inclusive o exílio, por punição ou ameaça de punição por motivo exclusivamente político, \"vedada a exigência de recolhimento de quaisquer contribuições previdenciárias\"."
+ },
+ "inss-2022-077": {
+  "t": "Certo. A pensão especial do ex-combatente (ADCT, art. 53, II) é inacumulável com quaisquer rendimentos recebidos dos cofres públicos, exceto os benefícios previdenciários, \"ressalvado o direito de opção\". A remuneração de secretário de Estado vem dos cofres públicos; por isso, Francisco deve optar."
+ },
+ "inss-2022-078": {
+  "t": "Errado. A pensão especial para crianças com síndrome congênita do zika vírus (Lei 13.985/2020) é mensal e vitalícia, mas é requerida e paga pelo INSS, com recursos da União. Não é paga pelas secretarias municipais de assistência social."
+ },
+ "inss-2022-079": {
+  "t": "Errado. A pensão especial da síndrome da talidomida (Lei 7.070/1982) é um benefício indenizatório, devido à própria pessoa com a deficiência. Não é benefício previdenciário e não se transmite: a morte de Paulo não gera pensão por morte para a mãe."
+ },
+ "inss-2022-080": {
+  "t": "Errado. A pensão mensal vitalícia é do seringueiro (\"soldado da borracha\") carente (ADCT, art. 54). O benefício é transferível aos dependentes reconhecidamente carentes após a morte do titular. Não existe pagamento simultâneo ao filho e ao pai."
+ },
+ "inss-2022-081": {
+  "t": "Certo. A reabilitação profissional compreende o fornecimento de prótese, órtese e \"instrumentos de auxílio para locomoção quando a perda ou redução da capacidade funcional puder ser atenuada por seu uso\" e \"o transporte do acidentado do trabalho, quando necessário\" (Lei 8.213/1991, art. 89, parágrafo único, a e c).",
+  "b": [
+   {
+    "lei": "l8213",
+    "a": "art89-pu-a"
+   },
+   {
+    "lei": "l8213",
+    "a": "art89-pu-c"
+   }
+  ]
+ },
+ "inss-2022-082": {
+  "t": "Certo. A reabilitação profissional está entre as prestações que independem de carência (Lei 8.213/1991, art. 26, V). Ela é devida ao segurado incapacitado parcial ou totalmente, para que volte ao mercado de trabalho.",
+  "b": [
+   {
+    "lei": "l8213",
+    "a": "art26-v"
+   }
+  ]
+ },
+ "inss-2022-083": {
+  "t": "Certo. Contra decisão do INSS sobre benefício cabe recurso ordinário ao Conselho de Recursos da Previdência Social (CRPS). Em primeira instância, julgam as Juntas de Recursos (Decreto 3.048/1999, art. 303, § 1º, I, a); das decisões delas cabe recurso especial às Câmaras de Julgamento.",
+  "b": [
+   {
+    "lei": "d3048",
+    "a": "art303-p1-i-a"
+   }
+  ]
+ },
+ "inss-2022-084": {
+  "t": "Certo. O prazo de *decadência* para pedir a revisão do ato de concessão é de dez anos (Lei 8.213/1991, art. 103), e a aposentadoria é de 2018. A *prescrição* atinge só as parcelas vencidas há mais de cinco anos (parágrafo único). Entre abril de 2018 e setembro de 2022 não se passaram cinco anos, então todas as diferenças desde a implantação são devidas.",
+  "b": [
+   {
+    "lei": "l8213",
+    "a": "art103"
+   },
+   {
+    "lei": "l8213",
+    "a": "art103-pu"
+   }
+  ]
+ },
+ "inss-2022-085": {
+  "t": "Errado. Não existe redução da pena pela metade nessa hipótese. A confissão espontânea, com declaração e informações à previdência *antes do início da ação fiscal*, extingue a punibilidade (CP, art. 337-A, § 1º). E o pagamento integral do débito também extingue a punibilidade (Lei 10.684/2003, art. 9º, § 2º), segundo a jurisprudência mesmo depois de iniciada a ação penal.",
+  "b": [
+   {
+    "lei": "cp",
+    "a": "art337-a-p1"
+   }
+  ]
+ },
+ "inss-2022-086": {
+  "t": "Errado. A apropriação indébita previdenciária (CP, art. 168-A) é crime *omissivo* próprio: o núcleo é \"deixar de repassar\". Também não é praticável por qualquer pessoa: só por quem tem o dever legal de repassar as contribuições recolhidas (o responsável tributário).",
+  "b": [
+   {
+    "lei": "cp",
+    "a": "art168-a"
+   }
+  ]
+ },
+ "inss-2022-087": {
+  "t": "Errado. É vedada a filiação ao RGPS, como facultativo, de quem participa de regime próprio (CF, art. 201, § 5º). O regulamento só admite a filiação no afastamento *sem* vencimentos, quando não for permitida a contribuição ao regime próprio.",
+  "b": [
+   {
+    "lei": "cf",
+    "a": "art201-p5"
+   }
+  ]
+ },
+ "inss-2022-088": {
+  "t": "Certo. É devido salário-maternidade, por 120 dias, ao segurado ou segurada que adotar ou obtiver guarda judicial para fins de adoção de criança (Lei 8.213/1991, art. 71-A), e esse benefício é pago diretamente pela Previdência Social (§ 1º).",
+  "b": [
+   {
+    "lei": "l8213",
+    "a": "art71-a"
+   },
+   {
+    "lei": "l8213",
+    "a": "art71-a-p1"
+   }
+  ]
+ },
+ "inss-2022-089": {
+  "t": "Errado. Maria já era filiada antes da EC 103/2019, então segue a regra de transição da aposentadoria por idade: 15 anos de contribuição e idade de 60 anos para a mulher, acrescida de 6 meses por ano a partir de 2020 até chegar a 62 (EC 103/2019, art. 18, I, II e § 1º). Em 2022 a idade exigida era 61 anos e meio, e ela tem direito. O erro está no valor: a média considera todos os salários de contribuição desde julho de 1994, não só os últimos 36 (art. 26), e o benefício é de 60% dessa média mais 2 pontos percentuais por ano de contribuição acima de 15 para a mulher (art. 26, §§ 2º, I, e 5º). Com 17 anos, 64%.",
+  "b": [
+   {
+    "lei": "emc103",
+    "a": "art18"
+   },
+   {
+    "lei": "emc103",
+    "a": "art18-p1"
+   },
+   {
+    "lei": "emc103",
+    "a": "art26"
+   },
+   {
+    "lei": "emc103",
+    "a": "art26-p5"
+   }
+  ]
+ },
+ "inss-2022-090": {
+  "t": "Errado. Mantém a qualidade de segurado, \"sem limite de prazo, quem está em gozo de benefício\" (Lei 8.213/1991, art. 15, I). Enquanto recebeu o auxílio por incapacidade temporária, Cláudio continuou segurado; não houve perda a recuperar.",
+  "b": [
+   {
+    "lei": "l8213",
+    "a": "art15-i"
+   }
+  ]
+ },
+ "inss-2022-091": {
+  "t": "Certo. O pescador artesanal que exerce a atividade de forma ininterrupta, individualmente ou em regime de economia familiar, tem direito ao seguro-desemprego durante o defeso da espécie que captura (Lei 10.779/2003, art. 1º). Manoel pesca camarão, espécie em defeso.",
+  "b": [
+   {
+    "lei": "l10779",
+    "a": "art1"
+   }
+  ]
+ },
+ "inss-2022-092": {
+  "t": "Errado. Só tem direito ao seguro-defeso o pescador artesanal \"que não disponha de outra fonte de renda diversa da decorrente da atividade pesqueira\" (Lei 10.779/2003, art. 1º, § 4º). José tem emprego de músico.",
+  "b": [
+   {
+    "lei": "l10779",
+    "a": "art1-p4"
+   }
+  ]
+ },
+ "inss-2022-093": {
+  "t": "Certo. O pescador não pode estar recebendo benefício previdenciário ou assistencial de natureza continuada, \"exceto pensão por morte e auxílio-acidente\" (Lei 10.779/2003, art. 2º, § 1º). A pensão de Maria não impede o seguro.",
+  "b": [
+   {
+    "lei": "l10779",
+    "a": "art2-2-p1"
+   }
+  ]
+ },
+ "inss-2022-094": {
+  "t": "Errado. O pedido nunca é feito ao IBAMA, que só fixa o defeso. Na época da prova, cabia ao INSS receber e processar os requerimentos (Lei 10.779/2003, art. 2º). Além disso, Flávio não tem direito ao benefício, que é só do pescador artesanal. Atenção: o texto atual da lei também traz uma redação que atribui a habilitação ao Ministério do Trabalho e Emprego; confira a regra vigente antes da prova.",
+  "b": [
+   {
+    "lei": "l10779",
+    "a": "art2"
+   }
+  ]
+ },
+ "inss-2022-095": {
+  "t": "Errado. O seguro-desemprego do defeso é exclusivo do pescador *artesanal* (Lei 10.779/2003, art. 1º). Flávio é pescador profissional (industrial), então não tem direito, qualquer que seja a espécie em defeso.",
+  "b": [
+   {
+    "lei": "l10779",
+    "a": "art1"
+   }
+  ]
+ },
+ "inss-2022-096": {
+  "t": "Errado. O tempo de atividade rural anterior à obrigatoriedade de contribuição só é contado no regime próprio (contagem recíproca) mediante indenização das contribuições correspondentes (Lei 8.213/1991, art. 96, IV). Sem indenização, esse tempo não entra na compensação financeira entre os regimes.",
+  "b": [
+   {
+    "lei": "l8213",
+    "a": "art96-iv"
+   }
+  ]
+ },
+ "inss-2022-097": {
+  "t": "Certo. Na contagem recíproca, \"é vedada a contagem de tempo de serviço público com o de atividade privada, quando concomitantes\" (Lei 8.213/1991, art. 96, II). Se o tempo concomitante não pode ser somado, também não gera compensação financeira entre os regimes.",
+  "b": [
+   {
+    "lei": "l8213",
+    "a": "art96-ii"
+   }
+  ]
+ },
+ "inss-2022-098": {
+  "t": "Certo. Na compensação financeira (Lei 9.796/1999), regime de origem é aquele ao qual o segurado esteve vinculado sem receber aposentadoria (aqui, o RGPS, onde Carlos contribuiu). Regime instituidor é o que concede a aposentadoria (o RPPS da União)."
+ },
+ "inss-2022-099": {
+  "t": "Certo. A lei não pode prever contagem de tempo de contribuição fictício (CF, art. 40, § 10). Já a contagem recíproca é assegurada entre o RGPS e os regimes próprios \"e destes entre si\" (art. 201, § 9º), o que permite somar tempo municipal ou distrital com estadual ou federal.",
+  "b": [
+   {
+    "lei": "cf",
+    "a": "art40-p10"
+   },
+   {
+    "lei": "cf",
+    "a": "art201-p9"
+   }
+  ]
+ },
+ "inss-2022-100": {
+  "t": "Certo. É a definição da LOAS: a proteção social especial tem por objetivo \"contribuir para a reconstrução de vínculos familiares e comunitários, a defesa de direito, o fortalecimento das potencialidades e aquisições e a proteção de famílias e indivíduos para o enfrentamento das situações de violação de direitos\" (Lei 8.742/1993, art. 6º-A, II).",
+  "b": [
+   {
+    "lei": "l8742",
+    "a": "art6-a-ii"
+   }
+  ]
+ },
+ "inss-2022-101": {
+  "t": "Certo. Tem direito ao auxílio-inclusão a pessoa com deficiência moderada ou grave que receba o BPC e passe a exercer atividade com remuneração limitada a dois salários mínimos e que a enquadre como segurada obrigatória do RGPS ou filiada a RPPS (Lei 8.742/1993, art. 26-A, I).",
+  "b": [
+   {
+    "lei": "l8742",
+    "a": "art26-a"
+   },
+   {
+    "lei": "l8742",
+    "a": "art26-a-i-a"
+   },
+   {
+    "lei": "l8742",
+    "a": "art26-a-i-b"
+   }
+  ]
+ },
+ "inss-2022-102": {
+  "t": "Errado. Auxílio-natalidade e auxílio-funeral são benefícios eventuais (Lei 8.742/1993, art. 22), custeados pelos *Municípios* (art. 15, I), com participação dos Estados (art. 13, I). À União cabe o BPC (art. 12, I).",
+  "b": [
+   {
+    "lei": "l8742",
+    "a": "art15-i"
+   },
+   {
+    "lei": "l8742",
+    "a": "art13-i"
+   },
+   {
+    "lei": "l8742",
+    "a": "art12-i"
+   }
+  ]
+ },
+ "inss-2022-103": {
+  "t": "Errado. O STF decidiu (RE 587.970, Tema 173) que os estrangeiros residentes no país têm direito ao BPC, desde que atendam aos requisitos constitucionais e legais. Ser estrangeiro não impede Carlos de recebê-lo.",
+  "b": [
+   {
+    "lei": "l8742",
+    "a": "art20"
+   }
+  ]
+ },
+ "inss-2022-105": {
+  "t": "Errado. O critério de renda (1/4 do salário mínimo per capita) não é suficiente, nem o único, para aferir a miserabilidade. O STF o considerou insuficiente, e a própria LOAS permite usar \"outros elementos probatórios da condição de miserabilidade do grupo familiar e da situação de vulnerabilidade\" (Lei 8.742/1993, art. 20, § 11).",
+  "b": [
+   {
+    "lei": "l8742",
+    "a": "art20-p11"
+   }
+  ]
+ },
+ "inss-2022-107": {
+  "t": "Errado. É o oposto: a EC 103/2019 *vedou* a instituição de novos regimes próprios de previdência social (CF, art. 40, § 22). Os entes que não têm RPPS vinculam seus servidores ao RGPS.",
+  "b": [
+   {
+    "lei": "cf",
+    "a": "art40-p22"
+   }
+  ]
+ },
+ "inss-2022-108": {
+  "t": "Certo. É o conceito da LC 142/2013 (art. 2º): pessoa com deficiência é aquela com impedimentos de longo prazo de natureza física, mental, intelectual ou *sensorial*, que, em interação com diversas barreiras, podem obstruir sua participação plena e efetiva na sociedade.",
+  "b": [
+   {
+    "lei": "lcp142",
+    "a": "art2"
+   }
+  ]
+ },
+ "inss-2022-109": {
+  "t": "Errado. 29 anos (homem) e 24 anos (mulher) são os tempos para deficiência *moderada*. Na deficiência leve, são 33 e 28 anos (LC 142/2013, art. 3º, III).",
+  "b": [
+   {
+    "lei": "lcp142",
+    "a": "art3-iii"
+   }
+  ]
+ },
+ "inss-2022-110": {
+  "t": "Certo. A aposentadoria por idade da pessoa com deficiência é devida aos 60 anos (homem) e 55 anos (mulher), independentemente do grau de deficiência, cumprido o tempo mínimo de 15 anos de contribuição e comprovada a deficiência durante igual período (LC 142/2013, art. 3º, IV).",
+  "b": [
+   {
+    "lei": "lcp142",
+    "a": "art3-iv"
+   }
+  ]
+ },
+ "inss-2022-111": {
+  "t": "Errado. A avaliação da deficiência é médica e funcional (LC 142/2013, art. 4º), e a comprovação de tempo na condição de pessoa com deficiência em período anterior à lei não é admitida por prova exclusivamente testemunhal (art. 6º, § 2º).",
+  "b": [
+   {
+    "lei": "lcp142",
+    "a": "art4"
+   },
+   {
+    "lei": "lcp142",
+    "a": "art6-p2"
+   }
+  ]
+ },
+ "inss-2022-112": {
+  "t": "Errado. Os 100% valem para as aposentadorias por tempo de contribuição (LC 142/2013, art. 8º, I). Na aposentadoria por *idade*, a renda é de 70% mais 1% por grupo de 12 contribuições, até o máximo de 30% (inciso II).",
+  "b": [
+   {
+    "lei": "lcp142",
+    "a": "art8-i"
+   },
+   {
+    "lei": "lcp142",
+    "a": "art8-ii"
+   }
+  ]
+ },
+ "inss-2022-113": {
+  "t": "Certo. As ações e serviços de saúde são de relevância pública (CF, art. 197). A saúde tem acesso universal e igualitário (art. 196), e o SUS segue a descentralização, com direção única em cada esfera de governo (art. 198, I). A assistência à saúde é livre à iniciativa privada, que pode participar do SUS de forma complementar (art. 199).",
+  "b": [
+   {
+    "lei": "cf",
+    "a": "art197"
+   },
+   {
+    "lei": "cf",
+    "a": "art196"
+   },
+   {
+    "lei": "cf",
+    "a": "art198-i"
+   },
+   {
+    "lei": "cf",
+    "a": "art199"
+   }
+  ]
+ },
+ "inss-2022-114": {
+  "t": "Errado. A assistência social é prestada a quem dela necessitar, independentemente de contribuição (CF, art. 203), mas sua organização é *descentralizada*: a diretriz é a descentralização político-administrativa (art. 204, I).",
+  "b": [
+   {
+    "lei": "cf",
+    "a": "art203"
+   },
+   {
+    "lei": "cf",
+    "a": "art204-i"
+   }
+  ]
+ },
+ "inss-2022-115": {
+  "t": "Certo. A previdência, \"mediante contribuição\", assegura meios de manutenção por motivo de incapacidade, desemprego involuntário, idade avançada, tempo de serviço, encargos familiares e prisão ou morte (Lei 8.213/1991, art. 1º). Entre seus princípios estão a universalidade de participação nos planos e a preservação do poder aquisitivo dos benefícios (art. 2º, I e V).",
+  "b": [
+   {
+    "lei": "l8213",
+    "a": "art1"
+   },
+   {
+    "lei": "l8213",
+    "a": "art2-i"
+   },
+   {
+    "lei": "l8213",
+    "a": "art2-v"
+   }
+  ]
+ },
+ "inss-2022-116": {
+  "t": "Errado. Seletividade e distributividade são *objetivos* da seguridade (CF, art. 194, parágrafo único, III), e não algo vedado. A irredutibilidade do valor dos benefícios (inciso IV) está correta.",
+  "b": [
+   {
+    "lei": "cf",
+    "a": "art194-pu-iii"
+   },
+   {
+    "lei": "cf",
+    "a": "art194-pu-iv"
+   }
+  ]
+ },
+ "inss-2022-117": {
+  "t": "Certo. As propostas orçamentárias anuais ou plurianuais da seguridade são elaboradas por comissão de três representantes, um de cada área: saúde, previdência social e assistência social (Lei 8.212/1991, art. 8º).",
+  "b": [
+   {
+    "lei": "l8212",
+    "a": "art8"
+   }
+  ]
+ },
+ "inss-2022-118": {
+  "t": "Errado. As informações inseridas extemporaneamente no CNIS, \"independentemente de serem inéditas ou retificadoras de dados anteriormente informados\", só são aceitas se corroboradas por documentos (Decreto 3.048/1999, art. 19, § 2º). As retificadoras não são exceção.",
+  "b": [
+   {
+    "lei": "d3048",
+    "a": "art19-p2"
+   }
+  ]
+ },
+ "inss-2022-119": {
+  "t": "Certo. \"Não é prescindível\" quer dizer \"é indispensável\". As anotações da carteira de trabalho estão entre os documentos que comprovam o tempo de contribuição (Decreto 3.048/1999, art. 19-B, § 1º, I) e têm presunção relativa de veracidade. Para desconsiderá-las, o INSS precisa de ato administrativo motivado (Lei 9.784/1999, art. 50).",
+  "b": [
+   {
+    "lei": "d3048",
+    "a": "art19-b-p1-i"
+   },
+   {
+    "lei": "l9784",
+    "a": "art50"
+   }
+  ]
+ },
+ "inss-2022-120": {
+  "t": "Errado. É o contrário: certidões e documentos de órgãos públicos só podem ser exigidos do segurado \"quando não for possível a sua obtenção diretamente do órgão ou da entidade responsável pela base de dados oficial\" (Decreto 3.048/1999, art. 19-B, § 6º).",
+  "b": [
+   {
+    "lei": "d3048",
+    "a": "art19-b-p6"
+   }
+  ]
+ }
+}

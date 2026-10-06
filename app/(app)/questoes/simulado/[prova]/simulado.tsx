@@ -3,6 +3,7 @@
 import { Check, Flag, Play, X } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useMemo, useState, useTransition } from "react";
+import { ComentarioQuestao } from "@/components/comentario";
 import { Placar } from "@/components/placar";
 import { Enunciado, TextoDeApoio } from "@/components/questao";
 import { Button } from "@/components/ui/button";
@@ -272,6 +273,7 @@ function Resultado({ nome, pacote, resultado }: { nome: string; pacote: Pacote; 
                 </strong>
               </p>
               {item.observacao && <p className="text-xs text-muted-foreground">{item.observacao}</p>}
+              {resultado.comentarios?.[item.id] && <ComentarioQuestao comentario={resultado.comentarios[item.id]} />}
             </div>
           );
         })}

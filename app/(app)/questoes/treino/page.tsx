@@ -3,13 +3,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { getRespostas } from "@/lib/data";
 import { getMateria, parseConcurso } from "@/lib/edital";
-import { QUESTOES } from "@/lib/questoes";
+import { QUESTOES, QUESTOES_POR_ID } from "@/lib/questoes";
 import { empacotar, filtrar, parseSituacao, type Filtro } from "@/lib/questoes-logica";
 import { Treino } from "./treino";
 
 export const metadata: Metadata = { title: "Treino de questões" };
 
-type Params = { concurso?: string; materia?: string; topico?: string; situacao?: string; ordem?: string };
+type Params = { concurso?: string; materia?: string; topico?: string; situacao?: string; ordem?: string; ids?: string };
 
 const SITUACAO = { todas: null, nao_respondidas: "só as que você ainda não fez", erros: "caderno de erros" };
 
@@ -25,7 +25,12 @@ export default async function TreinoPage({ searchParams }: { searchParams: Promi
   };
 
   const respostas = await getRespostas();
-  const lista = filtrar(QUESTOES, filtro, respostas);
+  // ?ids=a,b,c: questões escolhidas (ex.: as que caíram sobre um artigo da lei seca).
+  const escolhidas = p.ids
+    ?.split(",")
+    .map((id) => QUESTOES_POR_ID.get(id))
+    .filter((q): q is NonNullable<typeof q> => !!q && q.gabarito !== "X");
+  const lista = escolhidas ?? filtrar(QUESTOES, filtro, respostas);
   if (p.ordem === "aleatoria") {
     for (let i = lista.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
@@ -33,14 +38,13 @@ export default async function TreinoPage({ searchParams }: { searchParams: Promi
     }
   }
 
-  const descricao = [
-    filtro.concurso,
-    topico?.titulo ?? materia?.nome,
-    SITUACAO[filtro.situacao],
-    p.ordem === "aleatoria" ? "ordem aleatória" : null,
-  ]
-    .filter(Boolean)
-    .join(" · ");
+  const descricao = escolhidas
+    ? escolhidas.length === 1
+      ? "Questão selecionada"
+      : "Questões selecionadas"
+    : [filtro.concurso, topico?.titulo ?? materia?.nome, SITUACAO[filtro.situacao], p.ordem === "aleatoria" ? "ordem aleatória" : null]
+        .filter(Boolean)
+        .join(" · ");
 
   return (
     <>

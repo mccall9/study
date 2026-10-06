@@ -73,8 +73,8 @@ export default async function MateriaPage({ params }: Props) {
         </Card>
       )}
       <p className="mb-2 text-sm text-muted-foreground">
-        Toque no tópico para avançar o status. Ele volta para &quot;não iniciado&quot; depois de
-        &quot;questões feitas&quot;.
+        Toque no ícone para avançar o status (depois de &quot;questões feitas&quot; ele volta ao início). Toque
+        no nome para abrir o tópico com resumo, lei seca e questões.
       </p>
       <div className="mb-4">
         <StatusLegenda />

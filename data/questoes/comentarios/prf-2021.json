@@ -1,0 +1,633 @@
+{
+ "prf-2021-009": {
+  "t": "Certo. O primeiro período diz que a passagem da polícia do sistema de justiça para o governo da cidade \"significou também a passagem da noção de caça aos criminosos para a prevenção dos crimes\". Isso é uma mudança no próprio papel da polícia, ou seja, uma mudança de paradigma."
+ },
+ "prf-2021-010": {
+  "t": "Errado. No original, o texto diz que, nos EUA, \"como na Europa\", a ênfase na prevenção *teria* representado nova atitude (uma hipótese, com o futuro do pretérito). A reescrita cria uma relação de causa que não existe (\"Porque nos países europeus houve empenho...\"), transfere o fato para os países europeus e transforma a hipótese em afirmação. O sentido muda."
+ },
+ "prf-2021-011": {
+  "t": "Certo. O parágrafo diz que o foco passou a ser as \"classes perigosas\", setores da sociedade \"vistos como produtores de comportamento criminoso\", e que os campos de saber (medicina legal, psiquiatria, criminologia) se desenvolveram para identificar esse comportamento \"desviante\". A inferência de visões preconceituosas sobre certos grupos é autorizada pelo texto."
+ },
+ "prf-2021-012": {
+  "t": "Certo. Segundo Elias, a agressividade, \"assim como outras emoções e prazeres, foi domada\". Em troca, os indivíduos, embora submetidos a regras mais rigorosas, \"ficaram mais protegidos da irrupção da violência\", graças ao monopólio da força pelo Estado."
+ },
+ "prf-2021-013": {
+  "t": "Certo. O texto descreve a violência medieval como \"franca e desinibida\", que \"não excluía ninguém da vida social e era socialmente permitida e até certo ponto necessária\". Logo, era comum e socialmente aceita."
+ },
+ "prf-2021-014": {
+  "t": "Errado. O texto não atribui o monopólio da força a uma reação a índices insustentáveis de violência. Ao contrário: diz que as instituições de vigilância surgiram em sociedades em que a violência \"estava em declínio\", e relaciona o monopólio à organização e estabilização dos Estados modernos."
+ },
+ "prf-2021-015": {
+  "t": "Errado. \"Isso\" retoma a ideia do período anterior e é o sujeito de \"acabou redundando\". \"O que\", como pronome que retoma uma oração, precisa vir ligado a ela (normalmente depois de vírgula: \"..., o que acabou redundando...\"). Abrindo um período novo, \"O que acabou redundando no foco...\" ficaria sem oração principal, um período incompleto."
+ },
+ "prf-2021-016": {
+  "t": "Certo. O segundo parágrafo, com base na teoria do processo civilizador, contrasta a violência \"franca e desinibida\" do período medieval com o autocontrole da modernidade: a agressividade foi \"domada, 'refinada' e 'civilizada'\" ao longo do tempo. É um processo gradual de perda dos aspectos mais primitivos."
+ },
+ "prf-2021-017": {
+  "t": "Certo. \"Irrupção\" significa entrada súbita, invasão repentina e violenta. Não confundir com \"erupção\" (saída violenta, como a de um vulcão)."
+ },
+ "prf-2021-018": {
+  "t": "Errado. Em \"acabaram por se impor\", \"acabar por + infinitivo\" funciona como locução verbal: quem concorda com o sujeito (\"o autocontrole e a moderação\") é o auxiliar \"acabaram\", já no plural. O infinitivo da locução fica sem flexão; \"acabaram por se imporem\" está incorreto."
+ },
+ "prf-2021-019": {
+  "t": "Certo. \"Na medida em que\" tem valor de causa (\"porque\"); \"à medida que\" tem valor de proporção (\"conforme\"). A troca é gramaticalmente correta, mas muda o sentido, como o próprio item reconhece. A vírgula antes de uma oração adverbial no fim do período é facultativa, então tirá-la não gera erro."
+ },
+ "prf-2021-020": {
+  "t": "Errado. O original diz que a conversão do controle externo em autocontrole \"é relacionada à\" organização dos Estados modernos. Na reescrita, \"concatena\" (encadeia, liga em sequência) passa a ideia de que converter o controle produz ou encadeia a organização dos Estados, o que é outro sentido. Além disso, o verbo \"converter\" pede a preposição \"em\" (converter algo em autocontrole)."
+ },
+ "prf-2021-021": {
+  "t": "Errado. Com o artigo, \"os vários campos de saber\" refere-se a um conjunto determinado, que o texto em seguida enumera (medicina legal, psiquiatria, criminologia). Sem o artigo, \"vários campos de saber\" fica indeterminado. A supressão altera o sentido."
+ },
+ "prf-2021-022": {
+  "t": "Errado. O Manual de Redação da Presidência da República (3ª ed., 2018) lista como atributos da redação oficial: clareza, precisão, objetividade, concisão, coesão e coerência, impessoalidade, formalidade e padronização, e uso da norma padrão. \"Informatividade\" não está entre eles."
+ },
+ "prf-2021-023": {
+  "t": "Errado. O Manual de Redação orienta a concordância de gênero com a pessoa: quando ela é do sexo feminino, o nome do cargo é flexionado (\"Senhora Ministra\", \"Diretora\"). Não se dispensa a flexão."
+ },
+ "prf-2021-024": {
+  "t": "Certo. Pelo Manual de Redação, o vocativo das comunicações oficiais é seguido de vírgula: \"Senhor Diretor,\", \"Excelentíssimo Senhor Presidente da República,\"."
+ },
+ "prf-2021-025": {
+  "t": "Errado. Pelo Manual de Redação, para que o e-mail tenha valor documental, isto é, possa ser aceito como documento original, é necessário existir certificação digital que ateste a identidade do remetente. Sem isso, não basta ser institucional."
+ },
+ "prf-2021-026": {
+  "t": "Certo. O Manual de Redação diz que o assunto deve ser uma síntese do tema, em formato como \"Assunto: Realização de concurso público.\" (iniciado por \"Assunto:\", com ponto final). O exemplo está no padrão."
+ },
+ "prf-2021-027": {
+  "t": "Certo. Pelo modelo, o espalhamento é k · p · (1 − p), em que p é a fração que já conhece a notícia. Com k = 1 e p = 0,3: 0,3 × 0,7 = 0,21, ou seja, 21% por unidade de tempo, acima de 20%."
+ },
+ "prf-2021-028": {
+  "t": "Errado. Se p · (1 − p) = 0,16, então p² − p + 0,16 = 0, o que dá p = 0,2 ou p = 0,8. A fração que desconhece a notícia (1 − p) pode ser 80% ou 20%. Não dá para garantir que mais de 75% desconhece."
+ },
+ "prf-2021-029": {
+  "t": "Errado. O produto p · (1 − p) atinge o máximo quando p = 0,5: 0,5 × 0,5 = 0,25. Com k = 1, o espalhamento nunca passa de 25% por unidade de tempo, muito menos de 50%."
+ },
+ "prf-2021-030": {
+  "t": "Errado. O espalhamento p · (1 − p) cresce enquanto p vai de 0 a 0,5 e depois diminui: quando quase todos já conhecem a notícia, sobra pouca gente para recebê-la. Não é \"tanto maior quanto maior\" o número de quem já sabe."
+ },
+ "prf-2021-031": {
+  "t": "Certo. Os totais acumulados são 20, 60, 120, 200, 300..., e os acréscimos por hora são 20, 40, 60, 80, 100 (20·n). O total até a hora n é 20 · (1 + 2 + ... + n) = 10 · n · (n + 1). Até a 7ª hora: 10 × 7 × 8 = 560, mais que 550."
+ },
+ "prf-2021-032": {
+  "t": "Certo. A quantidade fiscalizada só na n-ésima hora é a diferença entre os acumulados: 20, 40, 60, 80, 100..., isto é, qₙ = 20n. É uma progressão aritmética de razão 20."
+ },
+ "prf-2021-033": {
+  "t": "Errado. Firefox e Chrome salvam e sincronizam senhas de qualquer site, na Internet ou em intranet, com ou sem HTTPS. Não existe essa restrição."
+ },
+ "prf-2021-034": {
+  "t": "Errado. No Windows 10, a sincronização de configurações da conta Microsoft (\"Sincronizar suas configurações\") inclui a opção de sincronizar senhas entre os computadores que usam a mesma conta."
+ },
+ "prf-2021-035": {
+  "t": "Certo. No Google, o símbolo @ antes de uma palavra direciona a busca para redes sociais (exemplo da própria ajuda do Google: \"@twitter\"). Os demais termos (campanha, PRF) são procurados nas publicações dessa rede."
+ },
+ "prf-2021-036": {
+  "t": "Certo. A Internet das coisas multiplica as fontes (sensores, aparelhos) e os formatos de dados, aumentando o volume, a velocidade com que os dados chegam e a variedade deles, que são os \"Vs\" clássicos do big data."
+ },
+ "prf-2021-037": {
+  "t": "Errado. Ransomware é o código que criptografa (\"sequestra\") os dados da vítima e exige resgate para liberá-los. Propagar-se inserindo cópias de si mesmo em outros arquivos é a característica do vírus."
+ },
+ "prf-2021-038": {
+  "t": "Errado. Um ambiente em nuvem para os usuários construírem e disponibilizarem aplicativos é a Plataforma como Serviço (PaaS). No SaaS, o usuário apenas usa um software pronto, como webmail ou editor de textos on-line."
+ },
+ "prf-2021-040": {
+  "t": "Certo. Sem resistência do ar, a única força sobre o projétil é o peso. Pela 2ª lei de Newton, a aceleração é a da gravidade, constante em módulo, direção e sentido durante todo o movimento."
+ },
+ "prf-2021-041": {
+  "t": "Errado. Na altura máxima a força resultante continua sendo o peso (m · g), apontado para baixo. Ela nunca é nula durante o voo."
+ },
+ "prf-2021-042": {
+  "t": "Errado. Na altura máxima só a componente vertical da velocidade é zero. A componente horizontal (v₀ · cos θ) continua a mesma do lançamento, então a velocidade vetorial não é nula."
+ },
+ "prf-2021-043": {
+  "t": "Certo. Como projétil e bloco seguem juntos, a colisão é perfeitamente inelástica: conserva-se a quantidade de movimento, mas parte da energia cinética se perde (deformação, calor). A energia que chega à mola, toda transformada em energia elástica na compressão máxima, é menor que a energia cinética inicial do projétil."
+ },
+ "prf-2021-044": {
+  "t": "Errado. A ausência de atrito com a mesa não garante a conservação da energia cinética na colisão. Na colisão perfeitamente inelástica (os corpos seguem juntos), a energia cinética logo depois é menor que a de antes. O que se conserva é a quantidade de movimento."
+ },
+ "prf-2021-046": {
+  "t": "Errado. O Código de Ética (item XII do anexo) fala da ausência *injustificada*: \"Toda ausência injustificada do servidor de seu local de trabalho é fator de desmoralização do serviço público\". O item omite essa palavra e generaliza para qualquer ausência. Pegadinha clássica do Cebraspe: tirar um termo que restringe a regra.",
+  "b": [
+   {
+    "lei": "d1171",
+    "a": "anexo-xii"
+   }
+  ]
+ },
+ "prf-2021-047": {
+  "t": "Certo. O Decreto 9.203/2017 (art. 5º, II) lista a estratégia entre os mecanismos de governança: ela \"compreende a definição de diretrizes, objetivos, planos e ações [...] para que os serviços e produtos de responsabilidade da organização alcancem o resultado pretendido\". Os outros mecanismos são liderança e controle.",
+  "b": [
+   {
+    "lei": "d9203",
+    "a": "art5-ii"
+   }
+  ]
+ },
+ "prf-2021-048": {
+  "t": "Certo. O Decreto 6.029/2007 (art. 14) garante ao investigado o direito de ter vista dos autos \"mesmo que ainda não tenha sido notificado da existência do procedimento investigatório\", e o parágrafo único inclui o direito de obter cópia.",
+  "b": [
+   {
+    "lei": "d6029",
+    "a": "art14"
+   },
+   {
+    "lei": "d6029",
+    "a": "art14-pu"
+   }
+  ]
+ },
+ "prf-2021-049": {
+  "t": "Errado. Pela Lei de Acesso à Informação, o pedido pode ser feito \"por qualquer meio legítimo\" (art. 10), sem exigência de um formulário padrão. Além disso, informações sobre licitações e contratos são de divulgação obrigatória, independentemente de pedido (transparência ativa, art. 8º, § 1º, IV).",
+  "b": [
+   {
+    "lei": "l12527",
+    "a": "art10"
+   },
+   {
+    "lei": "l12527",
+    "a": "art8-p1-iv"
+   }
+  ]
+ },
+ "prf-2021-050": {
+  "t": "Certo. A Lei de Conflito de Interesses (art. 5º, V) proíbe atos em benefício de empresa de que participem o agente, o cônjuge, o companheiro ou parentes \"até o terceiro grau\". Primo é parente colateral de quarto grau, fora dessa vedação; as regras contra nepotismo também param no terceiro grau. Cumpridos os requisitos legais da contratação direta, ela é possível.",
+  "b": [
+   {
+    "lei": "l12813",
+    "a": "art5-v"
+   }
+  ]
+ },
+ "prf-2021-051": {
+  "t": "Certo. Os estudos de planejamento de transportes no Brasil apontam como condições para o desenvolvimento regional a duplicação dos principais eixos rodoviários e a reestruturação e ampliação da malha ferroviária, para reduzir a dependência das rodovias e integrar as regiões."
+ },
+ "prf-2021-052": {
+  "t": "Errado. A rede de transportes brasileira é pouco integrada, concentrada no modal rodoviário, com baixa intermodalidade e gargalos logísticos. Essas deficiências elevam o custo de transporte e prejudicam a competitividade; não há a eficiência que o item afirma."
+ },
+ "prf-2021-053": {
+  "t": "Certo. A partir da segunda metade do século XX, sobretudo com o Plano de Metas de JK e a instalação da indústria automobilística, as políticas públicas priorizaram as rodovias em detrimento de ferrovias e hidrovias (o chamado rodoviarismo)."
+ },
+ "prf-2021-054": {
+  "t": "Certo. No estudo de Regiões de Influência das Cidades (REGIC, IBGE), as metrópoles são o nível mais alto da hierarquia urbana: grandes arranjos populacionais, em geral acima de um milhão de habitantes, com influência direta sobre os demais níveis da rede urbana."
+ },
+ "prf-2021-055": {
+  "t": "Errado. Na REGIC, Campinas é classificada como metrópole, mas Ribeirão Preto e Uberlândia são capitais regionais, ou seja, não estão no primeiro nível da hierarquia urbana."
+ },
+ "prf-2021-056": {
+  "t": "Certo. Sem sinalização, nas rodovias de pista dupla o limite é de 110 km/h para automóveis, camionetas, caminhonetes e motocicletas, todos com o mesmo limite (CTB, art. 61, § 1º, II, a, 1). Os demais veículos têm 90 km/h.",
+  "b": [
+   {
+    "lei": "ctb",
+    "a": "art61-p1-ii-a-n1"
+   }
+  ]
+ },
+ "prf-2021-057": {
+  "t": "Certo. O CTB (art. 111, II) proíbe cortinas, persianas fechadas ou similares nos veículos em movimento, \"salvo nos que possuam espelhos retrovisores em ambos os lados\".",
+  "b": [
+   {
+    "lei": "ctb",
+    "a": "art111-ii"
+   }
+  ]
+ },
+ "prf-2021-058": {
+  "t": "Errado. Em sinistro *sem* vítima, o dever do condutor é o oposto: providenciar a remoção do veículo quando isso for necessário para a segurança e a fluidez do trânsito (CTB, art. 178, infração média). Preservar o local para a polícia e a perícia é dever no sinistro *com* vítima (art. 176).",
+  "b": [
+   {
+    "lei": "ctb",
+    "a": "art178"
+   },
+   {
+    "lei": "ctb",
+    "a": "art176"
+   }
+  ]
+ },
+ "prf-2021-059": {
+  "t": "Errado. A Lei 5.970/1973 autoriza a autoridade ou o agente policial que primeiro tomar conhecimento do acidente a determinar a imediata remoção das pessoas feridas e dos veículos que estejam no leito da via e prejudiquem o tráfego, *independentemente* de exame do local (perícia)."
+ },
+ "prf-2021-060": {
+  "t": "Certo. Ser penalmente imputável é o primeiro requisito para a habilitação (CTB, art. 140, I), ao lado de saber ler e escrever e possuir documento de identidade.",
+  "b": [
+   {
+    "lei": "ctb",
+    "a": "art140-i"
+   }
+  ]
+ },
+ "prf-2021-061": {
+  "t": "Errado. A fiscalização por videomonitoramento só pode ser feita em vias devidamente sinalizadas para esse fim (Resolução CONTRAN nº 471/2013). A segunda parte está certa: o agente deve informar, no campo \"observação\" do auto, a forma como a infração foi constatada."
+ },
+ "prf-2021-062": {
+  "t": "Errado. O CTB (art. 123, II) exige a expedição de novo Certificado de Registro também quando o proprietário muda o município de domicílio ou residência, não só na transferência de propriedade.",
+  "b": [
+   {
+    "lei": "ctb",
+    "a": "art123-ii"
+   }
+  ]
+ },
+ "prf-2021-063": {
+  "t": "Certo. A resolução do CONTRAN que instituiu a campanha educativa de 2021 previa temas mensais com orientações específicas, entre eles os impactos das lesões e sequelas psicológicas e sociais dos sinistros na vida das vítimas e dos familiares. Tema datado: as campanhas mudam a cada ano."
+ },
+ "prf-2021-064": {
+  "t": "Certo. Pela norma do CONTRAN sobre medidores de velocidade, entre os medidores do tipo fixo só o redutor (o que fica em trechos de redução de velocidade) precisa ter display mostrando a velocidade ao condutor."
+ },
+ "prf-2021-065": {
+  "t": "Certo. Pela regulamentação da placa de identificação veicular (padrão Mercosul), reboques e semirreboques têm só a placa traseira. Por isso, veículos com engate para reboque ou com carroceria intercambiável devem usar uma segunda placa traseira quando necessário, para que a identificação não fique encoberta."
+ },
+ "prf-2021-066": {
+  "t": "Errado. O conceito do item é o de infração *concorrente* (uma tem como pressuposto ou consequência a outra; aplica-se uma só penalidade). Infrações *concomitantes* são as cometidas ao mesmo tempo sem que uma implique a outra; nesse caso as penalidades são aplicadas cumulativamente (CTB, art. 266).",
+  "b": [
+   {
+    "lei": "ctb",
+    "a": "art266"
+   }
+  ]
+ },
+ "prf-2021-068": {
+  "t": "Errado, pelo gabarito definitivo. A circulação a título precário de veículo de carga ou misto transportando passageiros é regulada pelo CONTRAN (Resolução nº 508/2014), que proíbe passageiros em pé. O erro do item está no limite de idade: a resolução não proíbe o transporte de quem tem menos de dezoito anos. Vale ler a resolução para memorizar a restrição de idade correta."
+ },
+ "prf-2021-070": {
+  "t": "Errado, pelo gabarito definitivo. O tema está na Resolução CONTRAN nº 216/2006, que fixa limites de tamanho e de localização (área crítica de visão do condutor) para trincas e fraturas de configuração circular nos para-brisas. A condição \"não haja fratura de configuração circular\" não corresponde à regra. Vale conferir os limites na resolução."
+ },
+ "prf-2021-071": {
+  "t": "Certo. O registrador instantâneo e inalterável de velocidade e tempo (tacógrafo), exigido pelo CTB (art. 105, II) para veículos de carga com PBT acima de 4.536 kg, entre outros, deve registrar a velocidade, a distância percorrida e o tempo de movimentação do veículo, com as interrupções.",
+  "b": [
+   {
+    "lei": "ctb",
+    "a": "art105-ii"
+   }
+  ]
+ },
+ "prf-2021-072": {
+  "t": "Certo. Pela norma do CONTRAN sobre o registrador (Resolução nº 92/1999), ao fiscalizar o equipamento o agente se identifica e assina o verso do disco ou da fita diagrama, anotando local, data e horário da fiscalização."
+ },
+ "prf-2021-073": {
+  "t": "Errado, pelo gabarito definitivo. A guarda das informações do registrador (últimas 24 horas de operação) para as autoridades, em caso de sinistro, segue o prazo da Resolução CONTRAN nº 92/1999, que não é o de seis meses afirmado no item. Vale conferir o prazo na resolução."
+ },
+ "prf-2021-074": {
+  "t": "Errado. Pela Resolução CONTRAN nº 210/2006, a largura máxima para circulação de veículos, com ou sem carga, é de 2,60 m, e não 2,50 m."
+ },
+ "prf-2021-075": {
+  "t": "Errado. Pela Resolução CONTRAN nº 210/2006, o peso bruto total combinado para combinações de veículos de carga com mais de duas unidades, incluída a tratora, é de até 57 toneladas. Acima disso, só com Autorização Especial de Trânsito."
+ },
+ "prf-2021-077": {
+  "t": "Certo. O CTB (art. 67-E, § 2º) prevê que o tempo de direção seja controlado pelo registrador instantâneo (tacógrafo) e/ou por anotação em diário de bordo, papeleta ou ficha de trabalho externo, ou por meios eletrônicos instalados no veículo.",
+  "b": [
+   {
+    "lei": "ctb",
+    "a": "art67-e-p2"
+   }
+  ]
+ },
+ "prf-2021-078": {
+  "t": "Errado. O limite é de 5 horas e meia ininterruptas, e não 6 horas e meia (CTB, art. 67-C), para o motorista profissional no transporte rodoviário de cargas ou coletivo de passageiros.",
+  "b": [
+   {
+    "lei": "ctb",
+    "a": "art67-c"
+   }
+  ]
+ },
+ "prf-2021-079": {
+  "t": "Errado. O próprio CTB resolve: \"A guarda, a preservação e a exatidão das informações contidas no equipamento registrador instantâneo inalterável de velocidade e de tempo são de responsabilidade do *condutor*\" (art. 67-E, § 4º), e não do proprietário.",
+  "b": [
+   {
+    "lei": "ctb",
+    "a": "art67-e-p4"
+   }
+  ]
+ },
+ "prf-2021-080": {
+  "t": "Certo. O slogan da campanha educativa de trânsito de 2021 era \"No trânsito, sua responsabilidade salva vidas\", de veiculação obrigatória nas peças publicitárias de produtos automobilísticos. Tema datado: o slogan muda a cada ano."
+ },
+ "prf-2021-081": {
+  "t": "Errado, pelo gabarito definitivo. A regra do CONTRAN sobre pesagem que trata do remanejamento ou transbordo da carga em excesso não deixa a dispensa de perecíveis e cargas vivas \"a critério do policial\" nem exclui os produtos perigosos como o item afirma. Vale ler a resolução de fiscalização de peso para as exceções exatas."
+ },
+ "prf-2021-082": {
+  "t": "Errado. Na época da prova (2021), a tolerância na pesagem por balança era de 10% sobre os limites de peso por eixo (e de 5% sobre o peso bruto total), não de 12,5%. Atenção: esses percentuais foram alterados por normas posteriores, então confira o valor vigente antes da prova."
+ },
+ "prf-2021-084": {
+  "t": "Certo. Pela Resolução CONTRAN nº 552/2015 (amarração de cargas), na falta de pontos de amarração adequados ou em número suficiente, os dispositivos podem ser fixados no próprio chassi do veículo."
+ },
+ "prf-2021-085": {
+  "t": "Errado. Pela Resolução CONTRAN nº 552/2015, a resistência total à ruptura por tração dos dispositivos de amarração (cintas, correntes, cabos de aço) deve ser de, no mínimo, duas vezes o peso da carga, e não 1,5 vez."
+ },
+ "prf-2021-086": {
+  "t": "Errado. O mandado de segurança protege direito líquido e certo contra ilegalidade ou abuso de poder (CF, art. 5º, LXIX). É controle de *legalidade*: o Judiciário verifica se o ato respeitou a lei (no caso, a falta de prévia oitiva antes da multa), mas não substitui o juízo de conveniência e oportunidade (mérito) da administração.",
+  "b": [
+   {
+    "lei": "cf",
+    "a": "art5-lxix"
+   }
+  ]
+ },
+ "prf-2021-087": {
+  "t": "Errado. Órgão é uma unidade de atuação *sem* personalidade jurídica, fruto da desconcentração, e existe tanto na administração direta quanto na indireta (Lei 9.784/1999, art. 1º, § 2º, I). Quem tem personalidade jurídica é a entidade (inciso II), como autarquias e fundações, criadas por descentralização.",
+  "b": [
+   {
+    "lei": "l9784",
+    "a": "art1-p2-i"
+   },
+   {
+    "lei": "l9784",
+    "a": "art1-p2-ii"
+   }
+  ]
+ },
+ "prf-2021-088": {
+  "t": "Errado. Treinamento de pessoal, de natureza singular, prestado por empresa de notória especialização, é hipótese de *inexigibilidade* de licitação (Lei 14.133/2021, art. 74, III, f): a competição é inviável. Na dispensa (art. 75), a competição seria possível, mas a lei permite não licitar.",
+  "b": [
+   {
+    "lei": "l14133",
+    "a": "art74-iii"
+   },
+   {
+    "lei": "l14133",
+    "a": "art74-iii-f"
+   }
+  ]
+ },
+ "prf-2021-090": {
+  "t": "Certo. Sindicabilidade é a possibilidade de os atos da administração serem controlados, inclusive pelo Poder Judiciário. Ela decorre da inafastabilidade da jurisdição: \"a lei não excluirá da apreciação do Poder Judiciário lesão ou ameaça a direito\" (CF, art. 5º, XXXV).",
+  "b": [
+   {
+    "lei": "cf",
+    "a": "art5-xxxv"
+   }
+  ]
+ },
+ "prf-2021-091": {
+  "t": "Errado, pelo gabarito definitivo. A Lei 9.654/1998 não fixa os requisitos de promoção: o art. 10 remete as normas a regulamento (hoje o Decreto 8.282/2014), que exige, entre outros requisitos, cursos de capacitação com carga horária mínima para cada classe. A combinação de requisitos do item não corresponde à exigida para a Segunda Classe. Vale ler o decreto para memorizar as cargas horárias.",
+  "b": [
+   {
+    "lei": "l9654",
+    "a": "art10"
+   }
+  ]
+ },
+ "prf-2021-092": {
+  "t": "Certo. A Lei 9.654/1998 atribui à Terceira Classe \"atividades de natureza policial envolvendo a fiscalização, patrulhamento e policiamento ostensivo\" (art. 2º-A, § 1º, IV), e a jornada da carreira é de quarenta horas semanais (art. 9º).",
+  "b": [
+   {
+    "lei": "l9654",
+    "a": "art2-a-p1-iv"
+   },
+   {
+    "lei": "l9654",
+    "a": "art9"
+   }
+  ]
+ },
+ "prf-2021-093": {
+  "t": "Errado. No julgamento da \"marcha da maconha\" (ADPF 187 e ADI 4.274), o STF decidiu que defender publicamente a descriminalização de uma conduta não é apologia nem incitação ao crime: é exercício legítimo das liberdades de reunião e de expressão (CF, art. 5º, XVI), desde que a reunião seja pacífica.",
+  "b": [
+   {
+    "lei": "cf",
+    "a": "art5-xvi"
+   }
+  ]
+ },
+ "prf-2021-094": {
+  "t": "Certo. Pelo art. 243, parágrafo único, da CF, \"todo e qualquer bem de valor econômico apreendido em decorrência do tráfico\" será confiscado. O STF (Tema 647) firmou que o confisco *independe* de habitualidade ou de o bem ter sido preparado para o crime. Se independe, com mais razão é cabível quando há habitualidade.",
+  "b": [
+   {
+    "lei": "cf",
+    "a": "art243-pu"
+   }
+  ]
+ },
+ "prf-2021-095": {
+  "t": "Certo. As hipóteses de perda da nacionalidade estão no art. 12, § 4º, da CF (cancelamento da naturalização por sentença e pedido expresso do próprio brasileiro). São taxativas: nem a lei nem tratados internacionais podem criar novas hipóteses.",
+  "b": [
+   {
+    "lei": "cf",
+    "a": "art12-p4"
+   }
+  ]
+ },
+ "prf-2021-096": {
+  "t": "Errado. A escusa de consciência (CF, art. 5º, VIII) vale para qualquer \"obrigação legal a todos imposta\", inclusive o voto, obrigatório para os maiores de dezoito anos (art. 14, § 1º, I). Quem a invoca deve cumprir prestação alternativa; se recusar também a alternativa, pode ter direitos políticos suspensos.",
+  "b": [
+   {
+    "lei": "cf",
+    "a": "art5-viii"
+   },
+   {
+    "lei": "cf",
+    "a": "art14-p1-i"
+   }
+  ]
+ },
+ "prf-2021-097": {
+  "t": "Certo. O habeas data serve para conhecer ou retificar informações *relativas à pessoa do impetrante* (CF, art. 5º, LXXII, a). Para o STF, ele não se presta a obter a identidade de terceiros, como os autores de agressões ou denúncias contra o impetrante: esses dados não são dele.",
+  "b": [
+   {
+    "lei": "cf",
+    "a": "art5-lxxii-a"
+   }
+  ]
+ },
+ "prf-2021-100": {
+  "t": "Errado. São dois crimes distintos, contra bens e com condutas diferentes: remarcar o número do chassi é adulteração de sinal identificador de veículo (CP, art. 311); falsificar o certificado de registro é falsificação de documento público (art. 297). Respondem em concurso, não como crime único.",
+  "b": [
+   {
+    "lei": "cp",
+    "a": "art311"
+   },
+   {
+    "lei": "cp",
+    "a": "art297"
+   }
+  ]
+ },
+ "prf-2021-101": {
+  "t": "Errado. O art. 311 do CP protege a fé pública, ou seja, a confiança nos sinais que identificam o veículo. Se o chassi é regravado com o *mesmo* número original, a identificação continua verdadeira e não há falsidade capaz de enganar alguém. Por isso o item, que afirma haver crime contra a fé pública, foi considerado errado.",
+  "b": [
+   {
+    "lei": "cp",
+    "a": "art311"
+   }
+  ]
+ },
+ "prf-2021-102": {
+  "t": "Certo. Oferecer vantagem indevida a funcionário público para que ele deixe de praticar ato de ofício (no caso, a fiscalização) é corrupção ativa (CP, art. 333).",
+  "b": [
+   {
+    "lei": "cp",
+    "a": "art333"
+   }
+  ]
+ },
+ "prf-2021-103": {
+  "t": "Errado. A corrupção ativa é crime formal: consuma-se no momento em que a vantagem é oferecida ou prometida (CP, art. 333), sem depender da aceitação do funcionário. Se o policial recusa, o crime já está consumado; não há tentativa.",
+  "b": [
+   {
+    "lei": "cp",
+    "a": "art333"
+   }
+  ]
+ },
+ "prf-2021-104": {
+  "t": "Certo. Crime impossível exige ineficácia *absoluta* do meio (CP, art. 17). Para a jurisprudência, a adulteração do chassi, mesmo grosseira, consuma o crime do art. 311: o tipo não exige que a fraude seja apta a enganar, e a adulteração foi efetivamente feita.",
+  "b": [
+   {
+    "lei": "cp",
+    "a": "art17"
+   },
+   {
+    "lei": "cp",
+    "a": "art311"
+   }
+  ]
+ },
+ "prf-2021-105": {
+  "t": "Errado. A busca em veículo equipara-se à busca pessoal e independe de mandado quando há fundada suspeita (CPP, art. 244). No caso, o comportamento suspeito e a CNH rasurada justificavam a busca, que foi lícita.",
+  "b": [
+   {
+    "lei": "cpp",
+    "a": "art244"
+   }
+  ]
+ },
+ "prf-2021-106": {
+  "t": "Certo. O condutor foi preso enquanto cometia o crime (estava com a mercadoria proibida): flagrante próprio (CPP, art. 302, I). A nota de culpa deve ser entregue ao preso, mediante recibo, em até vinte e quatro horas após a prisão (art. 306, § 2º).",
+  "b": [
+   {
+    "lei": "cpp",
+    "a": "art302-i"
+   },
+   {
+    "lei": "cpp",
+    "a": "art306-p2"
+   }
+  ]
+ },
+ "prf-2021-107": {
+  "t": "Errado. Mesmo com documento de identificação civil, a identificação criminal pode ser feita quando o documento \"apresentar rasura ou tiver indício de falsificação\" (Lei 12.037/2009, art. 3º, I). É exatamente o caso da CNH rasurada.",
+  "b": [
+   {
+    "lei": "l12037",
+    "a": "art3-i"
+   }
+  ]
+ },
+ "prf-2021-108": {
+  "t": "Errado. O policial pode, sim, ser testemunha, mas no processo penal não há hierarquia entre provas: o juiz forma sua convicção pela livre apreciação da prova produzida em contraditório (CPP, art. 155). O depoimento do policial não vale mais que o interrogatório por definição.",
+  "b": [
+   {
+    "lei": "cpp",
+    "a": "art155"
+   }
+  ]
+ },
+ "prf-2021-109": {
+  "t": "Certo. A prisão em flagrante é uma prisão provisória (anterior à sentença) e dispensa mandado. Ao apresentar o preso, o condutor recebe da autoridade cópia do termo e \"recibo de entrega do preso\" (CPP, art. 304).",
+  "b": [
+   {
+    "lei": "cpp",
+    "a": "art304"
+   }
+  ]
+ },
+ "prf-2021-110": {
+  "t": "Errado. É hediondo o furto qualificado pelo *emprego* de explosivo (CP, art. 155, § 4º-A; Lei 8.072/1990, art. 1º, IX). Subtrair a substância explosiva é o furto do § 7º, que não está no rol dos crimes hediondos, mesmo com concurso de pessoas e divisão de tarefas.",
+  "b": [
+   {
+    "lei": "l8072",
+    "a": "art1-ix"
+   },
+   {
+    "lei": "cp",
+    "a": "art155-p7"
+   },
+   {
+    "lei": "cp",
+    "a": "art155-p4_a"
+   }
+  ]
+ },
+ "prf-2021-111": {
+  "t": "Certo. A Lei de Abuso de Autoridade considera sujeito ativo \"qualquer agente público, servidor ou não\" (Lei 13.869/2019, art. 2º), e agente público é quem exerce função, \"ainda que transitoriamente ou sem remuneração\" (parágrafo único).",
+  "b": [
+   {
+    "lei": "l13869",
+    "a": "art2"
+   },
+   {
+    "lei": "l13869",
+    "a": "art2-pu"
+   }
+  ]
+ },
+ "prf-2021-112": {
+  "t": "Certo. Mesmo apresentado documento de identificação, cabe identificação criminal quando \"constar de registros policiais o uso de outros nomes ou diferentes qualificações\" (Lei 12.037/2009, art. 3º, V).",
+  "b": [
+   {
+    "lei": "l12037",
+    "a": "art3-v"
+   }
+  ]
+ },
+ "prf-2021-113": {
+  "t": "Certo. É texto da Lei de Drogas: as atividades de prevenção devem observar \"o fortalecimento da autonomia e da responsabilidade individual em relação ao uso indevido de drogas\" (Lei 11.343/2006, art. 19, III).",
+  "b": [
+   {
+    "lei": "l11343",
+    "a": "art19-iii"
+   }
+  ]
+ },
+ "prf-2021-114": {
+  "t": "Certo. O art. 17 do Estatuto do Desarmamento inclui o verbo \"conduzir\" entre as condutas do comércio ilegal de arma de fogo, quando praticadas \"no exercício de atividade comercial ou industrial\" e sem autorização.",
+  "b": [
+   {
+    "lei": "l10826",
+    "a": "art17"
+   }
+  ]
+ },
+ "prf-2021-115": {
+  "t": "Errado. A tortura-castigo exige que a vítima, sob guarda, poder ou autoridade do agente, seja submetida a *intenso* sofrimento físico ou mental (Lei 9.455/1997, art. 1º, II). A intensidade é elementar do crime; sem ela, pode haver outro crime (lesão corporal, abuso de autoridade), mas não tortura.",
+  "b": [
+   {
+    "lei": "l9455",
+    "a": "art1-ii"
+   }
+  ]
+ },
+ "prf-2021-116": {
+  "t": "Certo. Para o STF (Tema 280), o ingresso forçado em domicílio sem mandado só é lícito quando amparado em *fundadas razões*, justificadas depois, de que ali ocorre flagrante delito (CF, art. 5º, XI). Mera intuição ou denúncia anônima, sem outros elementos, não basta.",
+  "b": [
+   {
+    "lei": "cf",
+    "a": "art5-xi"
+   }
+  ]
+ },
+ "prf-2021-117": {
+  "t": "Errado. A CF exige \"apenas\" prévio aviso à autoridade, \"independentemente de autorização\" (art. 5º, XVI). Para o STF (Tema 855), o aviso serve para que o poder público garanta a reunião pacífica e evite frustrar outra no mesmo local; a falta de notificação formal não torna a manifestação ilegal.",
+  "b": [
+   {
+    "lei": "cf",
+    "a": "art5-xvi"
+   }
+  ]
+ },
+ "prf-2021-118": {
+  "t": "Certo. No julgamento da ADI 4.275 (2018), o STF reconheceu às pessoas trans o direito de alterar prenome e gênero diretamente no registro civil, por via administrativa, sem exigir cirurgia de redesignação, tratamentos hormonais ou laudos."
+ },
+ "prf-2021-119": {
+  "t": "Certo. A Declaração Universal dos Direitos Humanos (ONU, 1948) abre com o reconhecimento da \"dignidade inerente a todos os membros da família humana\". A dignidade é o fundamento de valor do sistema global (onusiano) de proteção dos direitos humanos."
+ },
+ "prf-2021-120": {
+  "t": "Errado. A Convenção sobre os Direitos das Pessoas com Deficiência foi aprovada pelo rito do art. 5º, § 3º, da CF (dois turnos, três quintos em cada Casa) e por isso tem status de *emenda constitucional*, e não supraconstitucional. Foi o primeiro tratado internalizado com esse status.",
+  "b": [
+   {
+    "lei": "cf",
+    "a": "art5-p3"
+   }
+  ]
+ }
+}

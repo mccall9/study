@@ -1,6 +1,6 @@
 "use client";
 
-import { BookOpenCheck, History, LayoutDashboard, ListChecks, Timer } from "lucide-react";
+import { BookOpenCheck, Library, History, LayoutDashboard, ListChecks, Timer } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
@@ -10,11 +10,18 @@ const LINKS = [
   { href: "/edital", label: "Edital", icon: BookOpenCheck },
   { href: "/estudar", label: "Estudar", icon: Timer },
   { href: "/questoes", label: "Questões", icon: ListChecks },
+  { href: "/materiais", label: "Materiais", icon: Library },
   { href: "/historico", label: "Histórico", icon: History },
 ];
 
+// No celular cabem 5: o Histórico fica na barra lateral e no link da página Estudar.
+const LINKS_CELULAR = LINKS.filter((l) => l.href !== "/historico");
+
 function ativo(pathname: string, href: string) {
-  return href === "/" ? pathname === "/" : pathname.startsWith(href);
+  if (href === "/") return pathname === "/";
+  // Lei seca e página do tópico fazem parte de Materiais.
+  if (href === "/materiais") return ["/materiais", "/lei", "/topico"].some((p) => pathname.startsWith(p));
+  return pathname.startsWith(href);
 }
 
 /** Barra lateral no desktop. */
@@ -47,7 +54,7 @@ export function BottomNav() {
   return (
     <nav className="fixed inset-x-0 bottom-0 z-20 border-t bg-card/95 pb-[env(safe-area-inset-bottom)] backdrop-blur md:hidden">
       <div className="grid grid-cols-5">
-        {LINKS.map(({ href, label, icon: Icon }) => (
+        {LINKS_CELULAR.map(({ href, label, icon: Icon }) => (
           <Link
             key={href}
             href={href}
