@@ -1,4 +1,6 @@
 import "server-only";
+import { cache } from "react";
+import type { Arquivo } from "./arquivos";
 import { isConfianca } from "./confianca";
 import { MATERIAS } from "./edital";
 import { isTipoMarcacao, type Marcacao } from "./marcacoes";
@@ -9,11 +11,25 @@ import { isStatus, type Progresso, type Sessao } from "./types";
 
 export const META_PADRAO = 15;
 
-export async function getUsuario(): Promise<{ email: string } | null> {
-  if (MODO_DEMO) return { email: "demonstracao@local" };
+export const getUsuario = cache(async (): Promise<{ id: string; email: string } | null> => {
+  if (MODO_DEMO) return { id: "demo", email: "demonstracao@local" };
   const supabase = await createClient();
   const { data } = await supabase.auth.getUser();
-  return data.user ? { email: data.user.email ?? "" } : null;
+  return data.user ? { id: data.user.id, email: data.user.email ?? "" } : null;
+});
+
+/** Arquivos da usuária e os compartilhados pela família (a RLS cuida disso), mais recentes primeiro. */
+export async function getArquivos(topicoId?: string): Promise<Arquivo[]> {
+  if (MODO_DEMO) return [];
+  const supabase = await createClient();
+  let consulta = supabase
+    .from("arquivos")
+    .select("id, user_id, nome, caminho, tipo, bytes, materia_slug, topico_id, compartilhado, criado_em")
+    .order("criado_em", { ascending: false });
+  if (topicoId) consulta = consulta.eq("topico_id", topicoId);
+  const { data, error } = await consulta;
+  if (error) throw error;
+  return data as Arquivo[];
 }
 
 export async function getProgresso(): Promise<Progresso> {

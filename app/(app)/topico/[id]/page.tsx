@@ -1,4 +1,4 @@
-import { ArrowLeft, BookOpen, ListChecks, Play, Scale } from "lucide-react";
+import { ArrowLeft, BookOpen, FolderOpen, ListChecks, Play, Scale, Tv, Upload } from "lucide-react";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -8,17 +8,20 @@ import { Markdown } from "@/components/markdown";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { questoesPorArtigo } from "@/lib/comentarios";
+import { ListaArquivos } from "@/components/lista-arquivos";
 import { Anotacao, BotaoMarcacao } from "@/components/marcacao";
-import { getAnotacoes, getMarcacoes, getProgresso, getRespostas } from "@/lib/data";
+import { VideoAula } from "@/components/video-aula";
+import { getAnotacoes, getArquivos, getMarcacoes, getProgresso, getRespostas, getUsuario } from "@/lib/data";
 import { MATERIAS } from "@/lib/edital";
 import { carregarLei } from "@/lib/leis";
 import { filtrarDispositivos, resolverArtigos, type Artigo } from "@/lib/leis-logica";
 import { getLeiMeta } from "@/lib/leis-meta";
-import { alvoArtigo, alvoTopico } from "@/lib/marcacoes";
+import { alvoArtigo, alvoTopico, alvoVideo, type TipoMarcacao } from "@/lib/marcacoes";
 import { LIMITE_ARTIGOS_NA_PAGINA, REFERENCIAS } from "@/lib/materiais";
 import { QUESTOES, validas } from "@/lib/questoes";
 import { resumo, ultimaPorQuestao } from "@/lib/questoes-logica";
 import { getResumo } from "@/lib/resumos";
+import { videosDoTopico } from "@/lib/videos";
 import { StatusTopico } from "./status-topico";
 
 type Props = { params: Promise<{ id: string }> };
@@ -46,14 +49,17 @@ export default async function TopicoPage({ params }: Props) {
   const { materia, topico, indice } = achado;
 
   const alvo = alvoTopico(topico.id);
-  const [progresso, respostas, textoResumo, marcacoes, anotacoes] = await Promise.all([
+  const [progresso, respostas, textoResumo, marcacoes, anotacoes, arquivos, usuario] = await Promise.all([
     getProgresso(),
     getRespostas(),
     getResumo(topico.id),
     getMarcacoes(),
     getAnotacoes(alvo),
+    getArquivos(topico.id),
+    getUsuario(),
   ]);
-  const marcado = (a: string, tipo: "favorito" | "destaque") => marcacoes.some((m) => m.alvo === a && m.tipo === tipo);
+  const marcado = (a: string, tipo: TipoMarcacao) => marcacoes.some((m) => m.alvo === a && m.tipo === tipo);
+  const videos = videosDoTopico(topico.id);
   const questoes = validas(QUESTOES).filter((q) => q.topico === topico.id);
   const ids = new Set(questoes.map((q) => q.id));
   const doTopico = respostas.filter((r) => ids.has(r.questao_id));
@@ -115,6 +121,23 @@ export default async function TopicoPage({ params }: Props) {
               <p className="border-t pt-3 text-xs text-muted-foreground">
                 Resumo escrito com apoio de IA a partir da lei. Na dúvida, confira o texto da lei abaixo.
               </p>
+            </CardContent>
+          </Card>
+        )}
+
+        {videos.length > 0 && (
+          <Card>
+            <CardHeader>
+              <div className="flex items-center gap-2">
+                <Tv className="size-4 text-primary" />
+                <CardTitle>Videoaulas</CardTitle>
+              </div>
+              <CardDescription>Aulas gratuitas de professores de cursinho no YouTube.</CardDescription>
+            </CardHeader>
+            <CardContent className="grid gap-5 sm:grid-cols-2">
+              {videos.map((v) => (
+                <VideoAula key={v.id} video={v} assistida={marcado(alvoVideo(v.id), "assistido")} />
+              ))}
             </CardContent>
           </Card>
         )}
@@ -185,7 +208,28 @@ export default async function TopicoPage({ params }: Props) {
           ) : null,
         )}
 
-        {!textoResumo && referencias.length === 0 && questoes.length === 0 && (
+        <Card>
+          <CardHeader className="flex-row flex-wrap items-center justify-between gap-2">
+            <div className="flex items-center gap-2">
+              <FolderOpen className="size-4 text-primary" />
+              <CardTitle>Meus arquivos do tópico</CardTitle>
+            </div>
+            <Button asChild size="sm" variant="secondary">
+              <Link href={`/arquivos?materia=${materia.slug}&topico=${topico.id}`}>
+                <Upload /> Enviar PDF ou foto
+              </Link>
+            </Button>
+          </CardHeader>
+          <CardContent>
+            <ListaArquivos
+              arquivos={arquivos}
+              meuId={usuario?.id ?? ""}
+              vazio="Apostilas, mapas mentais ou fotos do caderno sobre este tópico aparecem aqui."
+            />
+          </CardContent>
+        </Card>
+
+        {!textoResumo && referencias.length === 0 && questoes.length === 0 && videos.length === 0 && (
           <Card className="p-6 text-center text-sm text-muted-foreground">
             Ainda não há material para este tópico. Os resumos, vídeos e questões vão chegando aos poucos.
           </Card>

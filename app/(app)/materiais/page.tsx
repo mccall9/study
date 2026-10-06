@@ -1,11 +1,12 @@
-import { BookOpen, ExternalLink, FileText, Highlighter, ListChecks, NotebookPen, Scale, Star } from "lucide-react";
+import { BookOpen, ExternalLink, FileText, FolderOpen, Highlighter, ListChecks, NotebookPen, Scale, Star } from "lucide-react";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ConcursoBadge } from "@/components/concurso-badge";
 import { ConcursoFiltro } from "@/components/concurso-filtro";
 import { PageHeader } from "@/components/page-header";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { getAnotacoes, getMarcacoes } from "@/lib/data";
+import { Button } from "@/components/ui/button";
+import { getAnotacoes, getArquivos, getMarcacoes } from "@/lib/data";
 import { MATERIAS, materiasDoConcurso, parseConcurso } from "@/lib/edital";
 import { getLeiMeta, GRUPOS, LEIS_META } from "@/lib/leis-meta";
 import { REFERENCIAS } from "@/lib/materiais";
@@ -16,6 +17,16 @@ export const metadata: Metadata = { title: "Materiais" };
 
 const OFICIAIS = [
   {
+    titulo: "Edital PRF 2021 (abertura)",
+    descricao: "Edital nº 1 do último concurso da PRF, pelo Cebraspe: conteúdo programático, etapas e regras.",
+    url: "https://cdn.cebraspe.org.br/concursos/prf_21/arquivos/ED_1_PRF_2021_ABERTURA.PDF",
+  },
+  {
+    titulo: "Edital INSS 2022 (abertura)",
+    descricao: "Edital nº 1 do último concurso do INSS (Técnico do Seguro Social), pelo Cebraspe.",
+    url: "https://cdn.cebraspe.org.br/concursos/inss_22/arquivos/ED_1_INSS_22_ABERTURA.PDF",
+  },
+  {
     titulo: "Manual de Redação da Presidência da República",
     descricao: "Base da redação oficial cobrada em Língua Portuguesa.",
     url: "https://www.gov.br/planalto/pt-br/centrais-de-conteudo/publicacoes/manual-de-redacao-da-presidencia-da-republica",
@@ -24,7 +35,12 @@ const OFICIAIS = [
 
 export default async function MateriaisPage({ searchParams }: { searchParams: Promise<{ concurso?: string }> }) {
   const concurso = parseConcurso((await searchParams).concurso);
-  const [comResumo, marcacoes, anotacoes] = await Promise.all([topicosComResumo(), getMarcacoes(), getAnotacoes()]);
+  const [comResumo, marcacoes, anotacoes, arquivos] = await Promise.all([
+    topicosComResumo(),
+    getMarcacoes(),
+    getAnotacoes(),
+    getArquivos(),
+  ]);
   const topicos = new Map(MATERIAS.flatMap((m) => m.topicos.map((t) => [t.id, t.titulo] as const)));
   const topicosFavoritos = marcacoes
     .filter((m) => m.tipo === "favorito" && m.alvo.startsWith("topico:"))
@@ -46,7 +62,7 @@ export default async function MateriaisPage({ searchParams }: { searchParams: Pr
 
   return (
     <>
-      <PageHeader title="Materiais" description="Resumos, lei seca e questões organizados por tópico do edital.">
+      <PageHeader title="Materiais" description="Resumos, videoaulas, lei seca e questões organizados por tópico do edital.">
         <ConcursoFiltro atual={concurso} basePath="/materiais" />
       </PageHeader>
 
@@ -111,6 +127,25 @@ export default async function MateriaisPage({ searchParams }: { searchParams: Pr
             </CardContent>
           </Card>
         )}
+
+        <Card>
+          <CardHeader className="flex-row flex-wrap items-center justify-between gap-3">
+            <div className="flex items-center gap-2">
+              <FolderOpen className="size-4 text-primary" />
+              <div>
+                <CardTitle>Arquivos</CardTitle>
+                <CardDescription>
+                  {arquivos.length === 0
+                    ? "Envie apostilas em PDF ou fotos do caderno e acesse no celular e no computador."
+                    : `${arquivos.length} ${arquivos.length === 1 ? "arquivo" : "arquivos"} (seus e compartilhados pela família).`}
+                </CardDescription>
+              </div>
+            </div>
+            <Button asChild size="sm">
+              <Link href="/arquivos">{arquivos.length === 0 ? "Enviar arquivo" : "Ver arquivos"}</Link>
+            </Button>
+          </CardHeader>
+        </Card>
 
         <Card>
           <CardHeader className="flex-row items-center gap-2">
