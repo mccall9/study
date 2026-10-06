@@ -1,14 +1,16 @@
-import { CalendarClock, Flame, Play, Target } from "lucide-react";
+import { CalendarClock, Flame, ListChecks, Play, Target } from "lucide-react";
 import Link from "next/link";
 import { ConcursoBadge } from "@/components/concurso-badge";
 import { PageHeader } from "@/components/page-header";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Progress } from "@/components/ui/form";
-import { getMetaHoras, getProgresso, getSessoes } from "@/lib/data";
+import { getMetaHoras, getProgresso, getRespostas, getSessoes } from "@/lib/data";
 import { CONCURSOS, getMateria, MATERIAS } from "@/lib/edital";
+import { cadernoDeErros, resumo } from "@/lib/questoes-logica";
 import {
   diaLocal,
+  inicioDaSemana,
   formatarDuracao,
   materiaEsquecida,
   progressoConcurso,
@@ -39,10 +41,11 @@ function haQuanto(ultimaVez: string | null, agora: Date) {
 }
 
 export default async function PainelPage() {
-  const [sessoes, progresso, metaHoras] = await Promise.all([
+  const [sessoes, progresso, metaHoras, respostas] = await Promise.all([
     getSessoes(60),
     getProgresso(),
     getMetaHoras(),
+    getRespostas(),
   ]);
   const agora = new Date();
 
@@ -55,12 +58,15 @@ export default async function PainelPage() {
   const porMateria = segundosPorMateria(sessoes.filter((s) => diaLocal(s.inicio) >= limite30));
   const maxMateria = Math.max(...porMateria.map((m) => m.segundos), 1);
   const sugestao = materiaEsquecida(MATERIAS, sessoes);
+  const segunda = inicioDaSemana(diaLocal(agora));
+  const questoesSemana = resumo(respostas.filter((r) => diaLocal(r.respondida_em) >= segunda));
+  const noCaderno = cadernoDeErros(respostas).size;
 
   return (
     <>
       <PageHeader title="Painel" description="Como está o ritmo de estudos." />
 
-      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         <Card>
           <CardHeader className="flex-row items-center justify-between">
             <CardDescription>Esta semana</CardDescription>
@@ -98,7 +104,7 @@ export default async function PainelPage() {
           </CardContent>
         </Card>
 
-        <Card className="sm:col-span-2 lg:col-span-1">
+        <Card>
           <CardHeader className="flex-row items-center justify-between">
             <CardDescription>Sugestão de hoje</CardDescription>
             <CalendarClock className="size-4 text-muted-foreground" />
@@ -116,6 +122,31 @@ export default async function PainelPage() {
               </Button>
             </CardContent>
           )}
+        </Card>
+
+        <Card>
+          <CardHeader className="flex-row items-center justify-between">
+            <CardDescription>Questões na semana</CardDescription>
+            <ListChecks className="size-4 text-muted-foreground" />
+          </CardHeader>
+          <CardContent className="space-y-3">
+            <p className="text-3xl font-bold tabular-nums">
+              {questoesSemana.total}
+              {questoesSemana.total > 0 && (
+                <span className="ml-1 text-base font-normal text-muted-foreground">
+                  · {questoesSemana.aproveitamento}% de acerto
+                </span>
+              )}
+            </p>
+            <p className="text-sm text-muted-foreground">
+              {noCaderno > 0
+                ? `${noCaderno} ${noCaderno === 1 ? "questão" : "questões"} no caderno de erros.`
+                : "Provas oficiais da PRF e do INSS."}
+            </p>
+            <Button asChild size="sm" variant="secondary">
+              <Link href="/questoes">Resolver questões</Link>
+            </Button>
+          </CardContent>
         </Card>
       </div>
 

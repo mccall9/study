@@ -1,5 +1,7 @@
 import "server-only";
 import { MATERIAS } from "./edital";
+import { QUESTOES, validas } from "./questoes";
+import type { Resposta, RespostaValor } from "./questoes-logica";
 import { createClient, MODO_DEMO } from "./supabase/server";
 import { isStatus, type Progresso, type Sessao } from "./types";
 
@@ -44,7 +46,58 @@ export async function getMetaHoras(): Promise<number> {
   return data ? Number(data.horas_semana) : META_PADRAO;
 }
 
+/** Todas as respostas às questões, da mais recente para a mais antiga. */
+export async function getRespostas(): Promise<Resposta[]> {
+  if (MODO_DEMO) return respostasDemo();
+  const supabase = await createClient();
+  const { data, error } = await supabase
+    .from("respostas")
+    .select("questao_id, resposta, correta, respondida_em, simulado_id")
+    .order("respondida_em", { ascending: false });
+  if (error) throw error;
+  return data as Resposta[];
+}
+
+export type SimuladoFeito = {
+  id: string;
+  prova_id: string;
+  finalizado_em: string;
+  duracao_seg: number;
+  certas: number;
+  erradas: number;
+  brancos: number;
+};
+
+export async function getSimulados(): Promise<SimuladoFeito[]> {
+  if (MODO_DEMO) return [];
+  const supabase = await createClient();
+  const { data, error } = await supabase
+    .from("simulados")
+    .select("id, prova_id, finalizado_em, duracao_seg, certas, erradas, brancos")
+    .order("finalizado_em", { ascending: false });
+  if (error) throw error;
+  return data;
+}
+
 // ---- Dados de exemplo para o modo demonstração ----
+
+function respostasDemo(): Resposta[] {
+  const agora = Date.now();
+  return validas(QUESTOES)
+    .filter((_, i) => i % 3 === 0)
+    .map((q, i) => {
+      const acertou = i % 4 !== 0;
+      const resposta: RespostaValor =
+        i % 9 === 0 ? "B" : acertou ? (q.gabarito as RespostaValor) : q.gabarito === "C" ? "E" : "C";
+      return {
+        questao_id: q.id,
+        resposta,
+        correta: resposta === "B" ? null : resposta === q.gabarito,
+        respondida_em: new Date(agora - i * 3_600_000).toISOString(),
+        simulado_id: null,
+      };
+    });
+}
 
 function progressoDemo(): Progresso {
   const progresso: Progresso = {};
